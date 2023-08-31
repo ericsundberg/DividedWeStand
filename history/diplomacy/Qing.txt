@@ -1,0 +1,64 @@
+
+# Qing - Qinghai
+vassal = {
+	first = QNG
+	second = XBI
+	start_date = 1791.1.1
+	end_date = 1912.2.12
+}
+
+# Qing - Manchuria
+vassal = {
+	first = QNG
+	second = MCK
+	start_date = 1791.1.1
+	end_date = 1912.2.12
+}
+
+# Qing - Mongolia
+vassal = {
+	first = QNG
+	second = MGL
+	start_date = 1791.1.1
+	end_date = 1912.2.12
+}
+
+# Qing - Kumul
+vassal = {
+	first = QNG
+	second = KML
+	start_date = 1791.1.1
+	end_date = 1912.2.12
+}
+
+# Qing - Xinjing
+vassal = {
+	first = QNG
+	second = XIN
+	start_date = 1791.1.1
+	end_date = 1912.2.12
+}
+
+# Qing - Tannu Tuva
+vassal = {
+	first = QNG
+	second = TNT
+	start_date = 1791.1.1
+	end_date = 1912.2.12
+}
+
+# Qing - Tibet
+vassal = {
+	first = QNG
+	second = TIB
+	start_date = 1791.1.1
+	end_date = 1912.2.12
+}
+
+# Qing - Ladakh
+vassal = {
+	first = QNG
+	second = LAD
+	start_date = 1791.1.1
+	end_date = 1912.2.12
+}

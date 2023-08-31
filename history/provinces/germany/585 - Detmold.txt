@@ -1,0 +1,18 @@
+owner = LIP
+controller = LIP
+add_core = LIP
+add_core = GER
+trade_goods = coal
+life_rating = 40
+
+1796.1.1 = {
+	owner = FRA
+	controller = FRA
+}
+
+1815.1.1 = {
+	owner = LIP
+	controller = LIP
+}
+
+1861.1.1 = { railroad = 3 }

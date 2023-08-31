@@ -1,0 +1,13 @@
+owner = MAH
+controller = MAH
+
+add_core = KUT
+add_core = HND
+
+trade_goods = cotton
+life_rating = 32
+
+1819.1.1 = {
+	owner = ENG
+	controller = ENG
+}

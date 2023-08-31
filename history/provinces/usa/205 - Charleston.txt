@@ -1,0 +1,27 @@
+owner = SCS
+controller = SCS
+
+add_core = SCS
+add_core = USA
+
+trade_goods = cotton
+life_rating = 35
+
+
+1791.12.31 = {
+	owner = SCS
+	controller = SCS
+	add_core = SCS
+}
+
+
+1861.1.1 = {
+    controller = CSA
+    owner = CSA
+    add_core = CSA
+}
+1861.1.1 = {
+    railroad = 3
+    naval_base = 1
+    fort = 1
+}

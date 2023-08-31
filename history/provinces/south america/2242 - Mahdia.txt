@@ -1,0 +1,25 @@
+owner = NET
+controller = NET
+
+add_core = GUY
+add_core = VNZ
+add_core = NGA
+
+trade_goods = tropical_wood
+life_rating = 31
+colonial = 2
+
+1799.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+
+1820.12.17 = {
+	owner = GCO
+	controller = GCO
+}
+
+1830.10.20 = {
+	owner = VNZ
+	controller = VNZ
+}

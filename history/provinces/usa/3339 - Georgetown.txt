@@ -1,0 +1,14 @@
+owner = MAR
+controller = MAR
+
+add_core = MAR
+add_core = USA
+
+trade_goods = grain
+life_rating = 35
+terrain = marsh
+
+1792.12.31 = {
+	owner = MAR
+	controller = MAR
+}

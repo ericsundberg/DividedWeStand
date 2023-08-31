@@ -1,0 +1,14 @@
+owner = SPA
+controller = SPA
+
+add_core = PRG
+add_core = BRZ
+
+trade_goods = sulphur
+terrain = savanna
+life_rating = 31
+
+1811.5.14 = {
+	owner = PRG
+	controller = PRG
+}

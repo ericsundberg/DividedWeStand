@@ -1,0 +1,18 @@
+owner = AFG
+controller = AFG
+
+add_core = SIN
+add_core = HND
+
+trade_goods = grain
+life_rating = 35
+
+1819.1.1 = {
+    owner = SIN
+    controller = SIN
+}
+
+1844.1.1 = {
+    owner = ENG
+    controller = ENG
+}

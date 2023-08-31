@@ -1,0 +1,15 @@
+#England - Rupert's Land
+vassal = {
+	first = ENG
+	second = RPL
+	start_date = 1791.1.1
+	end_date = 1999.1.1
+}
+
+#England - Newfoundland
+vassal = {
+	first = ENG
+	second = NEW
+	start_date = 1791.1.1
+	end_date = 1999.1.1
+}

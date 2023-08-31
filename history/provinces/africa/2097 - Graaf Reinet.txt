@@ -1,0 +1,14 @@
+owner = NET
+controller = NET
+
+add_core = XHO
+add_core = SAF
+
+trade_goods = fruit
+life_rating = 35
+colonial = 2
+
+1806.1.1 = {
+	owner = ENG
+	controller = ENG
+}

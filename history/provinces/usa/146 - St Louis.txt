@@ -1,0 +1,14 @@
+owner = LOU
+controller = LOU
+
+add_core = LOU
+add_core = NFR
+
+trade_goods = cattle
+life_rating = 35
+colonial = 1
+
+1861.1.1 = {
+    railroad = 3
+    add_core = CSA
+}

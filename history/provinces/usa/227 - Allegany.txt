@@ -1,0 +1,22 @@
+owner = USA
+controller = USA
+
+add_core = HAU
+add_core = PEN
+add_core = USA
+
+trade_goods = coal
+life_rating = 35
+#terrain = mining_district
+
+1791.1.1 = { 
+	owner = PEN
+	controller = PEN
+}
+
+1792.7.4 = { 
+	owner = USA
+	controller = USA
+}
+
+1861.1.1 = { railroad = 3 }

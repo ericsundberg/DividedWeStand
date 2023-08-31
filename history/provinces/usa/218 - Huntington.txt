@@ -1,0 +1,16 @@
+owner = VIR
+controller = VIR
+
+add_core = VIR
+add_core = USA
+
+trade_goods = coal
+life_rating = 35
+
+1861.1.1 = {
+    add_core = CSA
+    party_loyalty = {
+        ideology = liberal
+        loyalty_value = 12
+    }
+}

@@ -1,0 +1,35 @@
+owner = CHE
+controller = CHE
+
+add_core = CHE
+add_core = NCS
+add_core = USA
+
+trade_goods = cotton
+life_rating = 35
+
+1791.12.31 = {
+	owner = NCS
+	controller = NCS
+}
+
+1861.1.1 = {
+    party_loyalty = {
+    ideology = conservative
+    loyalty_value = 10
+    }
+    controller = CSA
+    owner = CSA
+    add_core = CSA
+    state_building = {
+        level = 1
+        building = liquor_distillery
+        upgrade = yes
+    }
+    state_building = {
+        level = 1
+        building = cement_factory
+        upgrade = yes
+    }
+}
+1861.1.1 = { railroad = 3 }

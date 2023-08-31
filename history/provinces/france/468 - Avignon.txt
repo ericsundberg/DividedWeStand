@@ -1,0 +1,14 @@
+owner = FRA
+controller = FRA
+
+add_core = FRA
+
+trade_goods = cattle
+life_rating = 31
+
+1791.9.13 = { # On 12 and 13 September 1791 the National Constituent Assembly voted for the annexation of Avignon and the reunion of Comtat Venaissin with the kingdom of France following a referendum submitted to the inhabitants of the Comtat.
+	owner = FRA
+	controller = FRA
+}
+
+1861.1.1 = { railroad = 3 }

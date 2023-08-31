@@ -1,0 +1,10 @@
+owner = MAR
+controller = MAR
+
+add_core = LEN
+add_core = MAR
+add_core = USA
+
+trade_goods = fish
+life_rating = 351791.12.30 = {	owner = MAR	controller = MAR}1861.1.1 = {	add_core = CSA	state_building = {		level = 1		building = paper_mill		upgrade = yes	}	state_building = {		level = 1		building = luxury_clothes_factory		upgrade = yes	}	party_loyalty = {		ideology = conservative		loyalty_value = 12	}}
+1861.1.1 = { railroad = 3 }

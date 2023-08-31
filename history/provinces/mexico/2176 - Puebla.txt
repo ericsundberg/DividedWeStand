@@ -1,0 +1,21 @@
+owner = NSP
+controller = NSP
+
+add_core = MEX
+add_core = NSP
+
+trade_goods = dye
+life_rating = 35
+
+1821.8.24 = {
+	owner = MEX
+	controller = MEX
+}
+
+1861.1.1 = {
+    state_building = {
+        level = 3
+        building = fabric_factory
+        upgrade = yes
+    }
+}

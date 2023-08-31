@@ -1,0 +1,112 @@
+#USA - Virginia
+vassal = {
+	first = USA
+	second = VIR
+	start_date = 1791.1.1
+	end_date = 1791.12.10
+}
+#USA - South Carolina
+vassal = {
+	first = USA
+	second = SCS
+	start_date = 1791.1.1
+	end_date = 1791.12.10
+}
+#USA - New York
+vassal = {
+	first = USA
+	second = NYS
+	start_date = 1791.1.1
+	end_date = 1792.7.31
+}
+#USA - Rhode Island
+vassal = {
+	first = USA
+	second = RIP
+	start_date = 1791.1.1
+	end_date = 1792.7.31
+}
+#USA - Connecticut
+vassal = {
+	first = USA
+	second = CNS
+	start_date = 1791.1.1
+	end_date = 1792.7.31
+}
+#USA - Georgia
+vassal = {
+	first = USA
+	second = GAS
+	start_date = 1791.1.1
+	end_date = 1791.12.10
+}
+#USA - New Hampshire
+vassal = {
+	first = USA
+	second = NHS
+	start_date = 1791.1.1
+	end_date = 1792.7.31
+}
+#USA - Pennsylvania
+vassal = {
+	first = USA
+	second = PEN
+	start_date = 1791.1.1
+	end_date = 1792.7.31
+}
+#USA - Massachusetts
+vassal = {
+	first = USA
+	second = MSA
+	start_date = 1791.1.1
+	end_date = 1792.7.31
+}
+#USA - North Carolina
+vassal = {
+	first = USA
+	second = NCS
+	start_date = 1791.1.1
+	end_date = 1791.12.10
+}
+#USA - New Jersey
+vassal = {
+	first = USA
+	second = NJS
+	start_date = 1791.1.1
+	end_date = 1792.7.31
+}
+#USA - Deleware
+vassal = {
+	first = USA
+	second = DEL
+	start_date = 1791.1.1
+	end_date = 1791.12.10
+}
+#USA - Maryland
+vassal = {
+	first = USA
+	second = MAR
+	start_date = 1791.1.1
+	end_date = 1791.12.10
+}
+#USA - Canada
+vassal = {
+	first = USA
+	second = CAN
+	start_date = 1791.1.1
+	end_date = 1792.7.31
+}
+#USA - Acadia
+vassal = {
+	first = USA
+	second = ACA
+	start_date = 1791.1.1
+	end_date = 1792.7.31
+}
+#USA - Quebec
+vassal = {
+	first = USA
+	second = QUE
+	start_date = 1791.1.1
+	end_date = 1791.12.10
+}

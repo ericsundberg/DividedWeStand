@@ -1,0 +1,13 @@
+owner = SPA
+controller = SPA
+add_core = ECU
+add_core = PEU
+
+trade_goods = wool
+terrain = jungle
+life_rating = 31
+
+1821.7.28 = {
+	owner = PEU
+	controller = PEU
+}

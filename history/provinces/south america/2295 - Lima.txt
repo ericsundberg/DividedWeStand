@@ -1,0 +1,18 @@
+owner = SPA
+controller = SPA
+add_core = ECU
+add_core = PEU
+
+trade_goods = sulphur
+life_rating = 39
+naval_base = 1
+
+1821.7.28 = {
+	owner = PEU
+	controller = PEU
+}
+
+1861.1.1 = {
+    railroad = 1
+    naval_base = 1
+}

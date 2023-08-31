@@ -1,0 +1,23 @@
+country_event = {
+id = 2000000
+    title = "The First Peoples"
+    desc = "As the United States pushes its boundaries westward we must ponder the question of the native peoples of this land. Before the arrival of the first Europeans the people of the Americas lived on the lands we now call our home. Perhaps we should repay them by excepting them as equal citizens."
+    picture = "natives_of_soshangane"
+	fire_only_once = yes
+    is_triggered_only = yes
+ 
+    option = {
+    name = "All the people of this nation are our brothers and sisters."
+		add_accepted_culture = cherokee
+		add_accepted_culture = cree
+		add_accepted_culture = dakota
+		add_accepted_culture = inuit
+		add_accepted_culture = metis
+		add_accepted_culture = navajo
+		add_accepted_culture = native_american_minor
+        add_accepted_culture = peublo
+    }
+    option = {
+        name = "They'll never be civilized!"
+    }
+}

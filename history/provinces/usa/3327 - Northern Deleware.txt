@@ -1,0 +1,3 @@
+owner = DELcontroller = DELadd_core = LENadd_core = DELadd_core = PENadd_core = USAtrade_goods = grain
+life_rating = 351791.12.31 = {	add_core = DEL	owner = DEL	controller = DEL}1861.1.1 = {	state_building = {		level = 1		building = paper_mill		upgrade = yes	}	state_building = {		level = 1		building = luxury_clothes_factory		upgrade = yes	}	party_loyalty = {		ideology = conservative		loyalty_value = 12	}}
+1861.1.1 = { railroad = 3 }

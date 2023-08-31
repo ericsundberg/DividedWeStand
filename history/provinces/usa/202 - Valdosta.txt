@@ -1,0 +1,23 @@
+owner = CRK
+controller = CRK
+
+add_core = CRK
+add_core = GAS
+add_core = USA
+
+trade_goods = cotton
+life_rating = 35
+
+1796.1.1 = {
+	owner = GAS
+	controller = GAS
+	add_core = GAS
+}
+
+
+1861.1.1 = {
+    controller = CSA
+    owner = CSA
+    add_core = CSA
+}
+1861.1.1 = { railroad = 3 }

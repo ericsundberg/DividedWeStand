@@ -1,0 +1,10 @@
+owner = VEN
+controller = VEN
+add_core = VEN
+trade_goods = iron
+life_rating = 35
+
+1798.1.1 = {
+	owner = AUS
+	controller = AUS
+}

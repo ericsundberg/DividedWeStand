@@ -1,0 +1,18 @@
+owner = POL
+controller = POL
+add_core = RUS
+add_core = UKR
+trade_goods = grain
+life_rating = 40
+terrain = farmlands
+
+1794.1.1 = {
+	owner = RUS
+	controller = RUS
+}
+
+#state_building = {
+#    level = 1
+#    building = glass_factory
+#    upgrade = yes
+#}

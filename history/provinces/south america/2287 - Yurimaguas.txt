@@ -1,0 +1,16 @@
+owner = NGA
+controller = NGA
+
+add_core = ECU
+add_core = PEU
+add_core = GCO
+add_core = NGA
+
+trade_goods = rubber
+terrain = montane_forest
+life_rating = 33
+
+1821.7.28 = {
+	owner = PEU
+	controller = PEU
+}

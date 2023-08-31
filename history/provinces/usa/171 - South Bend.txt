@@ -1,0 +1,19 @@
+owner = HAU
+controller = HAU
+
+add_core = HAU
+add_core = USA
+add_core = NFR
+
+colonial = 1
+
+trade_goods = timber
+life_rating = 35
+
+1800.12.31 = {
+	owner = USA
+	controller = USA
+	colonial = 1
+}
+
+1861.1.1 = { railroad = 3 }

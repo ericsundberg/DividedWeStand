@@ -1,0 +1,63 @@
+bookmark =
+{
+	name = "1791_NAME"
+	desc = "1791_DESC"
+	date = 1791.1.1
+	cameraX = 1370 
+	cameraY = 1550
+}
+
+bookmark =
+{
+	name = "PFR_NAME"
+	desc = "PFR_DESC"
+	date = 1791.9.21
+	cameraX = 2950 
+	cameraY = 1550
+}
+
+bookmark =
+{
+	name = "DWS_NAME"
+	desc = "DWS_DESC"
+	date = 1792.7.4
+	cameraX = 1370 
+	cameraY = 1550
+}
+
+bookmark =
+{
+	name = "DID_NAME"	# maybe switch this out for something in the US or India
+	desc = "DID_DESC"
+	date = 1795.8.22	# Constitution of 1795
+	cameraX = 2950 
+	cameraY = 1550
+}
+
+bookmark =
+{
+	name = "18B_NAME"
+	desc = "18B_DESC"
+	date = 1799.11.9	# Coup of 18 Brumaire
+	cameraX = 2950 
+	cameraY = 1550
+}
+
+bookmark =
+{
+	name = "REM_NAME"
+	desc = "REM_DESC"
+	date = 1804.5.18	# Napoleon proclaimed emperor of France
+	cameraX = 2950 
+	cameraY = 1550
+}
+
+
+#bookmark =
+#{
+#	name = "ACW_NAME"
+#	desc = "ACW_DESC"
+#	date = 1861.7.1
+#	cameraX = 1270 
+#	cameraY = 1450
+#}

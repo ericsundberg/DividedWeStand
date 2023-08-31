@@ -1,0 +1,13 @@
+owner = NET
+controller = NET
+
+add_core = GUY
+
+trade_goods = tropical_wood
+life_rating = 31
+colonial = 2
+
+1799.1.1 = {
+	owner = ENG
+	controller = ENG
+}

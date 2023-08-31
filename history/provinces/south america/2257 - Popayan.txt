@@ -1,0 +1,20 @@
+owner = NGA
+controller = NGA
+
+add_core = CLM
+add_core = GCO
+add_core = NGA
+
+trade_goods = grain
+terrain = montane_forest
+life_rating = 34
+
+1820.12.17 = {
+	owner = GCO
+	controller = GCO
+}
+
+1830.10.20 = {
+	owner = CLM
+	controller = CLM
+}

@@ -1,0 +1,19 @@
+owner = AFG
+controller = AFG
+
+add_core = PNJ
+add_core = KAS
+add_core = HND
+
+trade_goods = silk
+life_rating = 32
+
+1819.1.1 = {
+    owner = PNJ
+    controller = PNJ
+}
+
+1850.1.1 = {
+    owner = ENG
+    controller = ENG
+}

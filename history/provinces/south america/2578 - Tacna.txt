@@ -1,0 +1,33 @@
+owner = SPA
+controller = SPA
+add_core = SPU
+add_core = PEU
+
+trade_goods = sulphur
+terrain = new_world_semidesert
+life_rating = 31
+
+1825.8.6 = {
+	owner = BOL
+	controller = BOL
+}
+
+1836.1.1 = {
+	owner = SPU
+	controller = SPU
+}
+
+1837.1.1 = {
+	owner = PBC
+	controller = PBC
+}
+
+1840.1.1 = {
+	owner = BOL
+	controller = BOL
+}
+
+1860.1.1 = {
+    owner = CHL
+    controller = CHL
+}

@@ -1,0 +1,17 @@
+owner = SHN
+controller = SHN
+add_core = SHN
+add_core = USA
+add_core = VIR
+
+trade_goods = coal
+life_rating = 35
+
+1791.12.31 = {
+	owner = VIR
+	controller = VIR
+	colonial = 1
+}
+
+1861.1.1 = { add_core = CSA }
+1861.1.1 = { railroad = 2 }

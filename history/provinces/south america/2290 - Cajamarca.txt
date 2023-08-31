@@ -1,0 +1,15 @@
+owner = NGA
+controller = NGA
+
+add_core = ECU
+add_core = PEU
+add_core = NGA
+
+
+trade_goods = coal
+life_rating = 35
+
+1821.7.28 = {
+	owner = PEU
+	controller = PEU
+}

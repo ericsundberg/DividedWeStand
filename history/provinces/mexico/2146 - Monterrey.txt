@@ -1,0 +1,14 @@
+owner = NSP
+controller = NSP
+
+add_core = MEX
+add_core = RGR
+add_core = NSP
+
+trade_goods = cattle
+life_rating = 35
+
+1821.8.24 = {
+	owner = MEX
+	controller = MEX
+}

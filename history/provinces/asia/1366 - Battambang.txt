@@ -1,0 +1,15 @@
+owner = CAM
+controller = CAM
+
+add_core = CAM
+add_core = SIA
+
+trade_goods = fruit
+life_rating = 35
+
+
+1827.1.1 = {
+	owner = SIA
+	controller = SIA
+}
+

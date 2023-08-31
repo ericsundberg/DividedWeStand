@@ -1,0 +1,23 @@
+#Spain - Two Sicilies / Naples
+union = {
+	first = SPA
+	second = SIC
+	start_date = 1714.3.7 # Treaty of Rastatt
+	end_date = 1799.1.21 # Napoleon declares the Parthenopean Republic
+}
+
+# Denmark-Schleswig-Holstein (Frederick VI, Christian VIII, Frederick VII)
+union = {
+    first = DEN
+    second = SWH
+    start_date = 1460.3.2
+    end_date = 1863.11.15
+}
+
+# United Kingdom-Hanover (George III, George IV, William IV)
+union = {
+    first = ENG
+    second = HAN
+    start_date = 1814.10.12
+    end_date = 1837.6.20
+}

@@ -1,0 +1,14 @@
+owner = MAH
+controller = MAH
+
+add_core = HND
+add_core = BIH
+
+trade_goods = coal
+life_rating = 28
+
+1819.1.1 = {
+    owner = ENG
+    controller = ENG
+}
+

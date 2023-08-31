@@ -1,0 +1,24 @@
+# Denark - Schleswig-Holstein
+vassal = {
+	first = DEN
+	second = SWH
+	start_date = 1791.1.1
+	end_date = 1867.1.1
+}
+
+# Denark - Norway
+vassal = {
+	first = DEN
+	second = NOR
+	start_date = 1791.1.1
+	end_date = 1815.1.1
+}
+
+# Sweden - Norway
+vassal = {
+	first = SWE
+	second = NOR
+	start_date = 1815.1.1
+	end_date = 1906.1.1
+}
+

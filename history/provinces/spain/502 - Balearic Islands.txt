@@ -1,0 +1,18 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+add_core = CAT
+trade_goods = cattle
+life_rating = 35
+
+1799.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+
+1803.1.1 = {
+	owner = SPA
+	controller = SPA
+}
+
+1861.1.1 = { railroad = 3 }

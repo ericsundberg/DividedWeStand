@@ -1,0 +1,14 @@
+owner = ASM
+controller = ASM
+
+add_core = TIB
+add_core = KCH
+add_core = ASM
+
+trade_goods = cattle
+life_rating = 30
+
+1827.1.1 = {
+	owner = ENG
+	controller = ENG
+}

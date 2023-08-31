@@ -1,0 +1,24 @@
+owner = NSP
+controller = NSP
+
+add_core = TEX
+add_core = NSP
+
+trade_goods = grain
+life_rating = 30
+terrain = semidesert
+colonial = 1
+
+1821.8.24 = {
+	owner = MEX
+	controller = MEX
+}
+
+1861.1.1 = {
+    controller = CSA
+    owner = CSA
+    add_core = USA
+    add_core = CSA
+    remove_core = MEX
+    colonial = 0
+}

@@ -1,0 +1,22 @@
+owner = SPA
+controller = SPA
+add_core = SPU
+add_core = PEU
+
+trade_goods = iron
+life_rating = 35
+
+1821.7.28 = {
+	owner = PEU
+	controller = PEU
+}
+
+1836.3.17 = {
+    owner = SPU
+    controller = SPU
+}
+
+1839.8.25 = {
+    owner = PEU
+    controller = PEU
+}

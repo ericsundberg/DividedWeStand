@@ -1,0 +1,24 @@
+owner = NSP
+controller = NSP
+
+add_core = COS
+add_core = UCA
+add_core = NSP
+
+trade_goods = coffee
+life_rating = 33
+
+1821.9.15 = {
+    owner = MEX
+    controller = MEX
+}
+
+1823.7.1 = {
+    owner = UCA
+    controller = UCA
+}
+
+1841.1.1 = {
+    owner = COS
+    controller = COS
+}

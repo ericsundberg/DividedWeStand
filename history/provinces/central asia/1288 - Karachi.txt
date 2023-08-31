@@ -1,0 +1,20 @@
+owner = AFG
+controller = AFG
+
+add_core = SIN
+add_core = HND
+trade_goods = fruit
+life_rating = 35
+naval_base = 1
+
+1819.1.1 = {
+    owner = SIN
+    controller = SIN
+}
+
+1844.1.1 = {
+    owner = ENG
+    controller = ENG
+}
+
+1861.1.1 = { railroad = 2 }

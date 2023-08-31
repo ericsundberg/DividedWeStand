@@ -1,0 +1,14 @@
+owner = MAH
+controller = MAH
+
+add_core = NAG
+add_core = BUN
+add_core = HND
+trade_goods = grain
+life_rating = 32
+
+1804.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+

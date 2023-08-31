@@ -1,0 +1,19 @@
+owner = NGA
+controller = NGA
+
+add_core = VNZ
+add_core = GCO
+add_core = NGA
+
+trade_goods = fish
+life_rating = 33
+
+1820.12.17 = {
+	owner = GCO
+	controller = GCO
+}
+
+1830.10.20 = {
+	owner = VNZ
+	controller = VNZ
+}

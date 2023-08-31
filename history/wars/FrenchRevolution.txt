@@ -1,0 +1,53 @@
+name = "War of French Security"
+
+1792.4.20 = {
+    add_attacker = FRA
+    add_defender = AUS
+    add_defender = PRU
+
+    # actor
+    # receiver
+    # casus_belli - cb type
+    # country - 3rd party
+    # state_province_id - target state capital
+    war_goal = {
+        casus_belli = conquest_any
+        actor = AUS
+        receiver = FRA
+    }
+    war_goal = {
+        casus_belli = status_quo
+        actor = AUS
+        receiver = FRA
+    }
+
+}
+
+1793.2.1 = {
+    add_attacker = FRA
+    add_defender = ENG
+    add_defender = NET
+
+    # actor
+    # receiver
+    # casus_belli - cb type
+    # country - 3rd party
+    # state_province_id - target state capital
+    war_goal = {
+        casus_belli = conquest_any
+        actor = NET
+        receiver = FRA
+    }
+    war_goal = {
+        casus_belli = status_quo
+        actor = NET
+        receiver = FRA
+    }
+
+}
+
+
+1797.10.17 = {
+    rem_attacker = FRA
+    rem_defender = AUS
+}

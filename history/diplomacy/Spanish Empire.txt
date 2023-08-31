@@ -1,0 +1,39 @@
+#Spain - New Spain
+vassal = {
+	first = SPA
+	second = NSP
+	start_date = 1791.1.1
+	end_date = 1821.8.24
+}
+
+#Spain - Florida
+vassal = {
+	first = SPA
+	second = FLO
+	start_date = 1791.1.1
+	end_date = 1821.8.24
+}
+
+#Spain - Cuba
+vassal = {
+	first = SPA
+	second = CUB
+	start_date = 1791.1.1
+	end_date = 1895.2.24
+}
+
+#Spain - New Grenada
+vassal = {
+	first = SPA
+	second = NGA
+	start_date = 1791.1.1
+	end_date = 1895.2.24
+}
+
+#Spain - Guatamala
+vassal = {
+	first = SPA
+	second = GUA
+	start_date = 1791.1.1
+	end_date = 1895.2.24
+}

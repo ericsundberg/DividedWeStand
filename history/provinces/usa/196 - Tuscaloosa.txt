@@ -1,0 +1,26 @@
+owner = CRK
+controller = CRK
+add_core = CRK
+add_core = USA
+add_core = SCS
+add_core = GAS
+
+trade_goods = iron
+life_rating = 35
+
+1796.1.1 = {
+    controller = SCS
+    owner = SCS
+}
+
+1861.1.1 = {
+    controller = CSA
+    owner = CSA
+    add_core = CSA
+    state_building = {
+        level = 1
+        building = canned_food_factory
+        upgrade = yes
+    }
+}
+1861.1.1 = { railroad = 3 }

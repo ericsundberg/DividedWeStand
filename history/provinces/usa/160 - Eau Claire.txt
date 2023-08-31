@@ -1,0 +1,17 @@
+owner = HAU
+controller = HAU
+
+add_core = HAU
+add_core = NFR
+add_core = USA
+
+trade_goods = grain
+life_rating = 35
+
+1800.12.31 = {
+	owner = USA
+	controller = USA
+	colonial = 1
+}
+
+1861.1.1 = { colonial = 0 }

@@ -1,0 +1,13 @@
+owner = QUE
+controller = QUE
+
+add_core = QUE
+add_core = USA
+
+trade_goods = iron
+life_rating = 35
+
+1791.12.31 = {
+	owner = QUE
+	controller = QUE
+}

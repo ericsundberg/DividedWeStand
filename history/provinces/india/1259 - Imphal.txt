@@ -1,0 +1,15 @@
+owner = MNP
+controller = MNP
+
+add_core = HND
+add_core = ASM
+add_core = MNP
+
+trade_goods = cattle
+life_rating = 32
+
+1827.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+

@@ -1,0 +1,10 @@
+add_core = AST
+trade_goods = wool
+terrain = semidesert
+life_rating = 31
+
+1825.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 1
+}

@@ -1,0 +1,21 @@
+owner = CAN
+controller = CAN
+
+add_core = HAU
+add_core = CAN
+add_core = USA
+
+trade_goods = fish
+life_rating = 35
+
+1792.1.1 = { 
+	owner = CAN
+	controller = CAN
+}
+
+1792.7.4 = { 
+	owner = USA
+	controller = USA
+}
+
+1861.1.1 = { railroad = 3 }

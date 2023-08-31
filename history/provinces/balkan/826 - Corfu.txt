@@ -1,0 +1,18 @@
+owner = VEN
+controller = VEN
+add_core = ION
+add_core = GRE
+trade_goods = fruit
+life_rating = 31
+terrain = small_island
+
+
+1798.1.1 = {
+	owner = FRA
+	controller = FRA
+}
+
+1810.1.1 = {
+	owner = ENG
+	controller = ENG
+}

@@ -1,0 +1,14 @@
+owner = MUG
+controller = MUG
+
+add_core = BUN
+add_core = MUG
+add_core = HND
+
+trade_goods = tobacco
+life_rating = 32
+
+1805.1.1 = {
+	owner = ENG
+	controller = ENG
+}

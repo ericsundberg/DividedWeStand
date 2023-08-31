@@ -1,0 +1,13 @@
+owner = KAU
+controller = KAU
+add_core = KAU
+add_core = HAW
+
+trade_goods = fruit
+life_rating = 35
+terrain = small_island
+
+1795.5.1 = {
+	owner = HAW
+	controller = HAW
+}

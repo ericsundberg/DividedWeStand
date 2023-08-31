@@ -1,0 +1,13 @@
+owner = CAN
+controller = CAN
+
+add_core = CAN
+add_core = USA
+
+trade_goods = iron
+life_rating = 31
+
+1792.7.4 = { 
+	owner = USA
+	controller = USA
+}

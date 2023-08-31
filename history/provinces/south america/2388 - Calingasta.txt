@@ -1,0 +1,18 @@
+owner = SPA
+controller = SPA
+add_core = ARC
+
+trade_goods = fruit
+life_rating = 35
+
+1810.5.18 = {
+	owner = ARC
+	controller = ARC
+}
+
+1861.1.1 = {
+    owner = ARG
+    controller = ARG
+    add_core = ARG
+    remove_core = ARC
+    }

@@ -1,0 +1,18 @@
+owner = USA
+controller = USA
+
+add_core = CHE
+add_core = HAU
+add_core = VIR
+add_core = USA
+
+trade_goods = cotton
+life_rating = 35
+colonial = 2
+
+1792.7.4 = { 
+	owner = USA
+	controller = USA
+}
+
+1861.1.1 = { railroad = 3 }

@@ -1,0 +1,17 @@
+owner = NET
+controller = NET
+
+add_core = GUY
+
+trade_goods = fruit
+terrain = plains
+life_rating = 35
+colonial = 2
+naval_base = 1
+
+1799.1.1 = {
+	owner = ENG
+	controller = ENG
+}
+
+1861.1.1 = { railroad = 1 }

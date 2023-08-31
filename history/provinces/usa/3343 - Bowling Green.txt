@@ -1,0 +1,26 @@
+owner = VIR
+controller = VIR
+
+add_core = CHE
+add_core = VIR
+add_core = NCS
+add_core = USA
+
+trade_goods = coal
+life_rating = 35
+colonial = 2
+terrain = montane_forest
+
+1791.12.31 = {
+	owner = VIR
+	controller = VIR
+	add_core = VIR
+	add_core = NCS
+}
+
+1861.1.1 = {
+    controller = CSA
+    owner = CSA
+    add_core = CSA
+}
+1861.1.1 = { railroad = 3 }

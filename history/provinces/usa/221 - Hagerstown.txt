@@ -1,0 +1,30 @@
+owner = MAR
+controller = MAR
+
+add_core = MAR
+add_core = USA
+
+trade_goods = tobacco
+life_rating = 35
+terrain = montane_forest
+
+1791.12.31 = {
+	owner = MAR
+	controller = MAR
+}
+
+1861.1.1 = {
+    add_core = CSA
+    state_building = {
+        level = 1
+        building = artillery_factory
+        upgrade = yes
+    }
+    state_building = {
+        level = 1
+        building = steel_factory
+        upgrade = yes
+    }
+}
+
+1861.1.1 = { railroad = 3 }

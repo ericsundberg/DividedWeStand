@@ -1,0 +1,17 @@
+owner = SPA
+controller = SPA
+
+add_core = URU
+
+trade_goods = fruit
+life_rating = 35
+
+1815.12.16 = {
+	owner = BRZ
+	controller = BRZ
+}
+
+1822.5.18 = {
+	owner = URU
+	controller = URU
+}

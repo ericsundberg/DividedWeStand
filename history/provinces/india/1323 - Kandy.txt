@@ -1,0 +1,10 @@
+owner = SRI
+controller = SRI
+add_core = SRI
+trade_goods = tea
+life_rating = 33
+
+1816.1.1 = {
+	owner = ENG
+	controller = ENG
+}

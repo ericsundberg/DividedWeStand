@@ -1,0 +1,27 @@
+owner = FLO
+controller = FLO
+
+add_core = CRK
+add_core = FLO
+add_core = GAS
+
+trade_goods = cotton
+life_rating = 35
+colonial = 2
+
+1830.1.1 = {
+    owner = FLO
+    controller = FLO
+    colonial = 0
+}
+
+1861.1.1 = {
+    controller = CSA
+    owner = CSA
+    add_core = CSA
+}
+1861.1.1 = {
+    railroad = 3
+    naval_base = 1
+    fort = 1
+}

@@ -1,0 +1,23 @@
+owner = NSP
+controller = NSP
+
+add_core = CAL
+add_core = NSP
+
+trade_goods = fruit
+terrain = new_world_semidesert
+life_rating = 31
+colonial = 2
+
+1821.8.24 = {
+	owner = MEX
+	controller = MEX
+}
+
+1861.1.1 = {
+    owner = USA
+    controller = USA
+    add_core = USA
+    remove_core = MEX
+    colonial = 0
+}

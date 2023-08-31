@@ -1,0 +1,23 @@
+owner = NSP
+controller = NSP
+
+add_core = MEX
+add_core = NSP
+
+trade_goods = coal
+life_rating = 35
+colonial = 2
+
+1821.8.24 = {
+	owner = MEX
+	controller = MEX
+}
+
+1861.1.1 = {
+    owner = USA
+    controller = USA
+    add_core = USA
+    add_core = CSA
+    remove_core = MEX
+    colonial = 0
+}

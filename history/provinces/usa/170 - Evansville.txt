@@ -1,0 +1,28 @@
+owner = SHN
+controller = SHN
+add_core = SHN
+add_core = USA
+add_core = NFR
+add_core = VIR
+
+colonial = 1
+trade_goods = grain
+life_rating = 35
+
+1791.12.31 = {
+	owner = VIR
+	controller = VIR
+}
+
+1861.1.1 = {
+    state_building = {
+        level = 1
+        building = furniture_factory
+        upgrade = yes
+    }
+    party_loyalty = {
+        ideology = liberal
+        loyalty_value = 12
+    }
+}
+1861.1.1 = { railroad = 3 }

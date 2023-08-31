@@ -1,0 +1,72 @@
+# Habsburger
+
+# Austria - Baden
+vassal = {
+	first = AUS
+	second = BAD
+	start_date = 1791.1.1
+	end_date = 1806.1.1
+}
+
+# Austria - Bohemia
+vassal = {
+	first = AUS
+	second = BOH
+	start_date = 1791.1.1
+	end_date = 1918.1.1
+}
+
+# Austria - Bukovina
+vassal = {
+	first = AUS
+	second = BKV
+	start_date = 1791.1.1
+	end_date = 1918.1.1
+}
+
+
+# Austria - Hungary
+vassal = {
+	first = AUS
+	second = HUN
+	start_date = 1791.1.1
+	end_date = 1918.1.1
+}
+
+# Austria - Siebenburgen/Translyvania
+vassal = {
+	first = AUS
+	second = SIE
+	start_date = 1791.1.1
+	end_date = 1918.1.1
+}
+
+# Austria - Glacia
+vassal = {
+	first = AUS
+	second = GLM
+	start_date = 1791.1.1
+	end_date = 1918.1.1
+}
+
+# Austria - Banat
+vassal = {
+	first = AUS
+	second = BAN
+	start_date = 1791.1.1
+	end_date = 1918.1.1
+}
+
+
+#Hohenzollern
+
+
+#Wittelsbacher
+
+# Bavaria - Saxe-Weimer 
+vassal = {
+	first = BAV
+	second = WEI
+	start_date = 1791.1.1
+	end_date = 1806.1.1
+}
