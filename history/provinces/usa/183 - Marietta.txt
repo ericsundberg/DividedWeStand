@@ -1,14 +1,15 @@
-owner = USA
-controller = USA
+owner = PEN
+controller = PEN
 
 add_core = CHE
 add_core = HAU
 add_core = VIR
+add_core = PEN
 add_core = USA
 
 trade_goods = cotton
 life_rating = 35
-colonial = 2
+colonial = 1
 
 1792.7.4 = { 
 	owner = USA

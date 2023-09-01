@@ -1,8 +1,11 @@
-owner = USA
-controller = USA
+owner = PEN
+controller = PEN
 
 add_core = HAU
 add_core = USA
+add_core = PEN
+add_core = PEN
+add_core = VIR
 
 trade_goods = coal
 life_rating = 35

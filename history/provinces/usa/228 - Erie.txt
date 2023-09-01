@@ -1,5 +1,5 @@
-owner = NYS
-controller = NYS
+owner = PEN
+controller = PEN
 
 add_core = HAU
 add_core = NYS
@@ -8,6 +8,8 @@ add_core = USA
 
 trade_goods = timber
 life_rating = 35
+
+# USA took Eire by cession on 1784.10.22
 
 1792.7.4 = { 
 	owner = USA

@@ -1,10 +1,11 @@
-owner = ACA
-controller = ACA
+owner = NBW
+controller = NBW
 
 add_core = ACA
 add_core = MAI
 add_core = USA
 add_core = MRU
+add_core = NBW
 add_core = NEN
 
 trade_goods = timber

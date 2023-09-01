@@ -1,5 +1,5 @@
-owner = ACA
-controller = ACA
+owner = NSC
+controller = NSC
 
 add_core = ACA
 add_core = NSC
