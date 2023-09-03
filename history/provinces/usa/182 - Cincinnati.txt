@@ -11,16 +11,4 @@ trade_goods = grain
 life_rating = 35
 colonial = 1
 
-1791.12.31 = {
-	add_core = VIR
-	colonial = 2
-}
-
-1796.1.1 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-	
-}
-
 1861.1.1 = { railroad = 3 }

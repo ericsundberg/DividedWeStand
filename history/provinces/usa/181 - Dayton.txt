@@ -2,18 +2,12 @@ owner = LEN
 controller = LEN
 
 add_core = HAU
+add_core = LEN
 add_core = USA
 add_core = PEN
 add_core = VIR
 
 trade_goods = grain
 life_rating = 35
-
-1796.1.1 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-	colonial = 2
-}
 
 1861.1.1 = { railroad = 3 }

@@ -10,9 +10,5 @@ add_core = USA
 trade_goods = grain
 life_rating = 32
 
-1792.7.4 = { 
-	owner = USA
-	controller = USA
-}
 
 1861.1.1 = { railroad = 3 }
