@@ -1,5 +1,5 @@
-owner = SCS
-controller = SCS
+owner = GAS
+controller = GAS
 
 add_core = SCS
 add_core = GAS

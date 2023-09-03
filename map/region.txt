@@ -37,7 +37,7 @@ ENG_74 = { 74 75 76 77 } #Newfoundland
 
 ### United States
 
-USA_60 = { 60 211 212 213 214 215 216 3330 3338 218 217 } #Virginia
+USA_60 = { 60 211 212 213 214 215 216 3330 3338 218 217 3332 } #Virginia
 
 USA_78 = { 78 79 80 } #Washington
 
@@ -53,9 +53,9 @@ MEX_97 = { 97 98 99 } #Utah
 
 MEX_100 = { 100 101 102 } #Arizona
 
-MEX_103 = { 105 2148 2662 } #New Mexico
+MEX_103 = { 103 105 108 109 128 129 135 136 2148 2662 } #New Mexico
 
-USA_106 = { 103 106 108 109 } #Colorado
+USA_106 = { 106 } #Colorado
 
 USA_111 = { 112 107 110 111 } #Wyoming
 
@@ -67,11 +67,11 @@ USA_121 = { 120 121 122 } #South Dakota
 
 USA_124 = { 123 124 125 } #Nebraska
 
-USA_126 = { 126 127 128 } #Kansas
+USA_126 = { 126 127 } #Kansas
 
 USA_129 = { 131 130 } #Oklahoma
 
-TEX_132 = { 129 133 43 132 134 135 136 137 138 141 } #Texas
+TEX_132 = { 133 43 132 134 137 141 } #Texas
 
 USA_139 = { 139 142 } #Louisiana
 
@@ -83,17 +83,17 @@ USA_151 = { 150 151 152 153 154 } #Iowa
 
 USA_158 = { 155 156 157 } #Minnesota
 
-USA_Alabama = { 192 195 } #Alabama
+USA_Alabama = { 195 196 } #Alabama
 
-USA_Mississippi = { 193 196 } #Mississippi 
+USA_Mississippi = { 192 193 } #Mississippi 
 
 USA_East_Florida = { 199 200 } #East Florida
 
 USA_West_Florida = { 140 194 197 198 } #West Florida
 
-USA_201 = { 202 204 } #Georgia
+USA_201 = { 201 202 204 2555 } #Georgia
 
-USA_205 = { 201 205 206 2555 } #South Carolina
+USA_205 = { 205 206 } #South Carolina
 
 USA_2556 = { 209 207 208 210 2556 } #North Carolina
 
@@ -141,7 +141,7 @@ USA_Sylvania = { 158 160 177 } #Sylvania
 
 USA_Illinoia = { 165 166 3345 } #Illinoia
 
-USA_Washington = { 178 3332 } #Washington
+USA_Washington = { 178 } #Ohio
 
 
 ### United Kingdom
@@ -1129,7 +1129,7 @@ MEX_2138 = { 2137 2138 2139 2140 2141 } #Sonora
 
 MEX_2142 = { 2142 2143 2144 2145 } #Chihuahua
 
-MEX_2149 = { 2146 2149 2150 2151 2147 2152 2155 } #Cohauila
+MEX_2149 = { 138 2146 2149 2150 2151 2147 2152 2155 } #Cohauila
 
 MEX_2151 = { 2153 2154 2156 2157 2158 2160 } #Durango
 
