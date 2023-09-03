@@ -11,12 +11,6 @@ life_rating = 35
 colonial = 2
 terrain = montane_forest
 
-1791.12.31 = {
-	owner = VIR
-	controller = VIR
-	add_core = VIR
-	add_core = NCS
-}
 
 1861.1.1 = {
     controller = CSA

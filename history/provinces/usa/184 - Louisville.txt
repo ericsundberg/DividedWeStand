@@ -9,12 +9,6 @@ trade_goods = tobacco
 life_rating = 35
 colonial = 2
 
-1791.12.31 = {
-	owner = VIR
-	controller = VIR
-	add_core = VIR
-}
-
 
 1861.1.1 = { add_core = CSA }
 1861.1.1 = { railroad = 3 }

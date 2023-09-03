@@ -1,11 +1,7 @@
-owner = POL
-controller = POL
-add_core = CPL
+owner = AUS
+controller = AUS
+
 add_core = POL
+add_core = CPL
 trade_goods = cattle
 life_rating = 35
-
-1796.1.1 = {
-	owner = AUS
-	controller = AUS
-}

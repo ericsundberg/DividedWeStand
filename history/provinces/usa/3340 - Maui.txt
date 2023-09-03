@@ -1,5 +1,5 @@
-owner = MAU
-controller = MAU
+owner = HAW
+controller = HAW
 add_core = MAU
 add_core = HAW
 
@@ -7,7 +7,4 @@ trade_goods = fruit
 life_rating = 35
 terrain = small_island
 
-1795.5.1 = {
-	owner = HAW
-	controller = HAW
-}
+# Taken by Hawaii in 1795.5.1

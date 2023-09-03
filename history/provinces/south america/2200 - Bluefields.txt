@@ -1,5 +1,5 @@
-owner = ENG
-controller = ENG
+owner = NSP
+controller = NSP
 
 add_core = NIC
 
@@ -7,10 +7,6 @@ trade_goods = fruit
 life_rating = 33
 colonial = 2
 
-1796.1.1 = {
-	owner = SPA
-	controller = SPA
-}
 
 1821.9.15 = {
     owner = MEX

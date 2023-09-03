@@ -1,11 +1,9 @@
-owner = POL
-controller = POL
+owner = RUS
+controller = RUS
+
+add_core = POL
 add_core = RUS
 add_core = UKR
 trade_goods = grain
 life_rating = 35
 
-1794.1.1 = {
-	owner = RUS
-	controller = RUS
-}

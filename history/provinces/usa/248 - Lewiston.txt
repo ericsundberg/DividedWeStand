@@ -10,10 +10,6 @@ life_rating = 35
 naval_base = 1
 colonial = 2
 
-1792.7.4 = { 
-	owner = USA
-	controller = USA
-}
 
 1861.1.1 = {
     railroad = 3

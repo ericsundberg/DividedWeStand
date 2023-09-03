@@ -1,11 +1,7 @@
-owner = POL
-controller = POL
+owner = AUS
+controller = AUS
+
 add_core = CPL
 add_core = POL
 trade_goods = coal
 life_rating = 35
-
-1796.1.1 = {
-	owner = AUS
-	controller = AUS
-}

@@ -8,11 +8,6 @@ trade_goods = tobacco
 life_rating = 35
 terrain = montane_forest
 
-1791.12.31 = {
-	owner = MAR
-	controller = MAR
-}
-
 1861.1.1 = {
     add_core = CSA
     state_building = {

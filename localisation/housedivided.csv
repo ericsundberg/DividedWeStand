@@ -778,8 +778,8 @@ unciv_reactionary_rebels_army;$COUNTRY_ADJ$ Army;Armée $COUNTRY_ADJ$;$COUNTRY_AD
 SET_ECONOMIC_REFORM_EFFECT;Economic reform selected: §Y$NAME$§W.\n;Réforme économique sélectionnée : §Y$NAME$§W.\n;gewählte Wirtschaftsreform: §Y$NAME$§W.\n;;;;;;;;;;;x
 SET_MILITARY_REFORM_EFFECT;Military reform selected: §Y$NAME$§W.\n;MRéforme militaire sélectionnée : §Y$NAME$§W.\n;gewählte Militärreform: §Y$NAME$§W.\n;;;;;;;;;;;x
 NATIONALIZE_INDUSTRY_EFFECT;Perform Nationalization;Procéder à la nationalisation;Nationalisierung durchführen;;;;;;;;;;;x
-DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Partially Modernized Nation;Nation partiellement modernisée;Teilmodernisierte Nation;;;;;;;;;;;x
-DIPLOMACY_PRIMITIVENATION_STATUS;Non-modernized Nation;Nation non modernisée;Nicht modernisiert Nation;;;;;;;;;;;x
+DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Centralizing Nation;Nation centralisatrice;Zentralisierende Nation;;;;;;;;;;;x
+DIPLOMACY_PRIMITIVENATION_STATUS;Decentralized Nation;Nation décentralisée;Dezentrale Nation;;;;;;;;;;;x
 UNCIV_CANT_RESEARCH;Westernize to be able to research;L'occidentalisation est nécessaire pour la recherche;Verwestlichen, um Forschen zu können;;;;;;;;;;;x
 TB_NATIONALFOCUS_CULTURE;§Y$NUM$§W people of primary/accepted cultures give us §Y$FOCUS$§W focus points;§Y$NUM$§W de personnes de cultures primitives ou acceptées donnent §Y$FOCUS$§W point(s) de cause nationale;§Y$NUM$§W Menschen aus primären/akzeptierten Kulturen geben uns §Y$FOCUS$§W Fokuspunkte;;;;;;;;;;;x
 meiji_restoration_boost;Meiji reformation.;Réforme Meiji.;Meiji Reformation.;;;;;;;;;;;x

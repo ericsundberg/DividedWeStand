@@ -1,13 +1,10 @@
-owner = TUR
-controller = TUR
+owner = RUS
+controller = RUS
+
+add_core = TUR
 add_core = RUS
 add_core = MOL
 add_core = MDV
 add_core = ROM
 trade_goods = fruit
 life_rating = 35
-
-1796.1.1 = {
-	owner = RUS
-	controller = RUS
-}

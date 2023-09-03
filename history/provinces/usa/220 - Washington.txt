@@ -6,12 +6,6 @@ add_core = USA
 
 trade_goods = grain
 life_rating = 35
-fort = 1
-
-1791.12.31 = {
-	owner = MAR
-	controller = MAR
-}
 
 1861.1.1 = {
     party_loyalty = {

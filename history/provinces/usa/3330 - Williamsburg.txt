@@ -1,1 +1,1 @@
-owner = VIRcontroller = VIRadd_core = VIRadd_core = USAtrade_goods = fishlife_rating = 351791.12.30 = {	owner = VIR	controller = VIR}1861.1.1 = {	owner = CSA	controller = CSA	add_core = CSA}
+owner = VIRcontroller = VIRadd_core = VIRadd_core = USAtrade_goods = fishlife_rating = 351861.1.1 = {	owner = CSA	controller = CSA	add_core = CSA}

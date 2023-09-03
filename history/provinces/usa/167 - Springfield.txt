@@ -8,9 +8,5 @@ add_core = VIR
 trade_goods = cattle
 life_rating = 35
 
-1791.12.31 = {
-	owner = VIR
-	controller = VIR
-}
 
 1861.1.1 = { railroad = 3 }

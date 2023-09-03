@@ -1,14 +1,11 @@
-owner = POL
-controller = POL
-add_core = KRA
+owner = PRU
+controller = PRU
+
 add_core = POL
+add_core = KRA
 trade_goods = coal
 life_rating = 40
 
-1794.1.1 = {
-	owner = PRU
-	controller = PRU
-}
 
 1861.1.1 = {
     owner = AUS

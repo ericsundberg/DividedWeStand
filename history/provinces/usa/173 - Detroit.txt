@@ -7,10 +7,6 @@ add_core= USA
 trade_goods = timber
 life_rating = 35
 
-1795.1.1 = {
-	controller = USA
-}
-
 1821.8.29 = {
 	owner = USA
 }

@@ -5,21 +5,7 @@ add_core = BEL
 trade_goods = coal
 life_rating = 35
 terrain = mining_district
-#state_building = {
-#    level = 1
-#    building = canned_food_factory
-#    upgrade = yes
-#}
-#state_building = {
-#    level = 1
-#    building = liquor_distillery
-#    upgrade = yes
-#}
 
-1796.1.1 = {
-	owner = FRA
-	controller = FRA
-}
 
 1815.1.1 = {
 	owner = NET
