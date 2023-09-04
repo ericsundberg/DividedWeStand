@@ -6,22 +6,6 @@ vassal = {
 	end_date = 1821.8.24
 }
 
-#Spain - Florida
-vassal = {
-	first = SPA
-	second = FLO
-	start_date = 1791.1.1
-	end_date = 1821.8.24
-}
-
-#Spain - Cuba
-vassal = {
-	first = SPA
-	second = CUB
-	start_date = 1791.1.1
-	end_date = 1895.2.24
-}
-
 #Spain - New Grenada
 vassal = {
 	first = SPA
@@ -30,10 +14,10 @@ vassal = {
 	end_date = 1895.2.24
 }
 
-#Spain - Guatamala
+#Spain - Louisiana
 vassal = {
-	first = SPA
-	second = GUA
+	first = NSP
+	second = LOU
 	start_date = 1791.1.1
-	end_date = 1895.2.24
+	end_date = 1801.1.1
 }

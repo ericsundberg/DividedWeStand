@@ -1,11 +1,3 @@
-#Spain - Louisiana
-vassal = {
-	first = SPA
-	second = LOU
-	start_date = 1791.1.1
-	end_date = 1801.1.1
-}
-
 #France - Louisiana
 vassal = {
 	first = FRA
