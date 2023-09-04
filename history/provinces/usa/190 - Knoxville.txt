@@ -1,10 +1,10 @@
-owner = TEN
-controller = TEN
+owner = WAT
+controller = WAT
 
 add_core = CHE
 add_core = NCS
 add_core = USA
-add_core = TEN
+add_core = WAT
 
 trade_goods = coal
 life_rating = 35
