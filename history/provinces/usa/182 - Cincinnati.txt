@@ -1,11 +1,12 @@
-owner = PEN
-controller = PEN
+owner = STG
+controller = STG
 
 add_core = LEN
 add_core = HAU
 add_core = USA
 add_core = PEN
 add_core = VIR
+add_core = STG
 
 trade_goods = grain
 life_rating = 35

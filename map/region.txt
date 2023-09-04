@@ -119,13 +119,13 @@ USA_247 = { 247 3323 3324 } #New Hampshire
 
 USA_248 = { 248 249 } #Maine
 
-USA_Cherokee = { 189 3344 } #Cherokee
+USA_Cherokee = { 189 } #Cherokee
 
-USA_Tennessee = { 188 190 191 3343 } #Tennessee
+USA_Tennessee = { 188 190 191 } #Tennessee
 
-USA_Polytamia = { 167 168 170 187 } #Polypotamia
+USA_Polypotamia = { 167 168 170 } #Polypotamia
 
-USA_Pelisipia = { 184 185 186 } #Pelsipia
+USA_Pelisipia = { 184 185 186 187 3343 3344 } #Pelsipia
 
 USA_Saratoga = { 169 172 179 181 182 183 3335 } #Saratoga
 
@@ -141,7 +141,7 @@ USA_Sylvania = { 158 160 177 } #Sylvania
 
 USA_Illinoia = { 165 166 3345 } #Illinoia
 
-USA_Washington = { 178 } #Ohio
+USA_Ohio = { 178 } #Ohio
 
 
 ### United Kingdom

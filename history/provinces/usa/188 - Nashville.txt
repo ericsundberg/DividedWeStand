@@ -1,9 +1,10 @@
-owner = NCS
-controller = NCS
+owner = TEN
+controller = TEN
 
 add_core = CHE
 add_core = NCS
 add_core = USA
+add_core = TEN
 
 trade_goods = cotton
 life_rating = 35

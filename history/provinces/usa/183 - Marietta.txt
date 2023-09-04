@@ -1,11 +1,12 @@
-owner = PEN
-controller = PEN
+owner = STG
+controller = STG
 
 add_core = CHE
 add_core = HAU
 add_core = VIR
 add_core = PEN
 add_core = USA
+add_core = STG
 
 trade_goods = cotton
 life_rating = 35
