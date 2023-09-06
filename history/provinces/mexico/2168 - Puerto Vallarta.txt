@@ -1,9 +1,8 @@
-owner = NSP
-controller = NSP
+owner = NGL
+controller = NGL
 
+add_core = NGL
 add_core = MEX
-add_core = NSP
-
 
 trade_goods = fish
 life_rating = 35

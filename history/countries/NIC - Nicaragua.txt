@@ -1,7 +1,7 @@
 capital = 2199
 primary_culture = central_american
 religion = catholic
-government = presidential_dictatorship
+government = limited_monarchy
 plurality = 0.1
 nationalvalue = nv_liberty
 literacy = 0.17

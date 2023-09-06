@@ -1,9 +1,8 @@
-owner = NSP
-controller = NSP
+owner = YUC
+controller = YUC
 
 add_core = MEX
 add_core = YUC
-add_core = NSP
 
 trade_goods = grain
 life_rating = 35

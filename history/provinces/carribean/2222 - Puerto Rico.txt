@@ -1,5 +1,5 @@
-owner = NSP
-controller = NSP
+owner = PRI
+controller = PRI
 
 add_core = PRI
 

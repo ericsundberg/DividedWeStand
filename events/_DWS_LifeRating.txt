@@ -1,0 +1,14 @@
+country_event = {
+    id = 100000
+    title = "EVTNAME16000"
+    desc = "EVTDESC16000"
+    major = yes
+	potential = {
+		ai = no
+	}
+	effect = {
+		any_owned = {
+			life_rating = 1
+		}
+	}
+}

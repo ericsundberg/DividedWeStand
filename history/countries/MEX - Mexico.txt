@@ -1,18 +1,18 @@
 capital = 2172
-primary_culture = mexican
+primary_culture = spanish
+culture = mexican
+culture = nahuatl
 religion = catholic
-government = presidential_dictatorship
-plurality = 25.0
-nationalvalue = nv_equality
+government = limited_monarchy
+plurality = 0.5
+nationalvalue = nv_order
 literacy = 0.03
-non_state_culture_literacy = 0.01
 civilized = yes
-prestige = 3
 
 
 # Political reforms
-slavery = no_slavery
-upper_house_composition = state_equal_weight
+slavery = yes_slavery
+upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = state_press

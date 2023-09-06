@@ -1,7 +1,8 @@
-owner = ALA
-controller = ALA
+owner = CUB
+controller = CUB
 
 add_core = CRK
+add_core = FLO
 add_core = USA
 add_core = GAS
 

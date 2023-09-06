@@ -655,6 +655,7 @@ SHN		= "countries/Shawnee.txt"
 ILL		= "countries/Illiniwek.txt"
 ODA		= "countries/Odawa.txt"
 NSP		= "countries/New Spain.txt"
+NGL		= "countries/New Galacia.txt"
 
 #South America
 NGA		= "countries/New Granada.txt"

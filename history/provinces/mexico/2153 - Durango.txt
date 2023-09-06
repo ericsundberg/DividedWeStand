@@ -1,8 +1,8 @@
 owner = NSP
 controller = NSP
 
-add_core = MEX
 add_core = NSP
+add_core = MEX
 
 trade_goods = cattle
 life_rating = 35

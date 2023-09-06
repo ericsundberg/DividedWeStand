@@ -1,5 +1,5 @@
-owner = NSP
-controller = NSP
+owner = CUB
+controller = CUB
 
 add_core = CRK
 add_core = FLO

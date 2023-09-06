@@ -2,7 +2,6 @@ owner = NSP
 controller = NSP
 
 add_core = MEX
-add_core = NSP
 
 terrain = new_world_semidesert
 trade_goods = fish

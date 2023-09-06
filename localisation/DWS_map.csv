@@ -1023,10 +1023,10 @@ CAN_acadia;Acadia;;;;;;;;;;;x
 USA_Mississippi;Mississippi;;;;;;;;;;;x
 USA_Cherokee;Cherokee;;;;;;;;;;;x
 USA_Chactaw;Chactaw;;;;;;;;;;;x
-USA_Tennessee;Tennessee;;;;;;;;;;;x
-USA_Polytamia;Polytamia;;;;;;;;;;;x
-USA_Pelisipia;Pelisipia;;;;;;;;;;;x
-USA_Washington;Washington;;;;;;;;;;;x
+USA_Watauga;Watauga;;;;;;;;;;;x
+USA_Polypotamia;Polypotamia;;;;;;;;;;;x
+USA_Kentucky;Kentucky;;;;;;;;;;;x
+USA_Ohio;Ohio;;;;;;;;;;;x
 USA_Saratoga;Saratoga;;;;;;;;;;;x
 USA_Metropotamia;Metropotamia;;;;;;;;;;;x
 USA_Michiginia;Michiginia;;;;;;;;;;;x
@@ -1040,3 +1040,6 @@ USA_East_Florida;East Florida;;;;;;;;;;;x
 USA_Alabama;Alabama;;;;;;;;;;;x
 USA_196;Mississippi;;;;;;;;;;;x
 HAW_Midway;Midway Islands;;;;;;;;;;;x
+MEX_Baja_California;Baja California;;;;;;;;;;;x
+MEX_Alta_California;Alto California;;;;;;;;;;;;x
+LOU_Dakota;Dakota;;;;;;;;;;;;x

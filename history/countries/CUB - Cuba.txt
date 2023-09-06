@@ -1,14 +1,15 @@
 capital = 2209
-primary_culture = caribeno
+primary_culture = spanish
+culture = caribeno
 religion = catholic
-government = presidential_dictatorship
+government = limited_monarchy
 plurality = 0.5
 nationalvalue = nv_order
-literacy = 0.17
+literacy = 0.03
 civilized = yes
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = yes_meeting

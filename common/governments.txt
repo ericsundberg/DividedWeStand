@@ -50,7 +50,7 @@ absolute_monarchy = {
 	flagType = monarchy
 }
 
-figurehead_monarchy = {
+limited_monarchy = {
 	liberal = yes
 	conservative = yes
 	reactionary = yes

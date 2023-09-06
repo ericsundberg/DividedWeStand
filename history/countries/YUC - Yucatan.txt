@@ -1,17 +1,18 @@
 capital = 2183
-primary_culture = mayan
+primary_culture = spanish
+culture = mayan
 culture = mexican
 religion = catholic
-government = democracy
-plurality = 0.0
-nationalvalue = nv_liberty
-literacy = 0.1
+government = limited_monarchy
+plurality = 0.5
+nationalvalue = nv_order
+literacy = 0.03
 civilized = yes
 
 # Political reforms
 slavery = yes_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+upper_house_composition = appointed
+vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions

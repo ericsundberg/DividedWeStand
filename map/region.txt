@@ -26,11 +26,11 @@ CAN_quebec = { 58 65 62 61 63 64 } #Quebec
 
 CAN_ruperts_land = { 9 59 2593 2626 2592 2627 } #Rupert's Land
 
-CAN_acadia = { 66 67 68 69 70 71 72 73 250 3336 }
+CAN_acadia = { 66 67 3336 }
 
-#ENG_aa = { 68 69 70 } #New Brunswick
+ENG_aa = { 68 69 70 250 } #New Brunswick
 
-#ENG_71 = { 71 72 73 } #Nova Scotia
+ENG_71 = { 71 72 73 } #Nova Scotia
 
 ENG_74 = { 74 75 76 77 } #Newfoundland
 
@@ -39,35 +39,39 @@ ENG_74 = { 74 75 76 77 } #Newfoundland
 
 USA_60 = { 60 211 212 213 214 215 216 3330 3338 218 217 3332 } #Virginia
 
-USA_78 = { 78 79 80 } #Washington
+#USA_78 = { 78 79 80 } #Washington
 
-USA_81 = { 81 82 83 } #Oregon
+USA_81 = { 78 79 80 81 82 83 91 92 93 } #Oregon
 
-MEX_85 = { 89 84 85 86 87 88 90 104 2138 2139 } #California
+MEX_Alta_California = { 89 84 85 86 87 88 90 94 95 96 97 98 99 100 101 104 111 } #Alta California
 
-USA_91 = { 91 92 93 } #Idaho
+MEX_Baja_California = { 2138 2139 } #Baja California
 
-MEX_94 = { 94 96 95 } #Nevada
+#USA_91 = { 91 92 93 } #Idaho
 
-MEX_97 = { 97 98 99 } #Utah
+#MEX_94 = { 94 96 95 } #Nevada
 
-MEX_100 = { 100 101 } #Arizona
+#MEX_97 = { 97 98 99 } #Utah
+
+#MEX_100 = { 100 101 } #Arizona
 
 MEX_103 = { 103 105 108 109 128 129 135 136 2148 2662 } #New Mexico
 
-USA_106 = { 106 } #Colorado
+#USA_106 = { 106 } #Colorado
 
-USA_111 = { 112 107 110 111 } #Wyoming
+USA_111 = { 110 112 } #Wyoming
 
 USA_116 = { 113 116 115 114 } #Montana
 
-USA_118 = { 117 118 119 } #North Dakota
+LOU_Dakota = { 117 118 119 120 121 } # Dakota
 
-USA_121 = { 120 121 122 } #South Dakota
+#USA_118 = { 117 118 119 } #North Dakota
 
-USA_124 = { 123 124 125 } #Nebraska
+#USA_121 = { 120 121 122 } #South Dakota
 
-USA_126 = { 126 127 } #Kansas
+USA_124 = { 122 123 124 } #Nebraska
+
+USA_126 = { 106 107 125 126 127 } #Kansas
 
 USA_129 = { 131 130 } #Oklahoma
 
@@ -83,13 +87,13 @@ USA_151 = { 150 151 152 153 154 } #Iowa
 
 USA_158 = { 155 156 157 } #Minnesota
 
-USA_Alabama = { 195 196 } #Alabama
+USA_Alabama = { 193 196 } #Alabama
 
-USA_Mississippi = { 192 193 } #Mississippi 
+#USA_Mississippi = { 192 193 } #Mississippi 
 
 USA_East_Florida = { 199 200 } #East Florida
 
-USA_West_Florida = { 140 194 197 198 } #West Florida
+USA_West_Florida = { 140 192 194 195 197 198 } #West Florida
 
 USA_201 = { 201 202 204 2555 } #Georgia
 
@@ -121,11 +125,11 @@ USA_248 = { 248 249 } #Maine
 
 USA_Cherokee = { 189 } #Cherokee
 
-USA_Tennessee = { 188 190 191 } #Tennessee
+USA_Watauga = { 188 190 191 } #Watauga
 
 USA_Polypotamia = { 167 168 170 } #Polypotamia
 
-USA_Pelisipia = { 184 185 186 187 3343 3344 } #Pelsipia
+USA_Kentucky = { 184 185 186 187 3343 3344 } #Kentucky
 
 USA_Saratoga = { 169 172 179 181 182 183 3335 } #Saratoga
 
@@ -1129,19 +1133,19 @@ MEX_2138 = { 102 2137 2140 2141 2156 2157 } #Sonora
 
 MEX_2142 = { 2142 2143 2144 2145 } #Chihuahua
 
-MEX_2149 = { 138 2146 2149 2150 2151 2147 2152 2155 } #Cohauila
+MEX_2149 = { 138 2146 2149 2150 2151 2147 2152 2153 2154 2155 } #Cohauila
 
-MEX_2151 = { 2153 2154 2158 2160 } #Durango
+#MEX_2151 = { 2153 2154 2158 2160 } #Durango
 
 MEX_2159 = { 2159 2162 2163 2164 } #Veracruz
 
 MEX_2183 = { 2165 2183 2185 2184 } #Yucatan
 
-MEX_2161 = { 2161 2168 2166 2169 2167 } #Jalisco
+MEX_2161 = { 2158 2160 2161 2168 2166 2169 } #Jalisco
 
 MEX_2170 = { 2170 2171 2177 2178 2179 2180 } #Guerrero
 
-MEX_2172 = { 2172 2173 2174 2175 2176 } #Mexico
+MEX_2172 = { 2167 2172 2173 2174 2175 2176 } #Mexico
 
 #MEX_2181 = {   } #Oasaca
 

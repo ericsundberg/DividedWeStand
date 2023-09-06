@@ -735,14 +735,14 @@ MILITARYREFORM_BAD_BTN1;OK;D'accord;OK;;Aceptar;;;;;;;;;x
 MILITARYREFORM_BAD_BTN2;OK;D'accord;OK;;Aceptar;;;;;;;;;x
 MILITARYREFORM_BAD_BTN3;Goto;Voir;Gehe zu;;Ir allí;;;;;;;;;x
 MILITARYREFORM_BAD_MAP;*;*;*;;*;;;;;;;;;x
-MODIFIER_CIVILIZATION_PROGRESS;Civilization Progress;Progrès de la civilisation;Zivilisationsfortschritt;;;;;;;;;;;x
+MODIFIER_CIVILIZATION_PROGRESS;Modernization Progress;Progrès de la civilisation;Zivilisationsfortschritt;;;;;;;;;;;x
 SUPPRESSION_TECH;Suppression efficiency;Efficacité de la répression;Effektivität der Unterdrückung;;;;;;;;;;;x
 REFORM_RESEARCH_COST;Research Cost: §Y$COST$§!;RCoût de recherche: §Y$COST$§!;Forschungskosten: §Y$COST$§!;;;;;;;;;;;x
-POLITICS_CIVILIZE;Westernize;Occidentalisation;Verwestlichen;;;;;;;;;;;x
-CIVILIZE_DESC;Fully embrace western ideas. This will give us access to the technological advances of our sphere leader;Embrasser entièrement les idées occidentales : cela nous donnera accès aux technologies avancées du pays dominant de notre sphère.;Nehmt die westlichen Ideen vollständig an. Dies wird uns Zugang zu den technologischen Fortschritten des Anführers unseres Wirkungsbereichs gewähren;;;;;;;;;;;x
-CIVILIZE_NO_MASTER_DESC;Fully embrace western ideas. This will gives us access to the technological advances from around the world;Embrasser entièrement les idées occidentales : cela nous donnera accès aux technologies avancées du monde entier.;Nehmt die westlichen Ideen vollständig an. Dies wird uns Zugang zu den technologischen Fortschritten aus aller Welt verschaffen;;;;;;;;;;;x
+POLITICS_CIVILIZE;Modernization;Occidentalisation;Verwestlichen;;;;;;;;;;;x
+CIVILIZE_DESC;Fully embrace modern ideas. This will give us access to the technological advances of our sphere leader;Embrasser entièrement les idées occidentales : cela nous donnera accès aux technologies avancées du pays dominant de notre sphère.;Nehmt die westlichen Ideen vollständig an. Dies wird uns Zugang zu den technologischen Fortschritten des Anführers unseres Wirkungsbereichs gewähren;;;;;;;;;;;x
+CIVILIZE_NO_MASTER_DESC;Fully embrace modern ideas. This will gives us access to the technological advances from around the world;Embrasser entièrement les idées occidentales : cela nous donnera accès aux technologies avancées du monde entier.;Nehmt die westlichen Ideen vollständig an. Dies wird uns Zugang zu den technologischen Fortschritten aus aller Welt verschaffen;;;;;;;;;;;x
 INFLUENCE_RELATION;Relations;Relations;Beziehungen;;;;;;;;;;;x
-NO_CIV_PROGRESS;We have made no progress towards westernization. We need to enact military or economic reforms;Nous n'avons fait aucun progrès vers l'occidentalisation. Nous avons besoin d'adopter des réformes militaires ou économiques.;Wir haben keine Fortschritte in der Verwestlichung gemacht. Wir müssen militärische oder wirtschaftliche Reformen verabschieden;;;;;;;;;;;x
+NO_CIV_PROGRESS;We have made no progress towards modernizing our nation. We need to enact military or economic reforms;Nous n'avons fait aucun progrès vers l'occidentalisation. Nous avons besoin d'adopter des réformes militaires ou économiques.;Wir haben keine Fortschritte in der Verwestlichung gemacht. Wir müssen militärische oder wirtschaftliche Reformen verabschieden;;;;;;;;;;;x
 RESEARCH_POINTS_LABEL;Research Points:;Points de recherche :;Forschungspunkte:;;;;;;;;;;;x
 MODIFIER_UNCIV_ECONOMIC;Economic reform cost;Coût de la réforme économique;Kosten für Wirtschaftsreform;;;;;;;;;;;x
 MODIFIER_UNCIV_MILITARY;Military reform cost;Coût de la réforme militaire;Kosten für Militärreform;;;;;;;;;;;x
@@ -778,9 +778,9 @@ unciv_reactionary_rebels_army;$COUNTRY_ADJ$ Army;Armée $COUNTRY_ADJ$;$COUNTRY_AD
 SET_ECONOMIC_REFORM_EFFECT;Economic reform selected: §Y$NAME$§W.\n;Réforme économique sélectionnée : §Y$NAME$§W.\n;gewählte Wirtschaftsreform: §Y$NAME$§W.\n;;;;;;;;;;;x
 SET_MILITARY_REFORM_EFFECT;Military reform selected: §Y$NAME$§W.\n;MRéforme militaire sélectionnée : §Y$NAME$§W.\n;gewählte Militärreform: §Y$NAME$§W.\n;;;;;;;;;;;x
 NATIONALIZE_INDUSTRY_EFFECT;Perform Nationalization;Procéder à la nationalisation;Nationalisierung durchführen;;;;;;;;;;;x
-DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Centralizing Nation;Nation centralisatrice;Zentralisierende Nation;;;;;;;;;;;x
-DIPLOMACY_PRIMITIVENATION_STATUS;Decentralized Nation;Nation décentralisée;Dezentrale Nation;;;;;;;;;;;x
-UNCIV_CANT_RESEARCH;Westernize to be able to research;L'occidentalisation est nécessaire pour la recherche;Verwestlichen, um Forschen zu können;;;;;;;;;;;x
+DIPLOMACY_ALMOST_WESTERN_NATION_STATUS;Modernizing Nation;Nation centralisatrice;Zentralisierende Nation;;;;;;;;;;;x
+DIPLOMACY_PRIMITIVENATION_STATUS;Traditional Nation;Nation décentralisée;Dezentrale Nation;;;;;;;;;;;x
+UNCIV_CANT_RESEARCH;Modernize to be able to research;L'occidentalisation est nécessaire pour la recherche;Verwestlichen, um Forschen zu können;;;;;;;;;;;x
 TB_NATIONALFOCUS_CULTURE;§Y$NUM$§W people of primary/accepted cultures give us §Y$FOCUS$§W focus points;§Y$NUM$§W de personnes de cultures primitives ou acceptées donnent §Y$FOCUS$§W point(s) de cause nationale;§Y$NUM$§W Menschen aus primären/akzeptierten Kulturen geben uns §Y$FOCUS$§W Fokuspunkte;;;;;;;;;;;x
 meiji_restoration_boost;Meiji reformation.;Réforme Meiji.;Meiji Reformation.;;;;;;;;;;;x
 meiji_restoration_boost_desc;Progress in the name of the Emperor!;Le progrès au nom de l'Empereur;Fortschritt im Namen des Herrschers!;;;;;;;;;;;x
@@ -790,7 +790,7 @@ MODIFIER_UNCIV_MILITARY_UH;Upper house support;Soutien de l'Assemblée;Unterstütz
 MOVEMENT_RADICALISM_ADJUST;§Y$MOVEMENT$§! Radicalism: $AMOUNT$;§Y$MOVEMENT$§! du radicalisme : $AMOUNT$;§Y$MOVEMENT$§! Radikalismus: $AMOUNT$;;;;;;;;;;;x
 MILITARY_REFORM_COST_DESC;Cost modifier for military reforms: ;Coût du modificateur pour les réformes militaires : ;Kostenmodifikator für militärische Reformen:;;;;;;;;;;;x
 ECONOMIC_REFORM_COST_DESC;Cost modifier for economic reforms: ;Coût du modificateur pour les réformes économiques : ;Kostenmodifikator für wirtschaftliche Reformen:;;;;;;;;;;;x
-MAPMODE_19;Civilization Level;Niveau de civilisation;Zivilisationsstufe;;;;;;;;;;;x
+MAPMODE_19;Modernization Level;Niveau de civilisation;Zivilisationsstufe;;;;;;;;;;;x
 CHI_absolute_monarchy;The Chinese Empire;Empire Chinois;Das Chinesische Reich;;;;;;;;;;;x
 EVTOPTB23212;Keep looking at the sky!;Continuez de regarder au ciel !;Schau weiter in den Himmel!;;;;;;;;;;;x
 LOSE_CIVILIZED_EFFECT;We shall be known as an §YUncivilized Nation§W\n;Nous allons être considérés comme §Ynation non-civilisée§W\n;Man soll uns kennen als §YUnzivilisierte Nation§W\n;;;;;;;;;;;x
