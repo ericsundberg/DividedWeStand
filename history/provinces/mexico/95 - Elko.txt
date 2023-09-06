@@ -1,6 +1,7 @@
-owner = NSP
-controller = NSP
+owner = UTE
+controller = UTE
 
+add_core = UTE
 add_core = CAL
 add_core = NSP
 

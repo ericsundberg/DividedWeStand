@@ -4,7 +4,7 @@ controller = NSP
 add_core = CAL
 add_core = NSP
 
-trade_goods = coal
+trade_goods = grain
 life_rating = 35
 colonial = 1
 

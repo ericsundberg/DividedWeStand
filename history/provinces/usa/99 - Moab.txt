@@ -1,11 +1,12 @@
-owner = NSP
-controller = NSP
+owner = UTE
+controller = UTE
 
+add_core = UTE
 add_core = CAL
 add_core = NSP
 
 colonial = 1
-trade_goods = grain
+trade_goods = iron
 life_rating = 35
 
 1821.8.24 = {
