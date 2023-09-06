@@ -1,3 +1,7 @@
+owner = CPW
+controller = CPW
 
-trade_goods = cattle
+add_core = CPW
+
+trade_goods = timber
 life_rating = 31

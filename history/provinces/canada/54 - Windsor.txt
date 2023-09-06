@@ -1,9 +1,9 @@
-owner = HAU
-controller = HAU
+owner = ODA
+controller = ODA
 
-add_core = HAU
-add_core = USA
+add_core = ODA
 add_core = CAN
+add_core = USA
 
 trade_goods = grain
 life_rating = 35

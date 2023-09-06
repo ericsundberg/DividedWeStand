@@ -1,10 +1,10 @@
 capital = 143
 primary_culture = cherokee
 religion = animist
-government = democracy
-plurality = 5.0
-nationalvalue = nv_liberty
-literacy = 0.10
+government = limited_monarchy
+plurality = 2.0
+nationalvalue = nv_tradition
+literacy = 0.01
 
 ruling_party = CHE_conservative
 upper_house = {
@@ -18,8 +18,8 @@ upper_house = {
 }
 
 slavery = yes_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = universal_weighted_voting
+upper_house_composition = appointed
+vote_franschise = wealth_voting
 public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = no_trade_unions

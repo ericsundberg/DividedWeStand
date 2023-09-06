@@ -1,6 +1,7 @@
 owner = CAN
 controller = CAN
 
+add_core = HAU
 add_core = CAN
 add_core = USA
 

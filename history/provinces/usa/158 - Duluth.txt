@@ -1,7 +1,7 @@
-owner = MTC
-controller = MTC
+owner = CPW
+controller = CPW
 
-add_core = MTC
+add_core = CPW
 add_core = NFR
 add_core = USA
 

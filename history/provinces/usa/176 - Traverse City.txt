@@ -1,6 +1,7 @@
-owner = ODA
-controller = ODA
+owner = CPW
+controller = CPW
 
+add_core = CPW
 add_core = ODA
 add_core = USA
 
