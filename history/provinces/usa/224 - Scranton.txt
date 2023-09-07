@@ -5,7 +5,7 @@ add_core = LEN
 add_core = PEN
 add_core = USA
 
-trade_goods = grain
+trade_goods = coal
 life_rating = 35
 
 

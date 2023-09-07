@@ -5,7 +5,7 @@ add_core = VER
 add_core = NEN
 add_core = USA
 	
-trade_goods = timber
+trade_goods = grain
 life_rating = 35
 
 1861.1.1 = {
