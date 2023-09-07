@@ -1,5 +1,5 @@
-owner = KEN
-controller = KEN
+owner = CHE
+controller = CHE
 
 add_core = CHE
 add_core = VIR

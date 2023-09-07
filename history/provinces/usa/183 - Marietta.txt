@@ -1,14 +1,14 @@
-owner = STG
-controller = STG
+owner = OHI
+controller = OHI
 
 add_core = CHE
 add_core = HAU
 add_core = VIR
 add_core = PEN
 add_core = USA
-add_core = STG
+add_core = OHI
 
-trade_goods = cotton
+trade_goods = coal
 life_rating = 35
 colonial = 1
 

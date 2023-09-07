@@ -1,5 +1,5 @@
-owner = HAU
-controller = HAU
+owner = NYS
+controller = NYS
 
 add_core = HAU
 add_core = NYS

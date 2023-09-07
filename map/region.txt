@@ -131,7 +131,7 @@ USA_Polypotamia = { 167 168 170 } #Polypotamia
 
 USA_Kentucky = { 184 185 186 187 3343 3344 } #Kentucky
 
-USA_Saratoga = { 169 172 179 181 182 183 3335 } #Saratoga
+USA_Saratoga = { 169 172 179 181 182 3335 3355 } #Saratoga
 
 USA_Metropotamia = { 171 173 174 180 } #Metropotamia
 
@@ -145,7 +145,7 @@ USA_Sylvania = { 158 160 177 } #Sylvania
 
 USA_Illinoia = { 165 166 3345 } #Illinoia
 
-USA_Ohio = { 178 } #Ohio
+USA_Ohio = { 178 183 3356 3357 } #Ohio
 
 
 ### United Kingdom

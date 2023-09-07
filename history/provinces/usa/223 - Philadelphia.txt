@@ -8,6 +8,11 @@ add_core = USA
 trade_goods = iron
 life_rating = 35
 
+1802.7.4 = {
+
+	owner = USA
+
+}
 
 1861.1.1 = {
 

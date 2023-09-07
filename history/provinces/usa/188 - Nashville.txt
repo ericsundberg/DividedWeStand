@@ -1,5 +1,5 @@
-owner = WAT
-controller = WAT
+owner = CHE
+controller = CHE
 
 add_core = CHE
 add_core = NCS

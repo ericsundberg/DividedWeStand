@@ -1,10 +1,11 @@
-owner = CRK
-controller = CRK
+owner = CHE
+controller = CHE
 
+add_core = CHE
 add_core = CRK
-add_core = USA
 add_core = SCS
 add_core = GAS
+add_core = USA
 
 trade_goods = cotton
 life_rating = 35

@@ -1,0 +1,35 @@
+# Independence Day Decision 1802
+country_event = {
+    id = 180204
+    title = "EVTNAME180204"
+    desc = "EVTDESC180204"
+    picture = "independence_day"
+    major = yes
+
+    trigger = {
+        year = 1802
+        month = 7
+        day = 4
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = "EVTCHOICE180204A"
+        change_province_owner = { province = PEN value = USA }
+        change_province_owner = { province = NYS value = USA }
+        change_province_owner = { province = NJS value = USA }
+        change_province_owner = { province = CON value = USA }
+        change_province_owner = { province = NHS value = USA }
+        change_province_owner = { province = NWB value = USA }
+        change_province_owner = { province = NVS value = USA }
+        change_province_owner = { province = CAN value = USA }
+        change_province_owner = { province = OHI value = USA }
+        change_province_owner = { province = STG value = USA }
+    }
+
+    option = {
+        name = "EVTCHOICE180204B"
+        # No changes for this option
+    }
+}

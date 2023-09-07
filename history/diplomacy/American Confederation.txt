@@ -2,43 +2,43 @@
 alliance = {
 	first = DEL
 	second = GAS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Deleware - Virginia
 alliance = {
 	first = DEL
 	second = VIR
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Deleware - Maryland
 alliance = {
 	first = DEL
 	second = MAR
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Deleware - North Carolina
 alliance = {
 	first = DEL
 	second = NCS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Deleware - South Carolina
 alliance = {
 	first = DEL
 	second = SCS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Deleware - Quebec 
 alliance = {
 	first = DEL
 	second = QUE
-	start_date = 1791.12.10
-	end_date = 1793.1.1
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 
 
@@ -47,43 +47,43 @@ alliance = {
 alliance = {
 	first = MAR
 	second = DEL
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Maryland - Virginia
 alliance = {
 	first = MAR
 	second = VIR
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Maryland - North Carolina
 alliance = {
 	first = MAR
 	second = NCS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Maryland - South Carolina
 alliance = {
 	first = MAR
 	second = SCS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Maryland - Georgia
 alliance = {
 	first = MAR
 	second = GAS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Maryland - Quebec 
 alliance = {
 	first = MAR
 	second = QUE
-	start_date = 1791.12.10
-	end_date = 1793.1.1
+	start_date = 1777.11.15
+	end_date = 1801.1.1
 }
 
 
@@ -92,22 +92,22 @@ alliance = {
 alliance = {
 	first = VIR
 	second = DEL
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Virginia - Maryland
 alliance = {
 	first = VIR
 	second = MAR
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Virginia - North Carolina
 alliance = {
 	first = VIR
 	second = NCS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Virginia - South Carolina
 alliance = {
@@ -120,15 +120,15 @@ alliance = {
 alliance = {
 	first = VIR
 	second = GAS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Virginia - Quebec 
 alliance = {
 	first = VIR
 	second = QUE
-	start_date = 1791.12.10
-	end_date = 1793.1.1
+	start_date = 1777.11.15
+	end_date = 1801.1.1
 }
 
 
@@ -137,43 +137,43 @@ alliance = {
 alliance = {
 	first = NCS
 	second = DEL
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # North Carolina - Virginia
 alliance = {
 	first = NCS
 	second = VIR
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # North Carolina - Maryland
 alliance = {
 	first = NCS
 	second = MAR
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # North Carolina - South Carolina
 alliance = {
 	first = NCS
 	second = SCS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # North Carolina - Georgia
 alliance = {
 	first = NCS
 	second = GAS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # North Carolina - Quebec 
 alliance = {
 	first = NCS
 	second = QUE
-	start_date = 1791.12.10
-	end_date = 1793.1.1
+	start_date = 1777.11.15
+	end_date = 1801.1.1
 }
 
 
@@ -182,43 +182,43 @@ alliance = {
 alliance = {
 	first = SCS
 	second = DEL
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # South Carolina - Virginia
 alliance = {
 	first = SCS
 	second = VIR
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # South Carolina - Maryland
 alliance = {
 	first = SCS
 	second = MAR
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # South Carolina - North Carolina
 alliance = {
 	first = SCS
 	second = NCS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # South Carolina - Georgia
 alliance = {
 	first = SCS
 	second = GAS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # South Carolina - Quebec 
 alliance = {
 	first = SCS
 	second = QUE
-	start_date = 1791.12.10
-	end_date = 1793.1.1
+	start_date = 1777.11.15
+	end_date = 1801.1.1
 }
 
 
@@ -227,22 +227,22 @@ alliance = {
 alliance = {
 	first = GAS
 	second = DEL
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Georgia - Virginia
 alliance = {
 	first = GAS
 	second = VIR
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Georgia - Maryland
 alliance = {
 	first = GAS
 	second = MAR
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Georgia - North Carolina
 alliance = {
@@ -255,15 +255,103 @@ alliance = {
 alliance = {
 	first = GAS
 	second = SCS
-	start_date = 1791.12.10
-	end_date = 1800.12.10
+	start_date = 1777.11.15
+	end_date = 1999.1.1
 }
 # Georgia - Quebec 
 alliance = {
 	first = GAS
 	second = QUE
+	start_date = 1777.11.15
+	end_date = 1801.1.1
+}
+
+
+# Kentucky - Deleware
+alliance = {
+	first = KEN
+	second = DEL
+	start_date = 1777.11.15
+	end_date = 1999.1.1
+}
+# Kentucky - Virginia
+alliance = {
+	first = KEN
+	second = VIR
+	start_date = 1777.11.15
+	end_date = 1999.1.1
+}
+# Kentucky - Maryland
+alliance = {
+	first = KEN
+	second = MAR
+	start_date = 1777.11.15
+	end_date = 1999.1.1
+}
+# Kentucky - North Carolina
+alliance = {
+	first = KEN
+	second = NCS
 	start_date = 1791.12.10
-	end_date = 1793.1.1
+	end_date = 1800.12.10
+}
+# Kentucky - South Carolina
+alliance = {
+	first = KEN
+	second = SCS
+	start_date = 1777.11.15
+	end_date = 1999.1.1
+}
+# Kentucky - Quebec 
+alliance = {
+	first = KEN
+	second = QUE
+	start_date = 1777.11.15
+	end_date = 1801.1.1
+}
+
+
+# Watauga - Deleware
+alliance = {
+	first = WAT
+	second = DEL
+	start_date = 1777.11.15
+	end_date = 1999.1.1
+}
+# Watauga - Virginia
+alliance = {
+	first = WAT
+	second = VIR
+	start_date = 1777.11.15
+	end_date = 1999.1.1
+}
+# Watauga - Maryland
+alliance = {
+	first = WAT
+	second = MAR
+	start_date = 1777.11.15
+	end_date = 1999.1.1
+}
+# Watauga - North Carolina
+alliance = {
+	first = WAT
+	second = NCS
+	start_date = 1791.12.10
+	end_date = 1800.12.10
+}
+# Watauga - South Carolina
+alliance = {
+	first = WAT
+	second = SCS
+	start_date = 1777.11.15
+	end_date = 1999.1.1
+}
+# Watauga - Quebec 
+alliance = {
+	first = WAT
+	second = QUE
+	start_date = 1777.11.15
+	end_date = 1801.1.1
 }
 
 

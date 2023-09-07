@@ -1,6 +1,7 @@
-owner = GAS
-controller = GAS
+owner = MUS
+controller = MUS
 
+add_core = MUS
 add_core = CRK
 add_core = GAS
 add_core = USA
