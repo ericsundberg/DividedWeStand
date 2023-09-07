@@ -3,10 +3,10 @@ controller = VIR
 
 add_core = VIR
 add_core = USA
-trade_goods = tobacco
+trade_goods = fish
 life_rating = 35
 
-naval_base = 2
+naval_base = 1
 
 
 1861.1.1 = {
