@@ -4,12 +4,14 @@ controller = VIR
 add_core = VIR
 add_core = USA
 
-trade_goods = timber
+trade_goods = fruit
 life_rating = 35
 terrain = montane_forest
+
 
 1861.1.1 = {
     owner = CSA
     controller = CSA
-    add_core = CSA}
+    add_core = CSA
+}
 1861.1.1 = { railroad = 3 }

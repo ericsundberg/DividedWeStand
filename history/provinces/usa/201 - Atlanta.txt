@@ -6,7 +6,7 @@ add_core = SCS
 add_core = GAS
 add_core = USA
 
-trade_goods = cotton
+trade_goods = grain
 life_rating = 35
 
 

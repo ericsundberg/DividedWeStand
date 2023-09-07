@@ -7,7 +7,7 @@ add_core = NSP
 
 terrain = new_world_semidesert
 trade_goods = cattle
-life_rating = 35
+life_rating = 25
 colonial = 2
 
 1821.8.24 = {

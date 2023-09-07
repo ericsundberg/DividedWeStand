@@ -6,7 +6,7 @@ add_core = NCS
 add_core = USA
 add_core = WAT
 
-trade_goods = cotton
+trade_goods = grain
 life_rating = 35
 colonial = 1
 

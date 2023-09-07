@@ -4,7 +4,7 @@ controller = LOU
 add_core = LOU
 add_core = NFR
 
-trade_goods = cattle
+trade_goods = coal
 life_rating = 35
 colonial = 1
 

@@ -7,7 +7,7 @@ add_core = PEN
 add_core = VIR
 add_core = OHI
 
-trade_goods = timber
+trade_goods = tobacco
 life_rating = 35
 colonial = 1
 

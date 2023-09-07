@@ -5,7 +5,7 @@ add_core = LOU
 add_core = NFR
 	
 colonial = 1
-trade_goods = grain
+trade_goods = coal
 life_rating = 35
 
 

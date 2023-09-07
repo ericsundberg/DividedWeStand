@@ -4,7 +4,7 @@ controller = MAR
 add_core = MAR
 add_core = USA
 
-trade_goods = grain
+trade_goods = tobacco
 life_rating = 35
 
 1861.1.1 = {

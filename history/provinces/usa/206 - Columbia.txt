@@ -4,7 +4,7 @@ controller = SCS
 add_core = SCS
 add_core = USA
 
-trade_goods = cotton
+trade_goods = tobacco
 life_rating = 35
 
 

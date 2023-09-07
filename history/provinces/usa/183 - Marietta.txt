@@ -8,7 +8,7 @@ add_core = PEN
 add_core = USA
 add_core = OHI
 
-trade_goods = coal
+trade_goods = timber
 life_rating = 35
 colonial = 1
 

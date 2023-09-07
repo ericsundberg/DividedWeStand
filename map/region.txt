@@ -37,7 +37,7 @@ ENG_74 = { 74 75 76 77 } #Newfoundland
 
 ### United States
 
-USA_60 = { 60 211 212 213 214 215 216 3330 3338 218 217 3332 3369 3370 3371 3372 3373 } #Virginia
+USA_60 = { 60 211 212 213 214 215 216 3330 3338 218 217 3332 3369 3370 3371 3372 3373 3374 } #Virginia
 
 #USA_78 = { 78 79 80 } #Washington
 
@@ -119,9 +119,9 @@ USA_243 = { 243 244 245 3346 3364 3365 3366 } #Massachusetts
 
 USA_246 = { 246 3361 3362 } #Vermont
 
-USA_247 = { 247 3323 3324 } #New Hampshire
+USA_247 = { 247 3323 3324 3376 } #New Hampshire
 
-USA_248 = { 248 249 } #Maine
+USA_248 = { 248 249 3375 } #Maine
 
 USA_Cherokee = { 189 } #Cherokee
 
