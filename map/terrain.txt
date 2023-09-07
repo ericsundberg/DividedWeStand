@@ -144,14 +144,14 @@ categories =  {
     marsh = {
         movement_cost = 1.4
         attrition = 1
-        defence = 1
+        defence = 3	#1
         color = { 76 112 105 }
         farm_rgo_size = -0.25
-        farm_rgo_eff = -0.3
+        farm_rgo_eff = 0.25	#-0.3
         mine_rgo_size = -0.25
-        mine_rgo_eff = -0.3
-        supply_limit = 3
-        min_build_railroad = 2
+        mine_rgo_eff = 0.25	#-0.3
+        supply_limit = 8	#3
+        #min_build_railroad = 2
         combat_width = -0.25
     }
 

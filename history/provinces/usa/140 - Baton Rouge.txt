@@ -5,6 +5,7 @@ add_core = FLO
 
 trade_goods = cotton
 life_rating = 35
+terrain = marsh
 colonial = 1
 
 1861.1.1 = {

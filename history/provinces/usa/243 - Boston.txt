@@ -2,12 +2,12 @@ owner = MSAcontroller = MSAadd_core = MSAadd_core = USA
 add_core = NEN
 
 trade_goods = fish
-life_rating = 40
+life_rating = 40terrain = marsh
 naval_base = 1
 
 state_building = {
 	level = 1
-	building = canned_food_factory
+	building = ammunition_factory
 	upgrade = yes
 }
 state_building = {

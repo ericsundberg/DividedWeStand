@@ -6,6 +6,7 @@ add_core = NFR
 
 trade_goods = cotton
 life_rating = 35
+terrain = marsh
 
 
 1861.1.1 = {

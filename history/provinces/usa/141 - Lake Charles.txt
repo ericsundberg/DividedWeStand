@@ -6,6 +6,7 @@ add_core = NSP
 
 trade_goods = sulphur
 life_rating = 35
+terrain = marsh
 colonial = 1
 
 1821.8.24 = {

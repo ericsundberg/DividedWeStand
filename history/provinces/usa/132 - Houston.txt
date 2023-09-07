@@ -6,6 +6,7 @@ add_core = NSP
 	
 trade_goods = cattle
 life_rating = 35
+terrain = marsh
 
 1821.8.24 = {
 	owner = MEX

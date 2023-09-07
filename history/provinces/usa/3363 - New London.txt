@@ -5,7 +5,8 @@ add_core = CNS
 add_core = USA
 add_core = NEN
 
-trade_goods = grain
+trade_goods = fish
 life_rating = 35
+terrain = marsh
 
 1861.1.1 = { railroad = 3 }
