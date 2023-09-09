@@ -491,7 +491,7 @@ float GenerateHeight( TILE_STRUCT v )
 	
 	float x1 = lerp( LeftTerrain.a, Terrain.a, saturate( PixelTexCoord.x + noisy.x) );
 	float x2 = lerp( UpLeftTerrain.a, UpTerrain.a, saturate( PixelTexCoord.x + noisy.y) );
-	float y1 = lerp( x1, x2, saturate( PixelTexCoord.y + noisy.z) );
+	float y1 = lerp( x1, x2, saturate( PixelTexCoord.y + noisy.z));
 	
 	return y1;
 	
@@ -715,7 +715,7 @@ TILE_STRUCT ParallaxMapping( TILE_STRUCT v, float3 viewDir ){
 		//layer = 1;
 	}
 	
-	return v;
+    return v;
 }
 
 float SelfShadow( TILE_STRUCT v, float3 lightDir, float3 viewDir )
