@@ -1,0 +1,14 @@
+owner = DEL
+controller = DEL
+
+add_core = LEN
+add_core = DEL
+add_core = PEN
+add_core = USA
+
+trade_goods = grain
+life_rating = 35
+
+
+1861.1.1 = { add_core = CSA }
+1861.1.1 = { railroad = 3 }

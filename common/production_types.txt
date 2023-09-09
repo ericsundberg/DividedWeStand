@@ -767,6 +767,26 @@ RGO_template_farmers = {
     workforce = 40000
 }
 
+# farmers in any province now farm
+static_template_farmers = {
+
+    owner = {
+        poptype = farmers
+        effect = output
+    }
+
+    employees = {
+        {
+            poptype = farmers
+            effect = throughput
+            amount = 0.5		#1 -- food produced in addition to main RGO assignment
+        }
+    }
+
+	# no required RGO
+    workforce = 20000	#40000
+}
+
 RGO_template_labourers = {
     owner = {
         poptype = aristocrats
@@ -875,6 +895,13 @@ grain_farm = {
     template = RGO_template_farmers
     output_goods = grain
     value = 1.7 #1.8
+    farm = yes
+}
+
+grain_farm = {
+    template = static_template_farmers
+    output_goods = grain
+    value = 1.0 #1.8
     farm = yes
 }
 
