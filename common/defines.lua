@@ -1,7 +1,7 @@
 defines = {
 
 start_date = '1798.7.4',
-end_date = '1939.1.1',
+end_date = '1939.12.31',
 
 country = {
 	YEARS_OF_NATIONALISM 	= 20,   -- Years of Nationalism
@@ -129,30 +129,30 @@ economy = {
 },
 
 military = {
-	DIG_IN_INCREASE_EACH_DAYS = 5,
+	DIG_IN_INCREASE_EACH_DAYS = 7,
 	REINFORCE_SPEED = 0.2,
 	COMBAT_DIFFICULTY_IMPACT = 0.2,
 	BASE_COMBAT_WIDTH = 30,
-	POP_MIN_SIZE_FOR_REGIMENT = 100, -- originally 1000; the number of troops in a regiment has increased over time, see if there is a variable which we can multiply POP_MIN_SIZE_FOR_REGIMENT with depending on tech
-	POP_SIZE_PER_REGIMENT = 100, -- originally 3000
-	SOLDIER_TO_POP_DAMAGE = 0.2,
-	LAND_SPEED_MODIFIER = 1,
+	POP_MIN_SIZE_FOR_REGIMENT = 1000,	-- originally 1000
+	POP_SIZE_PER_REGIMENT = 3000,
+	SOLDIER_TO_POP_DAMAGE = 0.55,
+	LAND_SPEED_MODIFIER = 0.8,
 	NAVAL_SPEED_MODIFIER = 2,
 	EXP_GAIN_DIV = 0.05,
 	LEADER_RECRUIT_COST = 20,
 	SUPPLY_RANGE = 50,
-	POP_MIN_SIZE_FOR_REGIMENT_PROTECTORATE_MULTIPLIER = 6,
+	POP_MIN_SIZE_FOR_REGIMENT_PROTECTORATE_MULTIPLIER = 3,
 	POP_MIN_SIZE_FOR_REGIMENT_COLONY_MULTIPLIER = 4,
 	POP_MIN_SIZE_FOR_REGIMENT_NONCORE_MULTIPLIER = 3, -- VALUE * POP_MIN_SIZE_FOR_REGIMENT is min for noncores
-	GAS_ATTACK_MODIFIER = 3,
-	COMBATLOSS_WAR_EXHAUSTION = 3, -- base war exhaustion in combat
+	GAS_ATTACK_MODIFIER = 2,
+	COMBATLOSS_WAR_EXHAUSTION = 4, -- base war exhaustion in combat
 	LEADER_MAX_RANDOM_PRESTIGE = 0.05, -- max percent of prestige, when randomizing stats for leaders.
 	LEADER_AGE_DEATH_FACTOR = 4, -- higher value means leaders live longer
 	LEADER_PRESTIGE_TO_MORALE_FACTOR = 0.9, -- f.ex. 100% of prestige = +10% morale
 	LEADER_PRESTIGE_TO_MAX_ORG_FACTOR = 0.7, -- f.ex. 100% of prestige = +10 max org
 	LEADER_TRANSFER_PENALTY_ON_COUNTRY_PRESTIGE = 0.05, -- country prestige penalty on unassign leader (f.ex if leader has 100% prestige, the country loose 4% of its prestige)
-	LEADER_PRESTIGE_LAND_GAIN = 0.3, -- extra speed gain on prestige for land combat
-	LEADER_PRESTIGE_NAVAL_GAIN = 0.3, -- extra speed gain on prestige for naval combat
+	LEADER_PRESTIGE_LAND_GAIN = 0.5, -- extra speed gain on prestige for land combat
+	LEADER_PRESTIGE_NAVAL_GAIN = 0.5, -- extra speed gain on prestige for naval combat
 	NAVAL_COMBAT_SEEKING_CHANCE = 0.5, -- base chance of picking a target (increased by leader reconnaissance)
 	NAVAL_COMBAT_SEEKING_CHANCE_MIN = 0.1, -- low cap for chance of picking the target
 	NAVAL_COMBAT_SELF_DEFENCE_CHANCE = 2.0, -- scale up the chance of choosing the target that is already shooting at us.
@@ -163,17 +163,17 @@ military = {
 	NAVAL_COMBAT_DAMAGE_ORG_MULT = 0.4, -- scale the damage to ORG for balancing gameplay
 	NAVAL_COMBAT_DAMAGE_STR_MULT = 0.2, -- scale the damage to STR for balancing gameplay
 	NAVAL_COMBAT_DAMAGE_MULT_NO_ORG = 2.0, -- damage multiplier (to STR) when opponent has no ORG.
-	NAVAL_COMBAT_RETREAT_CHANCE = 0.07, -- base chance for retreating when STR or ORG is low. Increased by leader experiance and speed.
+	NAVAL_COMBAT_RETREAT_CHANCE = 0.05, -- base chance for retreating when STR or ORG is low. Increased by leader experiance and speed.
 	NAVAL_COMBAT_RETREAT_STR_ORG_LEVEL = 0.15, -- the retreating is available when STR or ORG % drops below this value (it's 0% to 100% value)
 	NAVAL_COMBAT_RETREAT_SPEED_MOD = 0.4, -- slow down when retreating so there is a chance to hit the runner
 	NAVAL_COMBAT_RETREAT_MIN_DISTANCE = 0.25, -- how close (in average) all alive ships must be to the center line to be able to retreat.
 	NAVAL_COMBAT_DAMAGED_TARGET_SELECTION = 2.5, -- multiply chance of selecting target that has low average of STR/ORG
-	NAVAL_COMBAT_STACKING_TARGET_CHANGE = 0.03, -- increase chance to change/drop target when suffering stacking penalty
+	NAVAL_COMBAT_STACKING_TARGET_CHANGE = 0.05, -- increase chance to change/drop target when suffering stacking penalty
 	NAVAL_COMBAT_STACKING_TARGET_SELECT = 0.2, -- modifier for how much the stacking penalty affects the target selection.
-	NAVAL_COMBAT_MAX_TARGETS = 6, -- max number of ships that may target the same enemy ship
-	AI_BIGSHIP_PROPORTION = 0.5, -- fraction of ships in the navy that should be ships of the line
-	AI_LIGHTSHIP_PROPORTION = 0.3, -- fraction of ships in the navy that should be cruisers, frigates etc
-	AI_TRANSPORT_PROPORTION = 0.3, -- fraction of ships in the navy that should be should be transports
+	NAVAL_COMBAT_MAX_TARGETS = 10, -- max number of ships that may target the same enemy ship
+	AI_BIGSHIP_PROPORTION = 0.1, -- fraction of ships in the navy that should be ships of the line
+	AI_LIGHTSHIP_PROPORTION = 0.8, -- fraction of ships in the navy that should be cruisers, frigates etc
+	AI_TRANSPORT_PROPORTION = 0.1, -- fraction of ships in the navy that should be should be transports
 	AI_CAVALRY_PROPORTION = 0.15, -- fraction of brigades that should be cavalry
 	AI_SUPPORT_PROPORTION = 0.6, -- fraction of brigades that should be artillery and other support units
 	AI_SPECIAL_PROPORTION = 0.15, -- fraction of brigades that should be engineers and tanks
@@ -183,8 +183,8 @@ military = {
 	AI_BLOCKADE_RANGE = 2000, -- max distance the AI will send out blockade fleets from their home base
 	RECON_UNIT_RATIO = 0.1, -- the % of units in the army that must have a recon value to get the full bonus
 	ENGINEER_UNIT_RATIO = 0.1, -- the % of units in the army that must have a fort attack value to get the full bonus
-	SIEGE_BRIGADES_MIN = 3, -- the number of brigades needed for a siege to progress at normal speed
-	SIEGE_BRIGADES_MAX = 13, -- the number of brigades above which you get no addition benefit in sieges
+	SIEGE_BRIGADES_MIN = 2, -- the number of brigades needed for a siege to progress at normal speed
+	SIEGE_BRIGADES_MAX = 20, -- the number of brigades above which you get no addition benefit in sieges
 	SIEGE_BRIGADES_BONUS = 0.5, -- the bonus to siege speed from each brigade
 	RECON_SIEGE_EFFECT = 0.5, -- multiplier to effect of recon on speeding up sieges
 	SIEGE_ATTRITION = 2, -- fixed attrition on sieging units
@@ -400,7 +400,7 @@ diplomacy = {
 	BANEMBASSY_DAYS = 365,
 	
 	DECLAREWAR_RELATION_ON_ACCEPT = -50,
-	DECLAREWAR_DIPLOMATIC_COST = 1,
+	DECLAREWAR_DIPLOMATIC_COST = 0, -- #1
 	
 	ADDWARGOAL_RELATION_ON_ACCEPT = 0,
     ADDWARGOAL_DIPLOMATIC_COST = 1,
@@ -462,8 +462,8 @@ diplomacy = {
 
 	REMOVEFROMSPHERE_RELATION_ON_ACCEPT = -10,
 	REMOVEFROMSPHERE_INFLUENCE_COST = 100,
-	REMOVEFROMSPHERE_PRESTIGE_COST = 10, -- only applied if removing country is sphere leader
-	REMOVEFROMSPHERE_INFAMY_COST = 1, -- only applied if removing country is sphere leader
+	REMOVEFROMSPHERE_PRESTIGE_COST = 5, -- #5 only applied if removing country is sphere leader
+	REMOVEFROMSPHERE_INFAMY_COST = 0, -- #5 only applied if removing country is sphere leader
 
 	INCREASEOPINION_RELATION_ON_ACCEPT = 20,
 	INCREASEOPINION_INFLUENCE_COST = 50,
@@ -476,7 +476,7 @@ diplomacy = {
 	MAKE_CB_RELATION_ON_ACCEPT = 0,
 	
 	DISARMAMENT_ARMY_HIT = 0.5,
-	REPARATIONS_TAX_HIT = 0.25,
+	REPARATIONS_TAX_HIT = 0.2, -- #0.25
 	PRESTIGE_REDUCTION_BASE = 25,
 	PRESTIGE_REDUCTION = 0.1, -- Base value + % of recipient's prestige
 	REPARATIONS_YEARS = 5,
@@ -534,10 +534,10 @@ diplomacy = {
 	GOODRELATION_INFAMY_CLEAR_UNION_SPHERE = 1, -- Militancy for asserting hegemony with good relations
 	GOODRELATION_PRESTIGE_CLEAR_UNION_SPHERE = -20, -- Prestige for asserting hegemony with good relations
 	GOODRELATION_MILITANCY_CLEAR_UNION_SPHERE = 2, -- Prestige for asserting hegemony with good relations
-	PEACE_COST_CLEAR_UNION_SPHERE = 0.6, -- Peace cost to assert hegemony per affected country
+	PEACE_COST_CLEAR_UNION_SPHERE = 0.35, -- #0.6 Peace cost to assert hegemony per affected country
 	
 	GOOD_PEACE_REFUSAL_MILITANCY = 1.0, --Militancy hit from refusing a good peace offer
-	GOOD_PEACE_REFUSAL_WAREXH = 10.0, --War exhaustion hit from refusing a good peace offer
+	GOOD_PEACE_REFUSAL_WAREXH = 5.0, --#5 War exhaustion hit from refusing a good peace offer
 	
 	PEACE_COST_GUNBOAT = 5, -- Cost of forcing a defaulting country to pay its debt
 	INFAMY_GUNBOAT = 0, -- Infamy cost for debt collection
@@ -561,7 +561,7 @@ diplomacy = {
 	GW_JUSTIFY_CB_BADBOY_IMPACT = 0.33, -- % deduction of infamy cost for justify CB in great war
 	GW_CB_CONSTRUCTION_SPEED = 0.25, -- faster CB construction against enemies while at great war
 	GW_WARGOAL_JINGOISM_REQUIREMENT_MOD = 0.2, -- % deduction of required jingoists in country
-	GW_WARSCORE_COST_MOD = 0.65, -- cost reduction factor on warscore needed to fulfill goal if great war
+	GW_WARSCORE_COST_MOD = 0.55, -- #0.65 cost reduction factor on warscore needed to fulfill goal if great war
 	GW_WARSCORE_COST_MOD_2 = 0.3, -- cost reduction factor on warscore needed to fulfill goal if late game great war
 	GW_WARSCORE_2_THRESHOLD = 50, -- warscore threshold where a GW turns into a world war for winner side
 	TENSION_DECAY = -0.08,
@@ -573,7 +573,7 @@ diplomacy = {
 	TENSION_ON_REVOLT = 40,
 	TENSION_WHILE_CRISIS = -1.0,
 	CRISIS_COOLDOWN_MONTHS = 60,
-	CRISIS_BASE_CHANCE = 20,
+	CRISIS_BASE_CHANCE = 10, -- #10
 	CRISIS_TEMPERATURE_INCREASE = 0.05,
 	CRISIS_OFFER_DIPLOMATIC_COST = 0,
 	CRISIS_OFFER_RELATION_ON_ACCEPT = 0,
@@ -747,7 +747,7 @@ graphics =
 	CITIES_MESH_TYPES_COUNT = 3,
 	CITIES_MESH_SIZES_COUNT = 3,
 	CITIES_SPECIAL_BUILDINGS_POOL_SIZE = 64,
-	CITIES_SIZE_MAX_POPULATION_K = 1000 			-- When province population reach 1mln, the city will get it's maximum size.
+	CITIES_SIZE_MAX_POPULATION_K = 15000 			-- When province population reach 15mln, the city will get it's maximum size.
 }
 
 }

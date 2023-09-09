@@ -933,6 +933,7 @@ PROV36;Pinawa;;;;;;;;;;;;x
 PROV60;Richmond;;;;;;;;;;;;x
 PROV211;Lynchburg;;;;;;;;;;;;x
 PROV227;Allegany;;;;;;;;;;;;x
+PROV244;Barnstable;;;;;;;;;;;;x
 PROV2186;Guatemala City;;;;;;;;;;;;x
 PROV14;Victoria;;;;;;;;;;;;x
 PROV658;H'awaii;;;;;;;;;;;;x
@@ -1033,6 +1034,9 @@ PROV3373;Fincastle;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3374;Charlottesville;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3375;Portland;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3376;Grafton;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3377;Litchfield;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3378;Kent;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3379;Plymouth;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 USA_60;Virginia;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 USA_218;West Virginia;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 USA_241;Connecticut;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,

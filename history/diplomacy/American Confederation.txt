@@ -33,14 +33,97 @@ alliance = {
 	start_date = 1777.11.15
 	end_date = 1999.1.1
 }
+# Deleware - Rhode Island
+alliance = {
+	first = DEL
+	second = RIP
+	start_date = 1777.11.15
+	end_date = 1999.1.1
+}
+# Deleware - Kentucky
+alliance = {
+	first = DEL
+	second = KEN
+	start_date = 1796.11.15
+	end_date = 1999.1.1
+}
+# Deleware - Watauga
+alliance = {
+	first = DEL
+	second = WAT
+	start_date = 1797.11.15
+	end_date = 1999.1.1
+}
 # Deleware - Quebec 
 alliance = {
 	first = DEL
 	second = QUE
 	start_date = 1777.11.15
-	end_date = 1999.1.1
+	end_date = 1801.1.1
 }
-
+# Deleware - Nova Scotia
+alliance = {
+	first = DEL
+	second = NSC
+	start_date = 1777.11.15
+	end_date = 1802.7.4
+}
+# Deleware - Nova Scotia
+alliance = {
+	first = DEL
+	second = NSC
+	start_date = 1777.11.15
+	end_date = 1802.7.4
+}
+# Deleware - New Brunswick
+alliance = {
+	first = DEL
+	second = NBW
+	start_date = 1777.11.15
+	end_date = 1802.7.4
+}
+# Deleware - New Hamsphire
+alliance = {
+	first = DEL
+	second = NHS
+	start_date = 1777.11.15
+	end_date = 1802.7.4
+}
+# Deleware - Massachusetts
+alliance = {
+	first = DEL
+	second = MAS
+	start_date = 1777.11.15
+	end_date = 1802.7.4
+}
+# Deleware - Connecticut
+alliance = {
+	first = DEL
+	second = CON
+	start_date = 1777.11.15
+	end_date = 1802.7.4
+}
+# Deleware - New York
+alliance = {
+	first = DEL
+	second = NYS
+	start_date = 1777.11.15
+	end_date = 1802.7.4
+}
+# Deleware - Pennsylvania
+alliance = {
+	first = DEL
+	second = PEN
+	start_date = 1777.11.15
+	end_date = 1802.7.4
+}
+# Deleware - Ohio
+alliance = {
+	first = DEL
+	second = OHI
+	start_date = 1796.11.15
+	end_date = 1802.7.4
+}
 
 
 # Maryland - Deleware
