@@ -1,6 +1,6 @@
 owner = HDJ
 controller = HDJ
 add_core = HDJ
-trade_goods = grain
-life_rating = 35
+trade_goods = spices
+life_rating = 20
 terrain = semidesert

@@ -6,7 +6,7 @@ add_core = VIR
 add_core = USA
 add_core = KEN
 
-trade_goods = cattle
+trade_goods = furs
 life_rating = 35
 colonial = 1
 

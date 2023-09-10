@@ -1,7 +1,7 @@
 owner = ENG
 controller = ENG
 add_core = ENG
-trade_goods = whales
+trade_goods = whale_oil
 life_rating = 35
 naval_base = 2
 party_loyalty = {

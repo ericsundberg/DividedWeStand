@@ -3,7 +3,7 @@ controller = SPA
 add_core = CHL
 add_core = PTG
 
-trade_goods = whales
+trade_goods = whale_oil
 terrain = montane_forest
 life_rating = 32
 

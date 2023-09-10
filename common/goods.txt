@@ -252,4 +252,8 @@ consumer_goods = {
         cost = 0.5
         color = { 201 135 19 }
     }
+	furs = {
+        cost = 4.5
+        color = { 201 135 19 }
+    }
 }

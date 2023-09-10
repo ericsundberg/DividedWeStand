@@ -1,6 +1,6 @@
 owner = EGY
 controller = EGY
 add_core = EGY
-trade_goods = grain
+trade_goods = grain	# British would introduce cotton plantations into Egypt in the 19th Century. Add decisions to reflect this historic precedent and let player/ai decide to change RGO.
 life_rating = 45
 1861.1.1 = { railroad = 2 }

@@ -4,7 +4,7 @@ controller = QUE
 add_core = QUE
 add_core = USA
 
-trade_goods = grain
+trade_goods = furs
 terrain = new_world_boreal
 life_rating = 31
 colonial = 2

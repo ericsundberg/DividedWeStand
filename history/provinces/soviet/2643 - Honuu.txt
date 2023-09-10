@@ -1,5 +1,5 @@
 add_core = RUS
 add_core = YAK
-trade_goods = grain
+trade_goods = furs
 terrain = boreal
 life_rating = 10

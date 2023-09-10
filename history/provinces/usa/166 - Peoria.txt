@@ -4,7 +4,7 @@ add_core = ILL
 add_core = NFR
 add_core = USA
 
-trade_goods = cattle
+trade_goods = furs
 life_rating = 35
 
 1800.12.31 = {

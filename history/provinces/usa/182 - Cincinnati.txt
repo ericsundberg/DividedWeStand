@@ -8,7 +8,7 @@ add_core = PEN
 add_core = VIR
 add_core = STG
 
-trade_goods = grain
+trade_goods = furs
 life_rating = 35
 colonial = 1
 
