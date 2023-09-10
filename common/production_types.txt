@@ -897,6 +897,12 @@ spice_plantation = {	# added in DWS
     template = RGO_template_farmers
     output_goods = spices
     value = 2.0
+	
+	bonus = {
+        trigger = { has_terrain = jungle }
+        value = 0.25
+    }
+	
     farm = yes
 }
 
@@ -1037,6 +1043,13 @@ tropical_wood_lodge = {
     template = RGO_template_labourers
     output_goods = tropical_wood
     value = 4
+    farm = yes
+}
+
+trappers_lodge = {
+    template = RGO_template_labourers
+    output_goods = furs
+    value = 3.75
     farm = yes
 }
 
