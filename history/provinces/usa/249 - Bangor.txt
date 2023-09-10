@@ -5,7 +5,7 @@ add_core = MAI
 add_core = USA
 add_core = NEN
 
-trade_goods = fish
+trade_goods = whale_oil
 life_rating = 30
 terrain = marsh
 colonial = 2

@@ -4,7 +4,7 @@ controller = MAH
 add_core = BER
 add_core = HND
 
-trade_goods = tobacco
+trade_goods = spices
 life_rating = 32
 
 1819.1.1 = {

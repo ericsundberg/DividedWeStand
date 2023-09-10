@@ -73,6 +73,9 @@ luxury_needs = {
     aeroplanes = 0.4
     radio = 1
     fuel = 0.2
+    spices = 0.5
+    whale_oil = 0.2
+    wine = 3
 }
 
 country_migration_target = {

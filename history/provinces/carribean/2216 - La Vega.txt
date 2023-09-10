@@ -4,7 +4,7 @@ controller = FRA
 add_core = FRA
 add_core = HAI
 add_core = DOM
-trade_goods = coffee
+trade_goods = spices
 life_rating = 35
 colonial = 2
 

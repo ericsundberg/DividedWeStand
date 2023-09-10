@@ -63,6 +63,8 @@ luxury_needs = {
     small_arms = 1
     clipper_convoy = 2
     steamer_convoy = 2
+    spices = 2
+    whale_oil = 1
 }
 
 

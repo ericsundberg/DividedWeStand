@@ -619,7 +619,7 @@ cigar_factory = {
         paper = 5        #9
         tobacco = 5        #14.5    total input+maint = 27.5
     }
-    output_goods = tobacco	#change this/add cigars
+    output_goods = cigar	#change this/add cigars
     value = 4.5            #43.65 - profit = 16.15
     bonus = {
         trigger = { has_building = paper_mill }
@@ -628,6 +628,23 @@ cigar_factory = {
     bonus = {
         trigger = { trade_goods_in_state = tobacco }
         value = 0.05
+    }
+}
+
+whale_oil_refinery = {
+    template = cheap_factory_template
+    input_goods = {
+        whale_oil = 2.5            #30    total input+maint = 40
+    }
+    output_goods = fuel
+    value = 1.0            #50 - profit = 10
+    bonus = {
+        trigger = {
+            OR = {
+                trade_goods_in_state = whale_oil
+                }
+            }
+        value = 0.25
     }
 }
 
@@ -731,7 +748,6 @@ fertilizer_factory = {
         value = 0.25
     }
 }
-
 
 ### RGOs Templates #####################################################################################
 
@@ -877,6 +893,13 @@ cotton_plantation = {
     farm = yes
 }
 
+spice_plantation = {	# added in DWS
+    template = RGO_template_farmers
+    output_goods = spices
+    value = 2.0
+    farm = yes
+}
+
 dye_plantation = {
     template = RGO_template_farmers
     output_goods = dye
@@ -891,6 +914,13 @@ fishing_wharf = {
     farm = yes
 }
 
+whaling_wharf = {
+    template = RGO_template_farmers
+    output_goods = whale_oil
+    value = 2.1 #2.2
+    farm = yes
+}
+
 grain_farm = {
     template = RGO_template_farmers
     output_goods = grain
@@ -898,7 +928,7 @@ grain_farm = {
     farm = yes
 }
 
-grain_farm = {
+generic_farm = {
     template = static_template_farmers
     output_goods = grain
     value = 1.0 #1.8
@@ -929,6 +959,13 @@ opium_plantation = {
 orchard = {
     template = RGO_template_farmers
     output_goods = fruit
+    value = 2.7 #2.8
+    farm = yes
+}
+
+vineyard = {	# replacement for wine factory
+    template = RGO_template_farmers
+    output_goods = wine
     value = 2.7 #2.8
     farm = yes
 }
@@ -1102,6 +1139,24 @@ artisan_telephone = {
     workforce = 10000
 }
 
+artisan_brewer = {
+    input_goods = {
+        glass = 1
+        grain = 1
+    }
+    output_goods = beer
+    value = 5
+
+    owner = {
+        poptype = artisans
+        effect = output
+    }
+
+    type = artisan
+
+    workforce = 1000
+}
+
 ############# STRATEGIC FACTORIES
 
 artisan_electric_gear = {
@@ -1158,6 +1213,23 @@ artisan_fuel = {
     type = artisan
 
     workforce = 10000
+}
+
+artisan_whale_oil_refinery = {
+    input_goods = {
+        whale_oil = 2.5
+    }
+    output_goods = fuel
+    value = 0.5
+
+    owner = {
+        poptype = artisans
+        effect = output
+    }
+
+    type = artisan
+
+    workforce = 1000
 }
 
 artisan_steamer = {

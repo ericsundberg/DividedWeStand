@@ -49,7 +49,7 @@ luxury_needs = {
     lumber = 1
     canned_food = 1.5
     fruit = 5
-    wool = 10
+    fabric = 3
     opium = 30
     telephones = 10
     automobiles = 10
@@ -61,6 +61,8 @@ luxury_needs = {
     clipper_convoy = 2
     steamer_convoy = 2
     tea = 5
+	spices = 5
+	whale_oil = 3
 }
 
 

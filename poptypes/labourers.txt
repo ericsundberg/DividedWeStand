@@ -21,9 +21,9 @@ everyday_needs = {
     liquor = 2
     regular_clothes = 1.2
     furniture = 1.1
-    coffee = 2
+    coffee = 1
     tobacco = 1
-    explosives = 0.25
+    beer = 2
 }
 
 #Total cash needed: 136.78 - Vanilla value: 125.995

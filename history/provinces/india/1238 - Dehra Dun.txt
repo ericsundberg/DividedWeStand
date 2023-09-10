@@ -5,7 +5,7 @@ add_core = MUG
 add_core = HND
 add_core = NEP
 
-trade_goods = wool
+trade_goods = spices
 life_rating = 32
 colonial = 2
 

@@ -92,6 +92,10 @@ raw_material_goods = {
         money = yes
         color = { 247 241 61 }
     }
+	whale_oil = {
+        cost = 4.0
+        color = { 201 135 17 }
+    }
 }
 
 industrial_goods = {
@@ -160,7 +164,7 @@ industrial_goods = {
 
 consumer_goods = {
     paper = {
-        cost = 3.4
+        cost = 1.4
         color = { 216 185 77 }
     }
     cattle = {
@@ -207,8 +211,7 @@ consumer_goods = {
         color = { 123 112 54 }
     }
     wine = {
-        cost = 9.7
-        available_from_start = no
+        cost = 3.7
         color = { 123 0 54 }
     }
     liquor = {
@@ -236,5 +239,17 @@ consumer_goods = {
         available_from_start = no
         overseas_penalty = yes
         color = { 129 63 6 }
+    }
+	spices = {
+        cost = 5.0
+        color = { 201 135 16 }
+    }
+	cigar = {
+        cost = 2.0
+        color = { 201 135 18 }
+    }
+	beer = {
+        cost = 0.5
+        color = { 201 135 19 }
     }
 }

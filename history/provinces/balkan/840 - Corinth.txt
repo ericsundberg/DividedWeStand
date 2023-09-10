@@ -1,7 +1,7 @@
 owner = TUR
 controller = TUR
 add_core = GRE
-trade_goods = fruit
+trade_goods = wine
 life_rating = 35
 
 1830.2.3 = {

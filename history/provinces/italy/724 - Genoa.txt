@@ -3,7 +3,7 @@ controller = GEN
 add_core = GEN
 add_core = SAR
 add_core = ITA
-trade_goods = fruit
+trade_goods = wine
 life_rating = 40
 naval_base = 1
 

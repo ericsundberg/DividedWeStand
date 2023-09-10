@@ -4,7 +4,7 @@ controller = VIR
 add_core = VIR
 add_core = USA
 
-trade_goods = fruit
+trade_goods = wine
 life_rating = 35
 terrain = montane_forest
 

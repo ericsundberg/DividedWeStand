@@ -5,7 +5,7 @@ add_core = PNJ
 add_core = MUG
 add_core = HND
 
-trade_goods = wool
+trade_goods = spices
 life_rating = 32
 
 1804.1.1 = {

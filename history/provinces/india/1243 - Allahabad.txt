@@ -5,7 +5,7 @@ add_core = BUN
 add_core = MUG
 add_core = HND
 
-trade_goods = tobacco
+trade_goods = spices
 life_rating = 32
 
 1805.1.1 = {

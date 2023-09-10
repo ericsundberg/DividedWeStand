@@ -363,8 +363,8 @@ const float WaveModTwo =  4.0;
 const float SpecValueOne = 8.0;
 const float SpecValueTwo =  2.0;
 
-const float vWaterTransparens = 0.95; //0.7 -- more transparance lets you see more of background
-const float vColorMapFactor = 1.5f; //2.5 -- how much colormap
+const float vWaterTransparens = 0.7; //more transparance lets you see more of background
+const float vColorMapFactor = 2.5f; //how much colormap
 
 float4 PixelShader_HoiWater_2_0( VS_OUTPUT_WATER IN ) : COLOR
 {

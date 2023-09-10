@@ -4,7 +4,7 @@ controller = MAH
 add_core = BHO
 add_core = HND
 
-trade_goods = dye
+trade_goods = spices
 life_rating = 32
 
 1819.1.1 = {
