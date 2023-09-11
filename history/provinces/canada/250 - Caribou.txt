@@ -11,3 +11,9 @@ add_core = NEN
 trade_goods = furs
 life_rating = 35
 colonial = 2
+
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}

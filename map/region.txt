@@ -139,7 +139,7 @@ USA_Michiginia = { 159 161 162 } #Michiginia
 
 USA_Cherronesus = { 175 176 3348 } #Cherronesus
 
-USA_Assenisipia = { 163 164 } #Assenisipia
+USA_Assenisipia = { 163 164 3381 3382 } #Assenisipia
 
 USA_Sylvania = { 158 160 177 } #Sylvania
 

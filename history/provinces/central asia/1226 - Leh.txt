@@ -1,5 +1,6 @@
-owner = LAD
-controller = LAD
+#acquired from Ladahk by Punjab in 1802
+owner = PNJ
+controller = PNJ
 
 add_core = PNJ
 add_core = LAD
@@ -8,8 +9,3 @@ add_core = HND
 
 trade_goods = wool
 life_rating = 35
-
-1802.1.1 = {
-    owner = PNJ
-    controller = PNJ
-}

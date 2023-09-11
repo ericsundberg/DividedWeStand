@@ -1,13 +1,9 @@
-owner = NET
-controller = NET
+#acquired from the Netherlands by Britain in 1799
+owner = ENG
+controller = ENG
 
 add_core = GUY
 
 trade_goods = grain
 life_rating = 35
 colonial = 2
-
-1799.1.1 = {
-	owner = ENG
-	controller = ENG
-}

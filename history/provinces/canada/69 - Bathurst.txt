@@ -9,3 +9,9 @@ add_core = MRU
 
 trade_goods = furs
 life_rating = 31
+
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}

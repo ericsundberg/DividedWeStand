@@ -11,4 +11,10 @@ life_rating = 35
 
 # United States took Eire by cession on 1784.10.22
 
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}
+
 1861.1.1 = { railroad = 3 }

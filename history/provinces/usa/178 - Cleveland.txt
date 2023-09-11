@@ -11,6 +11,11 @@ trade_goods = coal
 life_rating = 35
 colonial = 1
 
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}
 
 1861.1.1 = {
     state_building = {

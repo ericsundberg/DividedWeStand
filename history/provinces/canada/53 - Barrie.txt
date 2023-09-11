@@ -7,3 +7,9 @@ add_core = USA
 
 trade_goods = furs
 life_rating = 34
+
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}

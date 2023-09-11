@@ -1,5 +1,7 @@
+#controlled by Britain in 1799
 owner = SPA
-controller = SPA
+controller = ENG
+
 add_core = SPA
 add_core = CAT
 trade_goods = cattle

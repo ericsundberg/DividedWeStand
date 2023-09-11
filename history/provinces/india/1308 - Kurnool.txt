@@ -1,14 +1,9 @@
-owner = MYS
-controller = MYS
+#acquired from Mysore by Britain in 1800
+owner = ENG
+controller = ENG
+
 add_core = HYD
 add_core = MYS
 add_core = HND
 trade_goods = cattle
 life_rating = 32
-
-1800.1.1 = {
-	owner = ENG
-	controller = ENG
-	colonial = 2
-}
-

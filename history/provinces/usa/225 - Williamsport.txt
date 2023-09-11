@@ -9,5 +9,10 @@ trade_goods = timber
 life_rating = 35
 terrain = montane_forest
 
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}
 
 1861.1.1 = { railroad = 2 }

@@ -7,6 +7,12 @@ add_core = USA
 trade_goods = grain
 life_rating = 35
 
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}
+
 1861.1.1 = {
     state_building = {
         level = 1

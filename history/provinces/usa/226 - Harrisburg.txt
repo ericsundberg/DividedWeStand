@@ -8,4 +8,9 @@ add_core = USA
 trade_goods = tobacco
 life_rating = 35
 
-1861.1.1 = { railroad = 3 }
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}
+

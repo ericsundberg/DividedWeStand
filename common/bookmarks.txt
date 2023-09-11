@@ -1,20 +1,21 @@
 bookmark =
 {
-	name = "1791_NAME"	# change this to after the coup d'etet
+	name = "1791_NAME"	# date of the coup d'etat
 	desc = "1791_DESC"	
-	date = 1798.7.4	
+	date = 1802.7.4	
 	cameraX = 1370
 	cameraY = 1550
 }
 
 bookmark =
 {
-	name = "18B_NAME"
-	desc = "18B_DESC"
-	date = 1799.11.9	# Coup of 18 Brumaire
-	cameraX = 2950 
+	name = "Divided We Stand"	# after the coup d'etat
+	desc = "1791_DESC"	
+	date = 1802.7.30	
+	cameraX = 1370
 	cameraY = 1550
 }
+
 
 bookmark =
 {

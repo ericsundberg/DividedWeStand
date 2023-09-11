@@ -1,21 +1,13 @@
-owner = MLT
-controller = MLT
+#acquired from the Malta by France in 1799
+#acquired from France by Britain in 1801
+owner = ENG
+controller = ENG
+
 add_core = MLT
 trade_goods = fish
 life_rating = 32
 naval_base = 1
 terrain = small_island
-
-1799.1.1 = {
-	owner = FRA
-	controller = FRA
-}
-
-1801.1.1 = {
-	owner = ENG
-	controller = ENG
-	colonial = 2
-}
 
 1861.1.1 = {
     naval_base = 2 #Valetta

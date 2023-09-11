@@ -1,16 +1,12 @@
-owner = AFG
-controller = AFG
+#acquired from Afghanistan by Punjab in 1802
+owner = PNJ
+controller = PNJ
 
 add_core = PNJ
 add_core = HND
 
 trade_goods = cattle
 life_rating = 32
-
-1802.1.1 = {
-    owner = PNJ
-    controller = PNJ
-}
 
 1850.1.1 = {
     owner = ENG

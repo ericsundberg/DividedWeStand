@@ -9,3 +9,8 @@ trade_goods = timber
 life_rating = 30
 colonial = 2
 
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}
