@@ -424,10 +424,7 @@ CAN_19;New Caledonia;;;;;;;;;;;;x
 PROV20;Okanagan;;;;;;;;;;;;x
 PROV21;Kootenay;;;;;;;;;;;;x
 PROV44;Guantanamo Bay;;;;;;;;;;;;x
-CAN_46;Upper Canada;;;;;;;;;;;;x
-CAN_50;Northern Ontario;;;;;;;;;;;;x
-CAN_58;Lower Canada;;;;;;;;;;;;x
-CAN_60;Northern Quebec;;;;;;;;;;;;x
+CAN_huron;Huron;;;;;;;;;;;;x
 ENG_68;Maritimes;;;;;;;;;;;;x
 MEX_94;Nevada;;;;;;;;;;;;x
 MEX_97;Utah;;;;;;;;;;;;x
@@ -1054,7 +1051,7 @@ CAN_labrador;Labrador;;;;;;;;;;;x
 CAN_canada;Canada;;;;;;;;;;;x
 CAN_quebec;Québec;;;;;;;;;;;x
 CAN_ruperts_land;Rupert's Land;;;;;;;;;;;x
-CAN_acadia;Acadia;;;;;;;;;;;x
+CAN_southern_quebec;Southern Québec;;;;;;;;;;;x
 USA_Mississippi;Mississippi;;;;;;;;;;;x
 USA_Cherokee;Cherokee;;;;;;;;;;;x
 USA_Chactaw;Chactaw;;;;;;;;;;;x

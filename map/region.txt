@@ -16,7 +16,7 @@ ENG_30 = { 30 31 32 33 34 35 } #Saskatchewan
 
 ENG_36 = { 42 36 37 38 39 40 41 } #Manitoba
 
-CAN_50 = { 47 48 49 50 51 2594 } #Hudson
+CAN_huron = { 47 48 49 50 51 2594 } #Huron
 
 CAN_labrador = { 76 2625 } #Labrador
 
@@ -26,7 +26,7 @@ CAN_quebec = { 58 65 62 61 63 64 } #Quebec
 
 CAN_ruperts_land = { 9 59 2593 2626 2592 2627 } #Rupert's Land
 
-CAN_acadia = { 66 67 3336 }
+CAN_southern_quebec = { 66 67 3336 } #Southern Quebec
 
 ENG_aa = { 68 69 70 250 } #New Brunswick
 

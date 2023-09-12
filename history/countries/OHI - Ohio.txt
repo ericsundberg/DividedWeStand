@@ -1,4 +1,4 @@
-capital = 178
+capital = 183
 primary_culture = yankee
 religion = protestant
 government = democracy

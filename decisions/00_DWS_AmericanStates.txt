@@ -1,0 +1,167 @@
+political_decisions = {
+    form_unitedcommonwealths = {
+		picture = switch_to_liberty
+        potential = {
+			is_culture_group = american_cultures
+            OR = {
+                tag = PEN
+                tag = NYS
+                tag = NJS
+                tag = CON
+                tag = CAN
+                tag = NHS
+                tag = NBW
+                tag = NVS
+                tag = MSA
+            }
+            UCC = { exists = no }
+        }
+        allow = {
+            war = no
+        }
+        effect = {
+            change_tag = UCC
+            add_accepted_culture = yankee
+            add_accepted_culture = appalachian
+            add_accepted_culture = anglo_canadian
+            any_pop = {
+                limit = { culture = dixie }
+                militancy = 7
+                consciousness = 3
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	restore_the_things = {
+        picture = independence_day
+        potential = {
+			tag = PEN
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            PEN = {
+				owns = 223
+            }
+        }
+
+        effect = {
+            prestige = 20
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			change_tag = UCC
+			inherit = PEN
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	move_capital_to_a_place = {
+        picture = restore_washington_capital
+        potential = {
+            OR = {
+                tag = PEN
+                tag = NYS
+            }
+            owns = 224
+            OR = {
+                tag = FSA
+                AND = {
+                    tag = USA
+                    NOT = { owns = 3339 }
+                }
+            }
+            NOT = { capital = 224 }
+        }
+
+        allow = {
+            controls = 223
+            NOT = { capital = 223 }
+        }
+
+        effect = {
+            capital = 223
+        }
+    }
+
+    apply_for_UCC_statehood = {
+        picture = apply_for_usa_statehood
+        potential = {
+            exists = UCC
+            UCC = { government = democracy }
+            OR = {
+                tag = TEX
+                tag = CAL
+                tag = LSK
+		tag = DEL
+		tag = VIR
+		tag = KEN
+		tag = WAT
+		tag = SCS
+		tag = NCS
+		tag = GAS
+		tag = ALA
+            }
+            OR = {
+                is_vassal = no
+                vassal_of = UCC
+            }
+            OR = {
+                part_of_sphere = no
+                in_sphere = UCC
+            }
+            ai = yes
+            government = democracy
+            NOT = { has_country_flag = usstatehood_we_have_applied }
+        }
+        allow = {
+            war = no
+            UCC = { war = no }
+            UCC = { NOT = { average_militancy = 5 badboy = 0.7 } }
+            NOT = { truce_with = UCC }
+            UCC = { NOT = { any_owned_province = { any_core = { any_owned_province = { country_units_in_province = REB } } } } }
+            UCC = { NOT = { num_of_revolts = 1 } }
+            relation = {
+                who = UCC
+                value = 175
+            }
+        }
+        effect = {
+            set_country_flag = usstatehood_we_have_applied
+            UCC = {
+                country_event = 16400
+                war_exhaustion = -20
+            }
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                UCC = {
+                    NOT = { state_n_government = 1 }
+                }
+            }
+            modifier = {
+                factor = 0
+                NOT = { year = 1845 }
+            }
+        }
+    }
+}
