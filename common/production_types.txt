@@ -795,7 +795,7 @@ RGO_template_farmers = {
 
     employees = {
         {
-            poptype = labourers #farmers
+            poptype = farmers
             effect = throughput
             amount = 1
         }
@@ -895,28 +895,28 @@ coal_mine = {
 }
 
 coffee_plantation = {
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = coffee
     value = 1.5    #1.5
     farm = yes
 }
 
 cotton_plantation = {
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = cotton
     value = 1.8 #3
     farm = yes
 }
 
 spice_plantation = {	# added in DWS
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = spices
     value = 2.0
     farm = yes
 }
 
 dye_plantation = {
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = dye
     value = 0.22
     farm = yes
@@ -958,21 +958,21 @@ oil_rig = {
 }
 
 opium_plantation = {
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = opium
     value = 0.7
     farm = yes
 }
 
 orchard = {
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = fruit
     value = 2.7 #2.8
     farm = yes
 }
 
 vineyard = {	# replacement for wine factory
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = wine
     value = 2.7 #2.8
     farm = yes
@@ -1007,7 +1007,7 @@ sheep_ranch = {
 }
 
 silkworm_ranch = {
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = silk
     value = 0.25    #0.25
     farm = yes
@@ -1021,7 +1021,7 @@ sulphur_mine = {
 }
 
 tea_plantation = {
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = tea
     value = 1.75    #1.75
     farm = yes
