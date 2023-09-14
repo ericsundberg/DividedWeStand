@@ -59,6 +59,28 @@ cheap_factory_template = {
     workforce = 10000
 }
 
+auxillery_farming_template = {
+    efficiency = {
+        fertilizer = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
+    }
+
+    owner = {
+        poptype = farmers
+        effect = input
+        effect_multiplier = 0
+    }
+
+    employees = {
+        {
+            poptype = farmers
+            effect = throughput
+            amount = 1.0
+        }
+    }
+    type = factory
+    workforce = 1000000
+}
+
 machine_part_user_template = {
     efficiency = {
         cement = 0.5 #if no cement, work at 75% efficiency #cost = 8
@@ -749,6 +771,19 @@ fertilizer_factory = {
     }
 }
 
+farm_factory = {
+    template = auxillery_farming_template
+    input_goods = {
+        #grain = 0.01
+    }
+    output_goods = grain
+    value = 100
+    bonus = {
+        trigger = { trade_goods_in_state = grain }
+        value = 0.25
+    }
+}
+
 ### RGOs Templates #####################################################################################
 
 RGO_template_farmers = {
@@ -760,7 +795,7 @@ RGO_template_farmers = {
 
     employees = {
         {
-            poptype = farmers
+            poptype = labourers #farmers
             effect = throughput
             amount = 1
         }
@@ -781,27 +816,6 @@ RGO_template_farmers = {
 
     type = rgo
     workforce = 40000
-}
-
-# farmers in any province now farm
-static_template_farmers = {
-
-    owner = {
-        poptype = farmers
-        effect = output
-    }
-
-    employees = {
-        {
-            poptype = farmers
-            effect = throughput
-            amount = 0.5		#1 -- food produced in addition to main RGO assignment
-        }
-    }
-
-	# no required RGO
-	type = farmers
-    workforce = 20000	#40000
 }
 
 RGO_template_labourers = {
@@ -909,14 +923,14 @@ dye_plantation = {
 }
 
 fishing_wharf = {
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = fish
     value = 2.1 #2.2
     farm = yes
 }
 
 whaling_wharf = {
-    template = RGO_template_farmers
+    template = RGO_template_labourers
     output_goods = whale_oil
     value = 2.1 #2.2
     farm = yes
@@ -926,13 +940,6 @@ grain_farm = {
     template = RGO_template_farmers
     output_goods = grain
     value = 1.7 #1.8
-    farm = yes
-}
-
-generic_farm = {
-    template = static_template_farmers
-    output_goods = grain
-    value = 1.0 #1.8
     farm = yes
 }
 
@@ -1046,6 +1053,43 @@ trappers_lodge = {
     output_goods = furs
     value = 3.75
     farm = yes
+}
+
+### Farmers #####################################################################################
+
+auxillery_grain_farming = {
+    input_goods = {
+		grain = 0.1
+    }
+	output_goods = grain
+    value = 1
+
+    owner = {
+        poptype = farmers
+        effect = output
+    }
+
+    type = farmer
+	farm = yes
+
+    workforce = 10000
+}
+
+auxillery_cattle_farming = {
+    input_goods = {
+		grain = 0.7
+    }
+    output_goods = cattle
+    value = 1
+
+    owner = {
+        poptype = farmers
+        effect = output
+    }
+
+    type = farmer
+
+    workforce = 10000
 }
 
 ### Artisans #####################################################################################
@@ -1162,7 +1206,7 @@ artisan_brewer = {
 
     type = artisan
 
-    workforce = 1000
+    workforce = 10000
 }
 
 ############# STRATEGIC FACTORIES

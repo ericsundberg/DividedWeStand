@@ -7406,7 +7406,7 @@ aristocrats = {
 	officers = {
 		culture = dixie
 		religion = protestant
-		size = 225
+		size = 75
 	}
 
 	clergymen = {
@@ -7424,19 +7424,19 @@ aristocrats = {
 	artisans = {
 		culture = dixie
 		religion = protestant
-		size = 110
+		size = 410
 	}
 	
 	artisans = {
 		culture = dixie
 		religion = catholic
-		size = 30
+		size = 70
 	}
 
 	soldiers = {
 		culture = dixie
 		religion = protestant
-		size = 400
+		size = 600
 	}
 
 	farmers = {

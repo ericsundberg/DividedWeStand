@@ -3,7 +3,7 @@ color = { 189 57 36 }
 strata = poor
 unemployment = yes
 
-equivalent = farmers
+#equivalent = farmers
 
 #Total = 11.5
 life_needs = {
