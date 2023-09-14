@@ -662,6 +662,11 @@ CPW		= "countries/Chippewa.txt"
 POT		= "countries/Potawatomi.txt"
 APA		= "countries/Apache.txt"
 UTE		= "countries/Ute.txt"
+NAV		= "countries/Navajo.txt"
+MOH		= "countries/Mohave.txt"
+SHS		= "countries/Shoshoni.txt"
+WDA		= "countries/Wada.txt"
+CAY		= "countries/Cayuse.txt"
 
 #South America
 NGA		= "countries/New Granada.txt"

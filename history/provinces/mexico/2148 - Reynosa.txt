@@ -1,9 +1,8 @@
-owner = APA
-controller = APA
+owner = NAV
+controller = NAV
 
-add_core = APA
-add_core = MEX
-add_core = NSP
+add_core = NAV
+add_core = CAL
 
 trade_goods = coal
 life_rating = 35

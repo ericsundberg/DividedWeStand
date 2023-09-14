@@ -1,3 +1,7 @@
+owner = LOU
+controller = LOU
+
+add_core = LOU
 
 trade_goods = cattle
 life_rating = 35

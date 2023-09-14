@@ -1,8 +1,7 @@
-owner = CHE
-controller = CHE
+owner = MUS
+controller = MUS
 
-add_core = CHE
-add_core = SCS
+add_core = MUS
 add_core = GAS
 add_core = USA
 

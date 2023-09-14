@@ -1,7 +1,7 @@
-owner = APA
-controller = APA
+owner = NAV
+controller = NAV
 
-add_core = APA
+add_core = NAV
 add_core = CAL
 add_core = NSP
 

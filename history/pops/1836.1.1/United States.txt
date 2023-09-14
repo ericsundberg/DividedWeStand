@@ -7373,9 +7373,11 @@ aristocrats = {
 		size = 1000
 	}
 }
-#Maryland Region (452000)
+#Maryland Region (317,848)
 #ruled by the USA
-#Baltimore (212000/53000 POPS)
+#Baltimore City (23,671/5,918 POPS in 1800) (2843 enslaved persons)
+#Baltimore County (22,257/5,564 POPS in 1800) (5983 enslaved persons)
+#Combined (45,928/11,482 POPS in 1800) (8826 enslaved persons)
 219 = {
 	aristocrats = {
 		culture = dixie
@@ -7422,55 +7424,51 @@ aristocrats = {
 	artisans = {
 		culture = dixie
 		religion = protestant
-		size = 11000
+		size = 110
 	}
 	
 	artisans = {
 		culture = dixie
 		religion = catholic
-		size = 700
+		size = 30
 	}
 
 	soldiers = {
 		culture = dixie
 		religion = protestant
-		size = 4000
+		size = 400
 	}
 
 	farmers = {
 		culture = dixie
 		religion = protestant
-		size = 17750
+		size = 3000
 	}
 
-	farmers = {
-		culture = yankee
-		religion = protestant
-		size = 9500
-	}
-
+	#(4266/1067 POPS free people of color in 1800)
 	clergymen = {
 		culture = afro_american
 		religion = protestant
-		size = 225
+		size = 23
 	}
 
 	artisans = {
 		culture = afro_american
 		religion = protestant
-		size = 1300
+		size = 300
 	}
 
 	farmers = {
 		culture = afro_american
 		religion = protestant
-		size = 4875
+		size = 744
 	}
 
+	#(8826 enslaved persons in 1800)
 	slaves = {
 		culture = afro_american
 		religion = protestant
-		size = 21600
+		size = 8826
 	}
 }
 #Annapolis (184000/46000 POPS)
@@ -10426,44 +10424,47 @@ aristocrats = {
 		size = 25
 	}
 }
-#Maryland Region (432000)  
-#ruled by the USA
-#Georgetown (?/? POPS)
+#Maryland Region (317,848 in 1800)  
+#Georgetown/King James County (6072 free-white/ ~1518 POPS) (2072 enslaved persons)
 3339 = {
+	aristocrats = {
+		culture = dixie
+		religion = protestant
+		size = 50
+	}
 	bureaucrats = {
 		culture = dixie
 		religion = protestant
-		size = 100
+		size = 60
 	}
 	farmers = {
 		culture = dixie
 		religion = protestant
-		size = 600
+		size = 850
 	}
 	clergymen = {
 		culture = dixie
 		religion = protestant
-		size = 100
-	}
-	craftsmen = {
-		culture = dixie
-		religion = protestant
-		size = 200
+		size = 75
 	}
 	artisans = {
 		culture = dixie
 		religion = protestant
 		size = 300
 	}
-
+	officers = {
+		culture = dixie
+		religion = protestant
+		size = 20
+	}
 	soldiers = {
 		culture = dixie
 		religion = protestant
-		size = 250
+		size = 200
 	}
 	slaves = {
 		culture = afro_american
 		religion = protestant
-		size = 500
+		size = 2072
 	}
 }

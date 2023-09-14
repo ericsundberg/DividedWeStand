@@ -1,13 +1,12 @@
-owner = UTE
-controller = UTE
+owner = SHS
+controller = SHS
 
-add_core = UTE
+add_core = SHS
 add_core = CAL
-add_core = NSP
 
 terrain = new_world_semidesert
 trade_goods = cattle
-life_rating = 25
+life_rating = 20
 colonial = 2
 
 1821.8.24 = {

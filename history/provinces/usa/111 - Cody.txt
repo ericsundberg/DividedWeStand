@@ -1,8 +1,8 @@
-owner = NSP
-controller = NSP
+owner = SHS
+controller = SHS
 
+add_core = SHS
 add_core = CAL
-add_core = NSP
 
 trade_goods = coal
 life_rating = 35

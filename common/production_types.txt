@@ -800,6 +800,7 @@ static_template_farmers = {
     }
 
 	# no required RGO
+	type = farmers
     workforce = 20000	#40000
 }
 

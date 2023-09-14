@@ -1,7 +1,7 @@
-owner = APA
-controller = APA
+owner = MOH
+controller = MOH
 
-add_core = APA
+add_core = MOH
 add_core = CAL
 add_core = NSP
 

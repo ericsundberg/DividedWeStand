@@ -1,8 +1,8 @@
-owner = NSP
-controller = NSP
+owner = LOU
+controller = LOU
 
+add_core = LOU
 add_core = TEX
-add_core = NSP
 	
 colonial = 1
 trade_goods = grain

@@ -1,8 +1,7 @@
-owner = NSP
-controller = NSP
+owner = LOU
+controller = LOU
 
-add_core = TEX
-add_core = NSP
+add_core = LOU
 	
 trade_goods = grain
 life_rating = 35

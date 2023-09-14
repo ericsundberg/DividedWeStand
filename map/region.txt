@@ -95,7 +95,7 @@ USA_East_Florida = { 199 200 } #East Florida
 
 USA_West_Florida = { 140 192 194 195 197 198 } #West Florida
 
-USA_201 = { 201 202 204 2555 } #Georgia
+USA_201 = { 201 202 204 2555 3385 3386 3387 } #Georgia
 
 USA_205 = { 205 206 3358 3359 } #South Carolina
 
