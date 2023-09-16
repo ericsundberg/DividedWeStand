@@ -1,6 +1,9 @@
-owner = NSP
-controller = NSP
+owner = CAD
+controller = CAD
 
+add_core = CAD
+add_core = WIT
+add_core = COM
 add_core = LOU
 add_core = TEX
 

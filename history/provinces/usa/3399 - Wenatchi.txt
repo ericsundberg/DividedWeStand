@@ -1,0 +1,7 @@
+owner = CAY
+controller = CAY
+
+add_core = CAY
+
+trade_goods = timber
+life_rating = 35

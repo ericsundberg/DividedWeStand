@@ -1,12 +1,12 @@
-owner = LOU
-controller = LOU
+owner = ARP
+controller = ARP
 
+add_core = ARP
 add_core = LOU
 add_core = NFR
 
 trade_goods = cattle
-life_rating = 35
-colonial = 1
+life_rating = 30
 
 
 1861.1.1 = {

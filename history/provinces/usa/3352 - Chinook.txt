@@ -1,3 +1,7 @@
+owner = CAY
+controller = CAY
 
-trade_goods = whales
+add_core = CAY
+
+trade_goods = whale_oil
 life_rating = 35

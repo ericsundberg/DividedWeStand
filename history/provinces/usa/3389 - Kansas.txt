@@ -1,0 +1,12 @@
+owner = OSG
+controller = OSG
+
+add_core = OSG
+add_core = LOU
+add_core = NFR
+
+trade_goods = fruit
+life_rating = 35
+
+
+1861.1.1 = { colonial = 0 }

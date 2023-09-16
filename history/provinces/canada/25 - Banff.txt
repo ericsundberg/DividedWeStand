@@ -1,7 +1,9 @@
-owner = LOU
-controller = LOU
+owner = AAN
+controller = AAN
 
+add_core = AAN
 add_core = LOU
+add_core = NFR
 
 trade_goods = coal
-life_rating = 31
+life_rating = 28

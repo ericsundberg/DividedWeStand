@@ -1,6 +1,6 @@
 political_decisions = {
     form_unitedcommonwealths = {
-		picture = switch_to_liberty
+	picture = switch_to_liberty
         potential = {
 			is_culture_group = american_cultures
             OR = {
@@ -35,7 +35,7 @@ political_decisions = {
         }
     }
 	
-	restore_the_things = {
+	form_the_ucc_pen = {
         picture = independence_day
         potential = {
 			tag = PEN
@@ -45,13 +45,16 @@ political_decisions = {
 
         allow = {
             war = no
-            PEN = {
-				owns = 223
+            NYS = {
+				owns = 232
             }
         }
 
         effect = {
             prestige = 20
+			
+			change_tag = UCC
+			
 			inherit = NYS
 			inherit = NJS
 			inherit = CNS
@@ -62,8 +65,418 @@ political_decisions = {
 			inherit = CAN
 			inherit = OHI
 			inherit = STG
-			change_tag = UCC
 			inherit = PEN
+			
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+
+	form_the_ucc_nys = {
+        picture = independence_day
+        potential = {
+			tag = NYS
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            NYS = {
+				owns = 232
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = UCC
+			
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			inherit = PEN
+			
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+
+	form_the_ucc_njs = {
+        picture = independence_day
+        potential = {
+			tag = NJS
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            NYS = {
+				owns = 232
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = UCC
+			
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			inherit = PEN
+			
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	form_the_ucc_cns = {
+        picture = independence_day
+        potential = {
+			tag = CNS
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            NYS = {
+				owns = 232
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = UCC
+			
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			inherit = PEN
+			
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	form_the_ucc_msa = {
+        picture = independence_day
+        potential = {
+			tag = MSA
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            NYS = {
+				owns = 232
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = UCC
+			
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			inherit = PEN
+			
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+		
+	form_the_ucc_nhs = {
+        picture = independence_day
+        potential = {
+			tag = NHS
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            NYS = {
+				owns = 232
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = UCC
+			
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			inherit = PEN
+			
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+			
+	form_the_ucc_nbw = {
+        picture = independence_day
+        potential = {
+			tag = NBW
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            NYS = {
+				owns = 232
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = UCC
+			
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			inherit = PEN
+			
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+			
+	form_the_ucc_nsc = {
+        picture = independence_day
+        potential = {
+			tag = NHS
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            NSC = {
+				owns = 232
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = UCC
+			
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			inherit = PEN
+			
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+			
+	form_the_ucc_can = {
+        picture = independence_day
+        potential = {
+			tag = CAN
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            NYS = {
+				owns = 232
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = UCC
+			
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			inherit = PEN
+			
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+			
+	form_the_ucc_ohi = {
+        picture = independence_day
+        potential = {
+			tag = OHI
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            NYS = {
+				owns = 232
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = UCC
+			
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			inherit = PEN
+			
+			all_core = {
+                add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+			
+	form_the_ucc_stg = {
+        picture = independence_day
+        potential = {
+			tag = STG
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+        }
+
+        allow = {
+            war = no
+            NYS = {
+				owns = 232
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = UCC
+			
+			inherit = NYS
+			inherit = NJS
+			inherit = CNS
+			inherit = MSA
+			inherit = NHS
+			inherit = NBW
+			inherit = NSC
+			inherit = CAN
+			inherit = OHI
+			inherit = STG
+			inherit = PEN
+			
 			all_core = {
                 add_core = UCC
             }

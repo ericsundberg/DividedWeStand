@@ -1,0 +1,24 @@
+owner = APA
+controller = APA
+
+add_core = UTE
+add_core = UNM
+add_core = TEX
+add_core = NSP
+
+trade_goods = cattle
+life_rating = 33
+
+1821.8.24 = {
+	owner = MEX
+	controller = MEX
+}
+
+1861.1.1 = {
+    controller = CSA
+    owner = CSA
+    add_core = USA
+    add_core = CSA
+    remove_core = MEX
+    colonial = 0
+}

@@ -76,9 +76,9 @@ province;red;green;blue;x;x
 75;16;160;0;Millertown;x
 76;0;96;192;Hopedale;x
 77;74;146;55;St Pierre & Miquelon;x
-78;0;160;0;Seattle;x
-79;32;192;192;Spokane;x
-80;160;64;192;Walla Walla;x
+78;0;160;0;Nisqually;x
+79;32;192;192;Cowlitz;x
+80;160;64;192;Spokane;x
 81;128;160;0;Portland;x
 82;160;192;192;Baker City;x
 83;224;224;224;Klamath Falls;x
@@ -3349,7 +3349,7 @@ province;red;green;blue;x;x
 3348;200;75;50;Chippeway;x
 3349;64;96;64;Northumberland;x
 3350;64;97;64;Lancaster;x
-3351;64;98;64;Cayuse;x
+3351;64;98;64;Yakima;x
 3352;64;255;64;Chinook;x
 3353;64;254;64;Qayqayt;x
 3354;64;128;64;Snohomish;x
@@ -3386,3 +3386,29 @@ province;red;green;blue;x;x
 3385;128;12;128;Muscogee;x
 3386;128;59;128;Creek;x
 3387;128;58;128;Glynn;x
+3388;128;57;128;Red River;x
+3389;128;56;128;Kansas;x
+3390;128;55;128;Tallulah;x
+3391;128;245;128;Quapaw;x
+3392;128;244;128;Jicarilla;x
+3393;128;243;128;Arkansas River;x
+3394;128;54;128;Tewa;x
+3395;128;13;128;Motwatci;x
+3396;128;53;128;Navaho;x
+3397;128;14;128;Klikitat;x
+3398;128;52;128;Cayuse;x
+3399;128;242;128;Wenatchi;x
+3400;128;51;128;Twana;x
+3401;64;64;128;Puyallup;x
+3402;128;15;128;Skagit;x
+3403;128;241;128;Kallam;x
+3404;128;237;128;Walla Walla;x
+3405;128;239;128;Tenino;x
+3406;128;238;128;Tillamook;x
+3407;64;64;127;Okanagan;x
+3408;64;64;126;Bighorn;x
+3409;64;64;10;Little Missouri River;x
+3410;64;64;255;Assiniboin;x
+3411;64;64;11;Musselshell River;x
+3412;64;64;254;Cheyenne;x
+3413;64;64;64;Black Hills;x

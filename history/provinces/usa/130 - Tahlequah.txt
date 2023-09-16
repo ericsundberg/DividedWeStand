@@ -1,12 +1,12 @@
-owner = LOU
-controller = LOU
+owner = OSG
+controller = OSG
 
+add_core = OSG
 add_core = LOU
 add_core = NFR
 	
-colonial = 1
 trade_goods = coal
-life_rating = 35
+life_rating = 30
 
 
 1861.1.1 = {

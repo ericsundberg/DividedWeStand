@@ -1,0 +1,7 @@
+owner = CAY
+controller = CAY
+
+add_core = CAY
+
+trade_goods = furs
+life_rating = 32

@@ -4,7 +4,7 @@ controller = SHS
 add_core = SHS
 add_core = CAL
 
-trade_goods = wool
+trade_goods = cattle
 life_rating = 31
 
 1861.1.1 = {

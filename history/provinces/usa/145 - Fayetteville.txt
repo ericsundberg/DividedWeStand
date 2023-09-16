@@ -1,6 +1,7 @@
-owner = LOU
-controller = LOU
+owner = OSG
+controller = OSG
 
+add_core = OSG
 add_core = LOU
 add_core = NFR
 

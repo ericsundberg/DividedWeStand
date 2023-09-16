@@ -1,0 +1,12 @@
+owner = CHN
+controller = CHN
+
+add_core = CHN
+add_core = LOU
+add_core = NFR
+
+trade_goods = furs
+life_rating = 28
+
+
+1861.1.1 = { colonial = 0 }

@@ -1,6 +1,7 @@
-owner = LOU
-controller = LOU
+owner = WIT
+controller = WIT
 
+add_Core = WIT
 add_core = LOU
 add_core = NFR
 	

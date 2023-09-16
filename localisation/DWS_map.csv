@@ -403,7 +403,7 @@ PROV3246;Saint Barths;;;;;;;;;;;;;;;;;;;;x;
 PROV82;Grande Ronde;;;;;;;;;;;;;;;;;;;;x;
 PROV81;Oregon City;;;;;;;;;;;;;;;;;;;;x;
 PROV83;Fort Umpqua;;;;;;;;;;;;;;;;;;;;x;
-PROV78;Fort Nisqually;;;;;;;;;;;;;;;;;;;;x;
+PROV78;Nisqually;;;;;;;;;;;;;;;;;;;;x;
 PROV2101;Thaba Nchu;;;;;;;;;;;;;;;;;;;;x;
 PROV2102;Qwa-Qwa;;;;;;;;;;;;;;;;;;;;x;
 PROV2103;Lephoi;;;;;;;;;;;;;;;;;;;;x;
@@ -883,7 +883,7 @@ PROV2837;Sea of Okhotsk;;;;;;;;;;;;x
 PROV2838;Coast of Sakhalin;;;;;;;;;;;;x
 PROV2843;Seto Inland Sea;;;;;;;;;;;;x
 PROV3126;Coast of Minami;;;;;;;;;;;;x
-PROV79;Fort Vancouver;;;;;;;;;;;;x
+PROV79;Cowlitz;;;;;;;;;;;;x
 PROV19;Fort St. James;;;;;;;;;;;;x
 PROV18;New Caledonia;;;;;;;;;;;;x
 PROV129;Guymon;;;;;;;;;;;;x
@@ -1005,7 +1005,7 @@ PROV3348;Chippeway;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3349;Northumberland;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV65;Québec;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV66;Saint-François;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV3351;Cayuse;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3351;Yakima;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3352;Chinook;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3353;Qayqayt;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3354;Snohomish;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
@@ -1042,6 +1042,32 @@ PROV3384;Upper Mississippi River;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3385;Muscogee;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3386;Creek;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3387;Glynn;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3388;Red River;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3389;Kansas;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3390;Tallulah;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3391;Quapaw;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3392;Jicarilla;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3393;Arkansas River;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3394;Tewa;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3395;Mowatci;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3396;Navaho;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3397;Klikitat;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3398;Cayuse;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3399;Wenatchi;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3400;Twana;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3401;Puyallup;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3402;Skagit;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3403;Kallam;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3404;Walla Walla;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3405;Tenino;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3406;Tillamook;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3407;Okanagan;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3408;Bighorn;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3409;Little Missouri River;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3410;Assiniboin;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3411;Musselshell River;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3412;Cheyenne;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3413;Black Hills;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 USA_60;Virginia;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 USA_218;West Virginia;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 USA_241;Connecticut;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -1076,6 +1102,7 @@ USA_West_Florida;West Florida;;;;;;;;;;;x
 USA_East_Florida;East Florida;;;;;;;;;;;x
 USA_Alabama;Alabama;;;;;;;;;;;x
 USA_196;Mississippi;;;;;;;;;;;x
+USA_Witchita;Witchita;;;;;;;;;;;x
 HAW_Midway;Midway Islands;;;;;;;;;;;x
 MEX_Baja_California;Baja California;;;;;;;;;;;x
 MEX_Alta_California;Alto California;;;;;;;;;;;;x

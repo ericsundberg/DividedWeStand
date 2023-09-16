@@ -1,6 +1,9 @@
-add_core = COL
+owner = FLT
+controller = FLT
 
-trade_goods = timber
+add_core = FLT
+
+trade_goods = furs
 life_rating = 35
 
 1861.1.1 = {

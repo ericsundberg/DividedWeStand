@@ -1,9 +1,11 @@
-add_core = COL
+owner = CAY
+controller = CAY
 
-trade_goods = furs
-life_rating = 35
+add_core = CAY
 
-colonial = 2
+trade_goods = cattle
+life_rating = 30
+
 1861.1.1 = {
 owner = USA
 controller = USA

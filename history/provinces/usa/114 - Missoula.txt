@@ -1,9 +1,10 @@
+owner = BLK
+controller = BLK
 
+add_core = BLK
 
 trade_goods = cattle
 life_rating = 35
-
-colonial = 1
 
 1861.1.1 = {
     colonial = 0

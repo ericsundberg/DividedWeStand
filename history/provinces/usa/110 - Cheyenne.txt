@@ -1,13 +1,13 @@
-owner = LOU
-controller = LOU
+owner = SHS
+controller = SHS
 
+add_core = SHS
 add_core = LOU
 add_core = NFR
 
-colonial = 1
-trade_goods = grain
+trade_goods = furs
 terrain = mountain
-life_rating = 35
+life_rating = 30
 
 
 1861.1.1 = {

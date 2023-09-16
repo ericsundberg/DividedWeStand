@@ -41,9 +41,9 @@ USA_60 = { 60 211 212 213 214 215 216 3330 3338 218 217 3332 3369 3370 3371 3372
 
 #USA_78 = { 78 79 80 } #Washington
 
-USA_81 = { 78 79 80 81 82 83 91 92 93 3351 3352 3354 } #Oregon
+USA_81 = { 78 79 80 81 82 83 91 92 93 3351 3352 3354 3397 3398 3399 3400 3401 3402 3403 3404 3405 3406 3407 } #Oregon
 
-MEX_Alta_California = { 89 84 85 86 87 88 90 94 95 96 97 98 99 100 101 104 111 } #Alta California
+MEX_Alta_California = { 89 84 85 86 87 88 90 94 95 96 97 98 99 100 101 104 3396 } #Alta California
 
 MEX_Baja_California = { 2138 2139 } #Baja California
 
@@ -55,15 +55,15 @@ MEX_Baja_California = { 2138 2139 } #Baja California
 
 #MEX_100 = { 100 101 } #Arizona
 
-MEX_103 = { 103 105 108 109 128 129 135 136 2148 2662 } #New Mexico
+MEX_103 = { 103 105 108 109 129 135 136 2148 2662 3392 3393 3394 3395 } #New Mexico
 
 #USA_106 = { 106 } #Colorado
 
-USA_111 = { 110 112 } #Wyoming
+USA_111 = { 110 111 112 3408 3412 } #Wyoming
 
-USA_116 = { 113 116 115 114 } #Montana
+USA_116 = { 113 116 115 114 3409 3410 3411 } #Montana
 
-LOU_Dakota = { 117 118 119 120 121 } # Dakota
+LOU_Dakota = { 117 118 119 120 121 3413 } # Dakota
 
 #USA_118 = { 117 118 119 } #North Dakota
 
@@ -71,19 +71,19 @@ LOU_Dakota = { 117 118 119 120 121 } # Dakota
 
 USA_124 = { 122 123 124 } #Nebraska
 
-USA_126 = { 106 107 125 126 127 } #Kansas
+USA_126 = { 106 107 125 126 127 128 3389 } #Kansas
 
-USA_129 = { 131 130 } #Oklahoma
+USA_Witchita = { 131 130 3388 } #Oklahoma
 
 TEX_132 = { 133 43 132 134 137 141 } #Texas
 
-USA_139 = { 139 142 } #Louisiana
+USA_139 = { 139 142 3390 } #Louisiana
 
-USA_144 = { 143 144 145 } #Arkansas
+USA_144 = { 143 144 145 3391 } #Arkansas
 
-USA_148 = { 146 148 147 149 } #Missouri
+USA_148 = { 150 146 148 147 149 } #Missouri
 
-USA_151 = { 150 151 152 153 154 } #Iowa
+USA_151 = { 151 152 153 154 } #Iowa
 
 USA_158 = { 155 156 157 } #Minnesota
 

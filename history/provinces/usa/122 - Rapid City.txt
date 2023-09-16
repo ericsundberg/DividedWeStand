@@ -1,12 +1,12 @@
-owner = LOU
-controller = LOU
+owner = PAW
+controller = PAW
 
+add_core = PAW
 add_core = LOU
 add_core = NFR
 
-trade_goods = grain
-life_rating = 35
-colonial = 1
+trade_goods = cattle
+life_rating = 32
 
 
 1861.1.1 = { colonial = 0 }

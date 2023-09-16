@@ -1,7 +1,10 @@
-add_core = COL
+owner = CAY
+controller = CAY
+
+add_core = CAY
 
 trade_goods = fish
-life_rating = 20
+life_rating = 35
 
 
 1861.1.1 = {
