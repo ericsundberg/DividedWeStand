@@ -683,6 +683,7 @@ CRW		= "countries/Crow.txt"
 CHN		= "countries/Cheyenne.txt"
 AAN		= "countries/Aaninin.txt"
 ASS		= "countries/Assiniboin.txt"
+TSK		= "countries/Tuskegee.txt"
 
 #South America
 NGA		= "countries/New Granada.txt"

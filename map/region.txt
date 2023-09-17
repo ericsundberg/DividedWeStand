@@ -87,7 +87,7 @@ USA_151 = { 151 152 153 154 } #Iowa
 
 USA_158 = { 155 156 157 } #Minnesota
 
-USA_Alabama = { 193 196 } #Alabama
+USA_Alabama = { 193 196 3414 } #Alabama
 
 #USA_Mississippi = { 192 193 } #Mississippi 
 

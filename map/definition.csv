@@ -3384,7 +3384,7 @@ province;red;green;blue;x;x
 3383;87;250;250;Lower Mississippi River;x
 3384;67;250;250;Upper Mississippi River;x
 3385;128;12;128;Muscogee;x
-3386;128;59;128;Creek;x
+3386;128;59;128;Cherokee;x
 3387;128;58;128;Glynn;x
 3388;128;57;128;Red River;x
 3389;128;56;128;Kansas;x
@@ -3412,3 +3412,4 @@ province;red;green;blue;x;x
 3411;64;64;11;Musselshell River;x
 3412;64;64;254;Cheyenne;x
 3413;64;64;64;Black Hills;x
+3414;64;64;63;Etowah River;x

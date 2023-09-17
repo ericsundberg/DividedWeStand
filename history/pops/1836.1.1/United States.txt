@@ -3,22 +3,15 @@
 #Sitka/New Arkhangelsk (8000/2000 POPS)
 1 = {
 
-	aristocrats = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
-		size = 50
+		size = 2450
 	}
-	
-	aristocrats = {
+	huntergatherers = {
 		culture = inuit
 		religion = animist
-		size = 50
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 2950
+		size = 500
 	}
 }
 #Juneau / Saint Dionysius (4000/1000 POPS)
@@ -118,43 +111,13 @@
 #claims by Britain and USA in 1836, de facto Native American rule
 #Seattle (12000/3000 POPS)
 78 = {
-	clergymen = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 3
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 3
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 3
-	}
-	
-	farmers = {
+	huntergatherers = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 10
 	}
 
-	aristocrats = {
-		culture = salishan
-		religion = animist
-		size = 30
-	}
-	
-	clergymen = {
-		culture = salishan
-		religion = animist
-		size = 30
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = salishan
 		religion = animist
 		size = 3000
@@ -162,62 +125,18 @@
 }
 #Spokane (4000/1000 POPS)
 79 = {
-
-	clergymen = {
+	huntergatherers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 3
-	}
-
-	artisans = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 3
-	}
-
-	soldiers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 3
-	}
-	
-	farmers = {
-		culture = anglo_canadian
-		religion = protestant
-		size = 10
-	}
-	
-	aristocrats = {
-		culture = chinookan
-		religion = animist
 		size = 20
 	}
-	
-	clergymen = {
-		culture = chinookan
-		religion = animist
-		size = 20
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = chinookan
 		religion = animist
 		size = 1000
 	}
-	
-	aristocrats = {
-		culture = salishan
-		religion = animist
-		size = 40
-	}
-	
-	clergymen = {
-		culture = salishan
-		religion = animist
-		size = 40
-	}
 
-	farmers = {
+	huntergatherers = {
 		culture = salishan
 		religion = animist
 		size = 3500
@@ -225,19 +144,7 @@
 }
 #Walla Walla (4000/1000 POPS)
 80 = {
-	aristocrats = {
-		culture = salishan
-		religion = animist
-		size = 25
-	}
-	
-	clergymen = {
-		culture = salishan
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = salishan
 		religion = animist
 		size = 2750
@@ -250,34 +157,22 @@
 	aristocrats = {
 		culture = chinookan
 		religion = animist
-		size = 30
-	}
-	
-	clergymen = {
-		culture = chinookan
-		religion = animist
-		size = 30
+		size = 20
 	}
 
-	farmers = {
+	huntergatherers = {
 		culture = chinookan
 		religion = animist
 		size = 2250
 	}
-	
+
 	aristocrats = {
 		culture = salishan
 		religion = animist
 		size = 5
 	}
-	
-	clergymen = {
-		culture = salishan
-		religion = animist
-		size = 5
-	}
 
-	farmers = {
+	huntergatherers = {
 		culture = salishan
 		religion = animist
 		size = 500
@@ -285,54 +180,18 @@
 }
 #Baker City (4000/1000 POPS)
 82 = {
-	aristocrats = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 45
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 900
+		size = 3900
 	}
 }
 #Klamath Falls (4000/1000 POPS)
 83 = {
-	aristocrats = {
-		culture = native_american_minor
+	huntergatherers = {
+		culture = salishan
 		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 35
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 900
+		size = 5900
 	}
 }
 #California Region (64000)
@@ -401,25 +260,8 @@
 }
 #Eureka (4000/1000 POPS)
 85 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
 
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 900
@@ -427,25 +269,7 @@
 }
 #Sacramento (12000/3000 POPS)
 86 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 2700
@@ -489,31 +313,7 @@
 		size = 150
 	}
 
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 900
@@ -533,13 +333,7 @@
 		size = 50
 	}
 
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 1800
@@ -570,25 +364,7 @@
 		size = 900
 	}
 
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 1800
@@ -620,25 +396,7 @@
 		size = 900
 	}
 
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 1800
@@ -648,19 +406,7 @@
 #claims by Britain and USA in 1836, de facto Native American rule
 #Boise (8000/2000 POPS)
 91 = {
-	aristocrats = {
-		culture = salishan
-		religion = animist
-		size = 20
-	}
-	
-	clergymen = {
-		culture = salishan
-		religion = animist
-		size = 20
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = salishan
 		religion = animist
 		size = 1500
@@ -668,19 +414,7 @@
 }
 #Coeur d'Alene (4000/1000 POPS)
 92 = {
-	aristocrats = {
-		culture = salishan
-		religion = animist
-		size = 30
-	}
-	
-	clergymen = {
-		culture = salishan
-		religion = animist
-		size = 30
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = salishan
 		religion = animist
 		size = 2500
@@ -688,19 +422,7 @@
 }
 #Pocatello (12000/3000 POPS)
 93 = {
-	aristocrats = {
-		culture = salishan
-		religion = animist
-		size = 50
-	}
-	
-	clergymen = {
-		culture = salishan
-		religion = animist
-		size = 50
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = salishan
 		religion = animist
 		size = 2750
@@ -710,25 +432,7 @@
 #"ruled" by Mexico 1836/de facto under Native Control
 #Carson City (4000/1000 POPS)
 94 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 900
@@ -736,25 +440,7 @@
 }
 #Elko (4000/1000 POPS)
 95 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 900
@@ -762,25 +448,7 @@
 }
 #Las Vegas (4000/1000 POPS)
 96 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 900
@@ -790,31 +458,7 @@
 #"ruled" by Mexico 1836/de facto under Native Control
 #Salt Lake City (8000/2000 POPS)
 97 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 100
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 1800
@@ -822,25 +466,7 @@
 }
 #Loa (4000/1000 POPS)
 98 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 900
@@ -848,25 +474,7 @@
 }
 #Moab (4000/1000 POPS)
 99 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 900
@@ -876,37 +484,13 @@
 #"ruled" by Mexico 1836/de facto under Native Control
 #Phoenix (12000/3000 POPS)
 100 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 75
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 150
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 2000
 	}
 
-	farmers = {
+	huntergatherers = {
 		culture = pueblo
 		religion = animist
 		size = 700
@@ -914,61 +498,13 @@
 }
 #Flagstaff (12000/3000 POPS)
 101 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 100
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 1500
 	}
 
-	aristocrats = {
-		culture = pueblo
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = pueblo
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = pueblo
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = pueblo
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = pueblo
 		religion = animist
 		size = 1200
@@ -977,25 +513,7 @@
 #ruled by Mexico 1836
 #Tucson (13000/3250 POPS)
 102 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 75
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 2700
@@ -1035,31 +553,7 @@
 #ruled by Mexico 1836
 #Santa Fe (32000/8000 POPS)
 103 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 900
@@ -1068,25 +562,7 @@
 
 #Albuquerque (20000/5000 POPS)
 104 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 200
@@ -1124,13 +600,13 @@
 		size = 850
 	}
 	
-	farmers = {
+	huntergatherers = {
 		culture = pueblo
 		religion = animist
 		size = 450
 	}
 	
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 750
@@ -1177,19 +653,7 @@
 		size = 50
 	}
 
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 100
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 100
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 1950
@@ -1215,7 +679,7 @@
 		size = 15
 	}
 
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 200
@@ -1223,25 +687,7 @@
 }
 #Alamosa (4000/1000 POPS)
 108 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 900
@@ -1249,31 +695,7 @@
 }
 #Pueblo (4000/1000 POPS)
 109 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 900
@@ -1283,31 +705,7 @@
 #"ruled" by the USA/de facto under Native Control
 #Cheyenne (8000/2000 POPS)
 110 = {
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = native_american_minor
-		religion = animist
-		size = 100
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 1800
@@ -1315,44 +713,7 @@
 }
 #Cody (12000/3000 POPS)
 111 = {
-	
-	clergymen = {
-		culture = yankee
-		religion = protestant
-		size = 5
-	}
-	
-	artisans = {
-		culture = yankee
-		religion = protestant
-		size = 5
-	}
-
-	soldiers = {
-		culture = yankee
-		religion = protestant
-		size = 50
-	}
-
-	farmers = {
-		culture = yankee
-		religion = protestant
-		size = 50
-	}
-	
-	aristocrats = {
-		culture = dakota
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = dakota
-		religion = animist
-		size = 100
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = dakota
 		religion = animist
 		size = 2900
@@ -1360,55 +721,7 @@
 }
 #Casper (8000/2000 POPS)
 112 = {
-	aristocrats = {
-		culture = yankee
-		religion = protestant
-		size = 5
-	}
-	
-	officers = {
-		culture = yankee
-		religion = protestant
-		size = 5
-	}
-	
-	clergymen = {
-		culture = yankee
-		religion = protestant
-		size = 5
-	}
-
-	artisans = {
-		culture = yankee
-		religion = protestant
-		size = 25
-	}
-
-	soldiers = {
-		culture = yankee
-		religion = protestant
-		size = 50
-	}
-
-	farmers = {
-		culture = yankee
-		religion = protestant
-		size = 50
-	}
-
-	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 100
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 100
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 1950
@@ -1418,19 +731,7 @@
 #"ruled" by the USA/de facto under Native Control
 #Bozeman (8000/2000 POPS)
 113 = {
-	aristocrats = {
-		culture = salishan
-		religion = animist
-		size = 150
-	}
-
-	soldiers = {
-		culture = salishan
-		religion = animist
-		size = 100
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = salishan
 		religion = animist
 		size = 1800
@@ -1438,91 +739,41 @@
 }
 #Missoula (4000/1000 POPS)
 114 = {
-	soldiers = {
+	huntergatherers = {
 		culture = salishan
 		religion = animist
-		size = 100
-	}
-
-	farmers = {
-		culture = salishan
-		religion = animist
-		size = 900
+		size = 1200
 	}
 }
 #Great Falls (8000/2000 POPS)
 115 = {
-	
-	soldiers = {
-		culture = salishan
-		religion = animist
-		size = 100
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = salishan
 		religion = animist
 		size = 300
 	}
 
-	soldiers = {
+	huntergatherers = {
 		culture = dakota
 		religion = animist
-		size = 100
-	}
-
-	farmers = {
-		culture = dakota
-		religion = animist
-		size = 900
+		size = 1000
 	}
 }
 #Billings (12000/3000 POPS)
 116 = {
-	
-	clergymen = {
-		culture = yankee
-		religion = protestant
-		size = 5
-	}
-
-	artisans = {
-		culture = yankee
-		religion = protestant
-		size = 10
-	}
-
-	soldiers = {
-		culture = yankee
-		religion = protestant
-		size = 50
-	}
-
 	farmers = {
 		culture = yankee
 		religion = protestant
 		size = 50
 	}
 
-	soldiers = {
-		culture = dakota
-		religion = animist
-		size = 100
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = dakota
 		religion = animist
 		size = 900
 	}
 
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 200
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 1800
@@ -1568,25 +819,13 @@
 		size = 30
 	}
 
-	aristocrats = {
+	huntergatherers = {
 		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
-	
-	aristocrats = {
-		culture = dakota
-		religion = animist
-		size = 100
-	}
 
-	soldiers = {
-		culture = dakota
-		religion = animist
-		size = 300
-	}
-
-	farmers = {
+	huntergatherers = {
 		culture = dakota
 		religion = animist
 		size = 1800

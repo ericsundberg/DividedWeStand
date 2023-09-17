@@ -812,6 +812,13 @@ RGO_template_farmers = {
             amount = 1
             effect_multiplier = 1.4
         }
+		
+		{
+            poptype = huntergatherers
+            effect = throughput
+            amount = 1
+            effect_multiplier = 1
+        }
     }
 
     type = rgo
@@ -842,6 +849,13 @@ RGO_template_labourers = {
             effect = throughput
             amount = 1
             effect_multiplier = 1.4
+        }
+		
+		{
+            poptype = huntergatherers
+            effect = throughput
+            amount = 1
+            effect_multiplier = 1
         }
     }
 
@@ -1272,6 +1286,23 @@ artisan_whale_oil_refinery = {
         whale_oil = 2.5
     }
     output_goods = fuel
+    value = 0.5
+
+    owner = {
+        poptype = artisans
+        effect = output
+    }
+
+    type = artisan
+
+    workforce = 1000
+}
+
+artisan_whale_butchery = {
+    input_goods = {
+        whale_oil = 1
+    }
+    output_goods = grain 	#change this to foodstuffs
     value = 0.5
 
     owner = {

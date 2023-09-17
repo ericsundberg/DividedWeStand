@@ -1,5 +1,5 @@
 capital = 143
-primary_culture = cherokee
+primary_culture = muscogee
 religion = animist
 government = limited_monarchy
 plurality = 2.0
