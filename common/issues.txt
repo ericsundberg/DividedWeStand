@@ -113,20 +113,18 @@ party_issues = {
         }
     }
 
-    religious_policy = {
-        pro_atheism = {
-            #no effect
-        }
-        secularized = {
-            #no effect
-        }
-        pluralism = {
-            #no effect
-        }
-        moralism = {
-            #no effect
-        }
-    }
+	slavery_policy = {
+		pro_slavery = {
+			# No immediate effect
+		}
+		neutral_on_slavery = {
+			# No immediate effect
+		}
+		anti_slavery = {
+			# No immediate effect
+		}
+	}
+	
     citizenship_policy = {
         residency = {
         }
@@ -193,6 +191,21 @@ party_issues = {
         }
         welfare_state = {
             min_social_spending = 0.33
+        }
+    }
+
+	religious_policy = {
+        pro_atheism = {
+            #no effect
+        }
+        secularized = {
+            #no effect
+        }
+        pluralism = {
+            #no effect
+        }
+        moralism = {
+            #no effect
         }
     }
 }
@@ -978,7 +991,7 @@ social_reforms = {
 
     child_labor = {
         administrative = yes
-        next_step_only = yes
+        #next_step_only = yes
         child_labor_legal = {
             #global_population_growth = -0.001
             education_efficiency_modifier = -0.1

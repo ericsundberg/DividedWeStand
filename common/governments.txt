@@ -7,7 +7,7 @@ proletarian_dictatorship = {
 	#which ideology of parties.
 	communist = yes
 	
-	election = yes
+	election = no
 	appoint_ruling_party = yes
 	flagType = communist
 }
@@ -37,6 +37,15 @@ fascist_dictatorship = {
 	election = no
 	appoint_ruling_party = yes
 	flagType = fascist
+}
+
+federation_of_workers_council = {
+	#which ideology of parties.
+	syndicalist = yes
+	
+	election = yes
+	appoint_ruling_party = no
+	flagType = communist
 }
  
 absolute_monarchy = {
@@ -98,6 +107,9 @@ democracy = {
 	communist = yes
 	anarcho_liberal = yes
 	fascist = yes
+	conservative_moderate = yes
+	liberal_moderate = yes
+	nationalist = yes
 	
 	
 	election = yes
@@ -110,9 +122,11 @@ theocracy = {
 	#which ideology of parties.
 	reactionary = yes
 	conservative = yes
+	liberal = yes
 	
 	election = no
 	appoint_ruling_party = yes
+	flagType = monarchy
 }
  
 

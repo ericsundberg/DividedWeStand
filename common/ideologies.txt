@@ -1,54 +1,166 @@
 # If you add types, and use those tags, do not change them without changing everywhere they are used.
 
 
-fascist_group = {
-
-	fascist = {
-		uncivilized = no
-		color = { 60 60 60 }
-		date = 1900.1.1
+conservative_group = {
 	
+		conservative_moderate = {
+		color = { 150 150 255 }
+		
+		can_reduce_militancy = yes
 		
 		add_political_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = fascist }
+			base = 0
+			group = {
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 1
+						political_movement_strength = 0.1
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 2
+						political_movement_strength = 0.2
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 3
+						political_movement_strength = 0.3
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 4
+						political_movement_strength = 0.4
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 5
+						political_movement_strength = 0.5
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 6
+						political_movement_strength = 0.6
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 7
+						political_movement_strength = 0.7
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 8
+						political_movement_strength = 0.8
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 9
+						political_movement_strength = 0.9
+					}
+				}
 			}
 		}
-	
-	
 		remove_political_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = fascist }
-			}
+			base = 0
 		}
-	
-	
 		add_social_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = fascist }
+			base = 0
+			
+			group = {
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 1
+						social_movement_strength = 0.1
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 2
+						social_movement_strength = 0.2
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 3
+						social_movement_strength = 0.3
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 4
+						social_movement_strength = 0.4
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 5
+						social_movement_strength = 0.5
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 6
+						social_movement_strength = 0.6
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 7
+						social_movement_strength = 0.7
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 8
+						social_movement_strength = 0.8
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 9
+						social_movement_strength = 0.9
+					}
+				}
 			}
+			
 		}
-	
-	
 		remove_social_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = fascist }
-			}
+			base = 0
 		}
 		
+		add_military_reform = {
+			base = 0.5
+		}
+		
+		add_economic_reform = {
+			base = -0.5
+		}
 	}
-	
-}	
-
-conservative_group = {
 	
 	conservative = {
 		color = { 10 10 250 }
@@ -232,17 +344,68 @@ conservative_group = {
 		add_economic_reform = {
 			base = -1
 		}
+		
+
 	}
+}
+
+
+fascist_group = {
+
+	nationalist = {
+		uncivilized = no
+		color = { 150 50 150 }
+		date = 1802.7.4
 	
-	fundamentalist = {
-		color = { 30 30 60 }
+		
+		add_political_reform = {
+			base = -0.5
+			modifier = {
+				factor = 0.5
+				NOT = { ruling_party_ideology = nationalist }
+			}
+		}
+	
+	
+		remove_political_reform = {
+			base = 0.5
+			modifier = {
+				factor = -0.5
+				NOT = { ruling_party_ideology = nationalist }
+			}
+		}
+	
+	
+		add_social_reform = {
+			base = 0.5
+			modifier = {
+				factor = -1.0
+				NOT = { ruling_party_ideology = nationalist }
+			}
+		}
+	
+	
+		remove_social_reform = {
+			base = -0.5
+			modifier = {
+				factor = 1.0
+				NOT = { ruling_party_ideology = nationalist }
+			}
+		}
+		
+	}
+
+	fascist = {
+		uncivilized = no
+		color = { 50 0 75 }
+		date = 1900.1.1
 	
 		
 		add_political_reform = {
 			base = 1
 			modifier = {
 				factor = -1
-				NOT = { ruling_party_ideology = conservative }
+				NOT = { ruling_party_ideology = fascist }
 			}
 		}
 	
@@ -251,7 +414,7 @@ conservative_group = {
 			base = 1
 			modifier = {
 				factor = -1
-				NOT = { ruling_party_ideology = conservative }
+				NOT = { ruling_party_ideology = fascist }
 			}
 		}
 	
@@ -260,7 +423,7 @@ conservative_group = {
 			base = 1
 			modifier = {
 				factor = -1
-				NOT = { ruling_party_ideology = conservative }
+				NOT = { ruling_party_ideology = fascist }
 			}
 		}
 	
@@ -269,7 +432,7 @@ conservative_group = {
 			base = 1
 			modifier = {
 				factor = -1
-				NOT = { ruling_party_ideology = conservative }
+				NOT = { ruling_party_ideology = fascist }
 			}
 		}
 		
@@ -277,213 +440,100 @@ conservative_group = {
 	
 }
 
-socialist_group = {
-	socialist = {
-		uncivilized = no
-		color = { 255 0 0 }
-		date = 1840.1.1
+
+liberal_group = {
+	
+	liberal_moderate = {
+		color = { 255 255 150 }
+		
 		
 		add_political_reform = {
-			base = 1
+			base = 0.25
+		}
+		remove_political_reform = {
+			base = 0
+		}
+		add_social_reform = {
+			base = 0
+			
 			group = {
 				modifier = {
 					factor = 0.1
 					OR = { 
 						militancy = 1
-						political_movement_strength = 0.1
+						social_movement_strength = 0.1
 					}
 				}
 				modifier = {
 					factor = 0.1
 					OR = { 
 						militancy = 2
-						political_movement_strength = 0.2
+						social_movement_strength = 0.2
 					}
 				}
 				modifier = {
 					factor = 0.1
 					OR = { 
 						militancy = 3
-						political_movement_strength = 0.3
+						social_movement_strength = 0.3
 					}
 				}
 				modifier = {
 					factor = 0.1
 					OR = { 
 						militancy = 4
-						political_movement_strength = 0.4
+						social_movement_strength = 0.4
 					}
 				}
 				modifier = {
 					factor = 0.1
 					OR = { 
 						militancy = 5
-						political_movement_strength = 0.5
+						social_movement_strength = 0.5
 					}
 				}
 				modifier = {
 					factor = 0.1
 					OR = { 
 						militancy = 6
-						political_movement_strength = 0.6
+						social_movement_strength = 0.6
 					}
 				}
 				modifier = {
 					factor = 0.1
 					OR = { 
 						militancy = 7
-						political_movement_strength = 0.7
+						social_movement_strength = 0.7
 					}
 				}
 				modifier = {
 					factor = 0.1
 					OR = { 
 						militancy = 8
-						political_movement_strength = 0.8
+						social_movement_strength = 0.8
 					}
 				}
 				modifier = {
 					factor = 0.1
 					OR = { 
 						militancy = 9
-						political_movement_strength = 0.9
+						social_movement_strength = 0.9
 					}
 				}
 			}
 		}
-		remove_political_reform = {
-			base = 0
-		}
-		add_social_reform = {
-			base = 1
-		}
 		remove_social_reform = {
 			base = 0
 		}
-		add_economic_reform = {
-			base = 1
-		}
-		remove_economic_reform = {
-			base = 0
-		}
-	}
-	
-	social_democrat = {
-		uncivilized = no
-		color = { 255 75 75 }
-		date = 1845.1.1
 		
-		add_political_reform = {
-			base = 0.75
-			group = {
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 0.25
-						political_movement_strength = 0.1
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 0.5
-						political_movement_strength = 0.2
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 1
-						political_movement_strength = 0.3
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 1.25
-						political_movement_strength = 0.4
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 1.5
-						political_movement_strength = 0.5
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 1.75
-						political_movement_strength = 0.6
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 2
-						political_movement_strength = 0.7
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 2.25
-						political_movement_strength = 0.8
-					}
-				}
-				modifier = {
-					factor = 0.1
-					OR = { 
-						militancy = 2.5
-						political_movement_strength = 0.9
-					}
-				}
-			}
+		add_military_reform = {
+			base = 0.25
 		}
-		remove_political_reform = {
-			base = 0
-		}
-		add_social_reform = {
-			base = 0.75
-		}
-		add_economic_reform = {
-			base = 0.75
-		}
-		remove_social_reform = {
-			base = 0
-		}
-	}
-	
-	communist = {
-		uncivilized = no
-		color = { 150 10 10 }
-		date = 1848.6.1
 		
-		add_political_reform = {
-			base = 1
+		add_economic_reform = {
+			base = 0.25
 		}
-		remove_political_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = communist }
-			}
-		}
-		add_social_reform = {
-			base = 1
-			modifier = {
-				factor = -1
-				NOT = { ruling_party_ideology = communist }
-			}
-		}
-		remove_social_reform = {
-			base = 0
-		}	
 	}
-}
-
-liberal_group = {
 	
 	liberal = {
 		color = { 255 255 0 }
@@ -576,11 +626,13 @@ liberal_group = {
 			base = 0.5
 		}
 	}
+	
 }
+
 	
 libertarian_group = {
 
-	anarcho_liberal = {
+	anarcho_liberal = {		# Rebranded as "anarcho capitalist" but left anarcho_liberal for ease of implementation
 		color = { 150 150 10 }
 		date = 1840.1.1
 		uncivilized = no
@@ -606,4 +658,296 @@ libertarian_group = {
 			base = -1
 		}
 	}
+}
+
+progressive_group = {
+	progressive_moderate = {
+		color = { 150 255 150 }
+		date = 1870.1.1
+		uncivilized = no
+		
+		add_political_reform = {
+			base = 0.5
+		}
+		remove_political_reform = {
+			base = 0
+		}
+		add_social_reform = {
+			base = 0.5
+		}
+		remove_social_reform = {
+			base = 0
+		}
+		
+		add_military_reform = {
+			base = -1
+		}
+		
+		add_economic_reform = {
+			base = 0.25
+		}
+	}
+	
+	progressive = {
+		color = { 0 255 0 }
+		date = 1870.1.1
+		uncivilized = no
+		
+		add_political_reform = {
+			base = 1
+		}
+		remove_political_reform = {
+			base = 0
+		}
+		add_social_reform = {
+			base = 1
+		}
+		remove_social_reform = {
+			base = 0
+		}
+		
+		add_military_reform = {
+			base = -1
+		}
+		
+		add_economic_reform = {
+			base = 0.5
+		}
+	}
+}
+	
+
+socialist_group = {
+	
+		social_democrat = {
+		uncivilized = no
+		color = { 255 75 75 }
+		date = 1917.10.1	# Allegedly split from the mainstream socialist movement after the October Revolution
+		
+		add_political_reform = {
+			base = 0.75
+			group = {
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 0.25
+						political_movement_strength = 0.1
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 0.5
+						political_movement_strength = 0.2
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 1
+						political_movement_strength = 0.3
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 1.25
+						political_movement_strength = 0.4
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 1.5
+						political_movement_strength = 0.5
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 1.75
+						political_movement_strength = 0.6
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 2
+						political_movement_strength = 0.7
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 2.25
+						political_movement_strength = 0.8
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 2.5
+						political_movement_strength = 0.9
+					}
+				}
+			}
+		}
+		remove_political_reform = {
+			base = 0
+		}
+		add_social_reform = {
+			base = 0.75
+		}
+		add_economic_reform = {
+			base = 0.75
+		}
+		remove_social_reform = {
+			base = 0
+		}
+	}
+	
+	socialist = {
+		uncivilized = no
+		color = { 255 0 0 }
+		date = 1832.1.1		# Allegedly introduced as a term by Le Globe in 1832
+		
+		add_political_reform = {
+			base = 1
+			group = {
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 1
+						political_movement_strength = 0.1
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 2
+						political_movement_strength = 0.2
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 3
+						political_movement_strength = 0.3
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 4
+						political_movement_strength = 0.4
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 5
+						political_movement_strength = 0.5
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 6
+						political_movement_strength = 0.6
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 7
+						political_movement_strength = 0.7
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 8
+						political_movement_strength = 0.8
+					}
+				}
+				modifier = {
+					factor = 0.1
+					OR = { 
+						militancy = 9
+						political_movement_strength = 0.9
+					}
+				}
+			}
+		}
+		remove_political_reform = {
+			base = 0
+		}
+		add_social_reform = {
+			base = 1
+		}
+		remove_social_reform = {
+			base = 0
+		}
+		add_economic_reform = {
+			base = 1
+		}
+		remove_economic_reform = {
+			base = 0
+		}
+	}
+	
+	syndicalist = {
+		uncivilized = no
+		color = { 175 0 0 }
+		date = 1864.1.1		# Roots in the First International
+		
+		add_political_reform = {
+			base = 1
+		}
+		remove_political_reform = {
+			base = 1
+			modifier = {
+				factor = -1
+				NOT = { ruling_party_ideology = syndicalist }
+			}
+		}
+		add_social_reform = {
+			base = 1
+			modifier = {
+				factor = 1
+				NOT = { ruling_party_ideology = syndicalist }
+			}
+		}
+		remove_social_reform = {
+			base = 0
+		}	
+	}
+	
+	communist = {		# Rebranded as "Marxist" -- communist variable remains for ease of implementation
+		uncivilized = no
+		color = { 125 0 0 }
+		date = 1848.2.21	# Publication of The Communist Manifesto
+		
+		add_political_reform = {
+			base = 1
+		}
+		remove_political_reform = {
+			base = 1
+			modifier = {
+				factor = -1
+				NOT = { ruling_party_ideology = communist }
+			}
+		}
+		add_social_reform = {
+			base = 1
+			modifier = {
+				factor = 1
+				NOT = { ruling_party_ideology = communist }
+			}
+		}
+		remove_social_reform = {
+			base = 0
+		}	
+	}
+	
 }
