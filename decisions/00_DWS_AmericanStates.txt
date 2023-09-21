@@ -1,39 +1,4 @@
 political_decisions = {
-    form_unitedcommonwealths = {
-	picture = switch_to_liberty
-        potential = {
-			is_culture_group = american_cultures
-            OR = {
-                tag = PEN
-                tag = NYS
-                tag = NJS
-                tag = CON
-                tag = CAN
-                tag = NHS
-                tag = NBW
-                tag = NVS
-                tag = MSA
-            }
-            UCC = { exists = no }
-        }
-        allow = {
-            war = no
-        }
-        effect = {
-            change_tag = UCC
-            add_accepted_culture = yankee
-            add_accepted_culture = appalachian
-            add_accepted_culture = anglo_canadian
-            any_pop = {
-                limit = { culture = dixie }
-                militancy = 7
-                consciousness = 3
-            }
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
 	
 	form_the_ucc_pen = {
         picture = independence_day
@@ -41,6 +6,7 @@ political_decisions = {
 			tag = PEN
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
@@ -82,6 +48,7 @@ political_decisions = {
 			tag = NYS
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
@@ -123,6 +90,7 @@ political_decisions = {
 			tag = NJS
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
@@ -164,6 +132,7 @@ political_decisions = {
 			tag = CNS
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
@@ -205,6 +174,7 @@ political_decisions = {
 			tag = MSA
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
@@ -246,6 +216,7 @@ political_decisions = {
 			tag = NHS
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
@@ -287,6 +258,7 @@ political_decisions = {
 			tag = NBW
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
@@ -328,6 +300,7 @@ political_decisions = {
 			tag = NHS
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
@@ -369,6 +342,7 @@ political_decisions = {
 			tag = CAN
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
@@ -410,6 +384,7 @@ political_decisions = {
 			tag = OHI
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
@@ -451,6 +426,7 @@ political_decisions = {
 			tag = STG
             NOT = { has_country_flag = ghost_country }
             is_culture_group = american_cultures
+			UCC = { exists = no }
         }
 
         allow = {
