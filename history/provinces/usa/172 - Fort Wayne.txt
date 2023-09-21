@@ -1,7 +1,7 @@
-owner = POT
-controller = POT
+owner = MYA
+controller = MYA
 
-add_core = POT
+add_core = MYA
 add_core = NFR
 add_core = USA
 

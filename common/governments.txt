@@ -39,7 +39,7 @@ fascist_dictatorship = {
 	flagType = fascist
 }
 
-federation_of_workers_council = {
+workers_councils = {
 	#which ideology of parties.
 	syndicalist = yes
 	

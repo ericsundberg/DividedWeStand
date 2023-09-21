@@ -1,8 +1,7 @@
-owner = CPW
-controller = CPW
+owner = POT
+controller = POT
 
-add_core = CPW
-add_core = ODA
+add_core = POT
 add_core = USA
 
 trade_goods = timber

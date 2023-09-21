@@ -1,7 +1,7 @@
-owner = POT
-controller = POT
+owner = WYA
+controller = WYA
 
-add_core = POT
+add_core = WYA
 add_core = USA
 add_core = PEN
 add_core = VIR

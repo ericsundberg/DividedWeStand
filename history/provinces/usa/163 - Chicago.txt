@@ -1,11 +1,11 @@
-owner = POT
-controller = POT
+owner = ILL
+controller = ILL
 
-add_core = POT
+add_core = ILL
 add_core = NFR
 add_core = USA
 
 trade_goods = grain
-life_rating = 37
+life_rating = 35
 
 1861.1.1 = { railroad = 3 }

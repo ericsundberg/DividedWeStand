@@ -688,6 +688,9 @@ CHC		= "countries/Chickasaw.txt"
 CHA		= "countries/Chahta.txt"
 YCH		= "countries/Yuchi.txt"
 ALA		= "countries/Alabama.txt"
+TET		= "countries/Teton.txt"
+WYA		= "countries/Wyandot.txt"
+MYA		= "countries/Myaamiaki.txt"
 
 #South America
 NGA		= "countries/New Granada.txt"

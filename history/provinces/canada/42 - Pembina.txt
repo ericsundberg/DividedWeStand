@@ -1,9 +1,9 @@
-owner = LOU
-controller = LOU
+owner = ASS
+controller = ASS
 
-add_core = LOU
+add_core = ASS
 add_core = NFR
 
 trade_goods = grain
 terrain = plains
-life_rating = 28
+life_rating = 30

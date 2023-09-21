@@ -1,12 +1,12 @@
-owner = LOU
-controller = LOU
+owner = TET
+controller = TET
 
+add_core = TET
 add_core = LOU
 add_core = NFR
 
 trade_goods = coal
-life_rating = 35
-colonial = 1
+life_rating = 30
 
 
 

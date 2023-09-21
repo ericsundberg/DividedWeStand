@@ -1,3 +1,7 @@
+owner = CPW
+controller = CPW
+
+add_core = CPW
 
 trade_goods = grain
 terrain = forest
