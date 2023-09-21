@@ -5,6 +5,7 @@ add_core = CHA
 add_core = FLO
 add_core = USA
 add_core = GAS
+add_core = ABM
 
 trade_goods = cotton
 life_rating = 35

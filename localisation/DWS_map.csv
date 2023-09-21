@@ -1085,8 +1085,8 @@ CAN_quebec;Québec;;;;;;;;;;;x
 CAN_ruperts_land;Rupert's Land;;;;;;;;;;;x
 CAN_southern_quebec;Southern Québec;;;;;;;;;;;x
 USA_Mississippi;Mississippi;;;;;;;;;;;x
-USA_Cherokee;Cherokee;;;;;;;;;;;x
-USA_Chactaw;Chactaw;;;;;;;;;;;x
+USA_Chickasaw;Chickasaw;;;;;;;;;;;x
+#USA_Chactaw;Chactaw;;;;;;;;;;;x
 USA_Watauga;Watauga;;;;;;;;;;;x
 USA_Polypotamia;Polypotamia;;;;;;;;;;;x
 USA_Kentucky;Kentucky;;;;;;;;;;;x
@@ -1101,7 +1101,7 @@ USA_Cherronesus;Cherronesus;;;;;;;;;;;x
 USA_Illinoia;Illinoia;;;;;;;;;;;x
 USA_West_Florida;West Florida;;;;;;;;;;;x
 USA_East_Florida;East Florida;;;;;;;;;;;x
-USA_Alabama;Alabama;;;;;;;;;;;x
+#USA_Alabama;Alabama;;;;;;;;;;;x
 USA_196;Mississippi;;;;;;;;;;;x
 USA_Witchita;Witchita;;;;;;;;;;;x
 HAW_Midway;Midway Islands;;;;;;;;;;;x

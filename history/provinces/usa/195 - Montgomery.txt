@@ -1,13 +1,13 @@
-owner = CUB
-controller = CUB
+owner = ALA
+controller = ALA
 
-add_core = CRK
+add_core = ALA
 add_core = FLO
 add_core = USA
 add_core = GAS
+add_core = ABM
 
 trade_goods = cotton
 life_rating = 35
-colonial = 1
 
 1861.1.1 = { railroad = 3 }

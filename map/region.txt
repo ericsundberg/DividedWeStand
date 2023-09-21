@@ -87,15 +87,13 @@ USA_151 = { 151 152 153 154 } #Iowa
 
 USA_158 = { 155 156 157 } #Minnesota
 
-USA_Alabama = { 193 196 3414 } #Alabama
-
-#USA_Mississippi = { 192 193 } #Mississippi 
+USA_Mississippi = { 193 } #Mississippi
 
 USA_East_Florida = { 199 200 } #East Florida
 
 USA_West_Florida = { 140 192 194 195 197 198 } #West Florida
 
-USA_201 = { 201 202 204 2555 3385 3386 3387 } #Georgia
+USA_201 = { 196 201 202 204 2555 3385 3386 3387 3414 } #Georgia
 
 USA_205 = { 205 206 3358 3359 } #South Carolina
 
@@ -123,7 +121,7 @@ USA_247 = { 247 3323 3324 3376 } #New Hampshire
 
 USA_248 = { 248 249 3375 } #Maine
 
-USA_Cherokee = { 189 } #Cherokee
+USA_Chickasaw = { 189 } #Cherokee
 
 USA_Watauga = { 188 190 191 } #Watauga
 
