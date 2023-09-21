@@ -1,0 +1,15 @@
+
+
+add_core = ACA
+add_core = USA
+add_core = NBW
+add_core = NEN
+
+trade_goods = furs
+life_rating = 29
+
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}

@@ -2,6 +2,8 @@ owner = VER
 controller = VER
 
 add_core = VER
+add_core = NYS
+add_core = NHS
 add_core = NEN
 add_core = USA
 	

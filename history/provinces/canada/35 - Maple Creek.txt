@@ -1,10 +1,10 @@
-owner = ASS
-controller = ASS
+owner = AAN
+controller = AAN
 
-add_core = ASS
+add_core = AAN
 add_core = LOU
 
 trade_goods = grain
 terrain = steppe
-life_rating = 31
+life_rating = 30
 
