@@ -1,7 +1,7 @@
-owner = CUB
-controller = CUB
+owner = CHA
+controller = CHA
 
-add_core = CRK
+add_core = CHA
 add_core = FLO
 add_core = USA
 add_core = GAS

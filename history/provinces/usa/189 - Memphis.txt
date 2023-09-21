@@ -1,7 +1,7 @@
-owner = CHE
-controller = CHE
+owner = CHC
+controller = CHC
 
-add_core = CHE
+add_core = CHC
 add_core = NCS
 add_core = USA
 
