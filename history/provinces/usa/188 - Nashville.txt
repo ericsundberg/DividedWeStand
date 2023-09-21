@@ -1,14 +1,13 @@
-owner = CHE
-controller = CHE
+owner = YCH
+controller = YCH
 
-add_core = CHE
+add_core = YCH
 add_core = NCS
 add_core = USA
 add_core = WAT
 
 trade_goods = grain
 life_rating = 35
-colonial = 1
 
 1861.1.1 = {
     party_loyalty = {

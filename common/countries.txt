@@ -686,6 +686,7 @@ ASS		= "countries/Assiniboin.txt"
 TSK		= "countries/Tuskegee.txt"
 CHC		= "countries/Chickasaw.txt"
 CHA		= "countries/Chahta.txt"
+YCH		= "countries/Yuchi.txt"
 
 #South America
 NGA		= "countries/New Granada.txt"
