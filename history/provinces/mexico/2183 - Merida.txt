@@ -4,7 +4,7 @@ controller = YUC
 add_core = MEX
 add_core = YUC
 
-trade_goods = grain
+trade_goods = spices
 life_rating = 35
 
 1821.8.24 = {

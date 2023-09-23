@@ -5,7 +5,7 @@ add_core = MEX
 add_core = NSP
 
 terrain = new_world_semidesert
-trade_goods = grain
+trade_goods = spices
 life_rating = 31
 
 1821.8.24 = {

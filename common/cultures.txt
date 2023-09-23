@@ -1712,6 +1712,7 @@ oceanic = {
 
 native_american = {
     leader = nativeamerican
+	unit = AmerindianGC
     is_overseas = no
     mayan = {
         color = {98 88 142}

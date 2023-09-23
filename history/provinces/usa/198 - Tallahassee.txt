@@ -3,8 +3,8 @@ controller = CUB
 
 add_core = FLO
 
-trade_goods = cotton
-life_rating = 35
+trade_goods = fish
+life_rating = 33
 terrain = marsh
 colonial = 1
 is_slave = yes

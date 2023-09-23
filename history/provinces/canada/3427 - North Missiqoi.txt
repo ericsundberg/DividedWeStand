@@ -1,7 +1,9 @@
+owner = MSQ
+controller = MSQ
 
-
-add_core = ACA
+add_core = MSQ
 add_core = QUE
+add_core = ACA
 add_core = USA
 
 trade_goods = furs

@@ -692,6 +692,9 @@ ALA		= "countries/Alabama.txt"
 TET		= "countries/Teton.txt"
 WYA		= "countries/Wyandot.txt"
 MYA		= "countries/Myaamiaki.txt"
+MSQ		= "countries/Missiqoi.txt"
+COW		= "countries/Cowasuck.txt"
+ODK		= "countries/Odanak.txt"
 
 #South America
 NGA		= "countries/New Granada.txt"

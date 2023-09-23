@@ -4,7 +4,7 @@ controller = NSP
 add_core = CAL
 add_core = NSP
 
-trade_goods = cattle
+trade_goods = spices
 terrain = new_world_semidesert
 life_rating = 31
 colonial = 2

@@ -1,11 +1,12 @@
+owner = MSA
+controller = MSA
 
-
-add_core = VER
+add_core = MAI
 add_core = USA
 add_core = NEN
 
-trade_goods = furs
-life_rating = 29
+trade_goods = fish
+life_rating = 30
 
 1802.7.30 = {
 	add_core = UCC

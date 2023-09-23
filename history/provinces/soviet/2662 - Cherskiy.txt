@@ -4,7 +4,7 @@ controller = NSP
 add_core = TEX
 add_core = NSP
 
-trade_goods = grain
+trade_goods = spices
 life_rating = 30
 terrain = semidesert
 colonial = 1

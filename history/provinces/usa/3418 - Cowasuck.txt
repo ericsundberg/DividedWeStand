@@ -1,6 +1,8 @@
+owner = COW
+controller = COW
 
-
-add_core = MAI
+add_core = COW
+add_core = NHS
 add_core = USA
 add_core = NEN
 

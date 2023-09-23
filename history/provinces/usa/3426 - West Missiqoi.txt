@@ -1,0 +1,16 @@
+owner = MSQ
+controller = MSQ
+
+add_core = MSQ
+add_core = VER
+add_core = USA
+add_core = NEN
+
+trade_goods = furs
+life_rating = 29
+
+1802.7.30 = {
+	add_core = UCC
+	owner = UCC
+	controller = UCC
+}

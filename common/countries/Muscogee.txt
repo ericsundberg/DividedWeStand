@@ -1,5 +1,5 @@
 color = { 155  165  60 }
-graphical_culture = Generic
+graphical_culture = SouthAmericanGC #AmerindianGC
 
 party = {
     name = "CHE_liberal"

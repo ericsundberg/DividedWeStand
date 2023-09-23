@@ -3,7 +3,7 @@ controller = SPA
 add_core = SPU
 add_core = PEU
 
-trade_goods = cattle
+trade_goods = spices
 life_rating = 35
 
 1821.7.28 = {

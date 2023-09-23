@@ -6,7 +6,7 @@ add_core = SCS
 add_core = GAS
 add_core = USA
 
-trade_goods = iron
+trade_goods = coal
 life_rating = 35
 
 1861.1.1 = { railroad = 3 }
