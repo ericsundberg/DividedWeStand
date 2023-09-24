@@ -1,10 +1,10 @@
 owner = NSC
 controller = NSC
 
-add_core = ACA
 add_core = NSC
 add_core = USA
 add_core = MRU
+add_core = ACA
 
 trade_goods = fish
 life_rating = 31

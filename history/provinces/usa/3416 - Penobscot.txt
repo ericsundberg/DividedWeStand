@@ -1,5 +1,7 @@
+owner = PBS
+controller = PBS
 
-
+add_core = PBS
 add_core = MAI
 add_core = USA
 add_core = NEN

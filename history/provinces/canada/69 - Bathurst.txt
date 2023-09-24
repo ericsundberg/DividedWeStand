@@ -1,10 +1,10 @@
-owner = NBW
-controller = NBW
+owner = NSC
+controller = NSC
 
-add_core = ACA
+add_core = NSC
 add_core = NBW
 add_core = USA
-add_core = NEN
+add_core = ACA
 
 trade_goods = furs
 life_rating = 31

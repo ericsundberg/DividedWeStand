@@ -1,11 +1,13 @@
+owner = MIK
+controller = MIK
 
-
+add_core = MIK
+add_core = NSC
 add_core = USA
-add_core = NVS
-add_core = NEN
+add_core = ACA
 
 trade_goods = furs
-life_rating = 29
+life_rating = 30
 
 1802.7.30 = {
 	add_core = UCC

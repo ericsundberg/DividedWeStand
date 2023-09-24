@@ -2,7 +2,6 @@ owner = ODK
 controller = ODK
 
 add_core = ODK
-add_core = ACA
 add_core = QUE
 add_core = USA
 

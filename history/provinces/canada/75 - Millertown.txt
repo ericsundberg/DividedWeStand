@@ -1,9 +1,8 @@
-owner = ENG
-controller = ENG
+owner = MIK
+controller = MIK
 
 add_core = NEW
 
 trade_goods = whale_oil
 terrain = new_world_boreal
 life_rating = 27
-colonial = 2

@@ -1,10 +1,10 @@
+owner = MST
+controller = MST
 
-
-add_core = ACA
+add_core = MST
 add_core = MAI
-add_core = USA
-add_core = NBW
 add_core = NEN
+add_core = USA
 
 trade_goods = furs
 life_rating = 29

@@ -1,9 +1,10 @@
+owner = MIK
+controller = MIK
 
-
+add_core = MIK
+add_core = QUE
 add_core = ACA
 add_core = USA
-add_core = NBW
-add_core = NEN
 
 trade_goods = furs
 life_rating = 29

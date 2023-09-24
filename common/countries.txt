@@ -695,6 +695,11 @@ MYA		= "countries/Myaamiaki.txt"
 MSQ		= "countries/Missiqoi.txt"
 COW		= "countries/Cowasuck.txt"
 ODK		= "countries/Odanak.txt"
+KBC		= "countries/Kennebec.txt"
+ASG		= "countries/Androscoggin.txt"
+MST		= "countries/Maliseet.txt"
+PBS		= "countries/Penobscot.txt"
+MIK		= "countries/Mikmaq.txt"
 
 #South America
 NGA		= "countries/New Granada.txt"

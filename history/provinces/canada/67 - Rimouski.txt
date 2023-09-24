@@ -2,7 +2,6 @@ owner = QUE
 controller = QUE
 
 add_core = QUE
-add_core = ACA
 add_core = USA
 
 trade_goods = grain

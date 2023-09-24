@@ -1,5 +1,7 @@
+owner = ASG
+controller = ASG
 
-
+add_core = ASG
 add_core = MAI
 add_core = USA
 add_core = NEN

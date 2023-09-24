@@ -1,15 +1,14 @@
-owner = NBW
-controller = NBW
+owner = MST
+controller = MST
 
 add_core = ACA
 add_core = MAI
-add_core = USA
 add_core = NBW
 add_core = NEN
+add_core = USA
 
 trade_goods = furs
-life_rating = 35
-colonial = 2
+life_rating = 29
 
 1802.7.30 = {
 	add_core = UCC

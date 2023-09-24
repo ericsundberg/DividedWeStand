@@ -1,5 +1,7 @@
+owner = KBC
+controller = KBC
 
-
+add_core = KBC
 add_core = MAI
 add_core = USA
 add_core = NEN
