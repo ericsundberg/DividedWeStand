@@ -1,0 +1,21 @@
+owner = CHC
+controller = CHC
+
+add_core = CHE
+add_core = CHC
+add_core = GAS
+add_core = USA
+
+trade_goods = cotton
+life_rating = 35
+
+1861.1.1 = {
+    controller = CSA
+    owner = CSA
+    add_core = CSA
+    state_building = {
+        level = 1
+        building = regular_clothes_factory
+        upgrade = yes
+    }
+}

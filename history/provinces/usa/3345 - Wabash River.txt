@@ -1,0 +1,12 @@
+owner = SHN
+controller = SHN
+
+add_core = SHN
+add_core = USA
+add_core = NFR
+
+trade_goods = coal
+life_rating = 35
+
+
+1861.1.1 = { railroad = 3 }

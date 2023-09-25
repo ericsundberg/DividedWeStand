@@ -2,7 +2,7 @@ owner = MIK
 controller = MIK
 
 add_core = MIK
-add_core = NVS
+add_core = NSC
 add_core = NBW
 add_core = USA
 add_core = ACA

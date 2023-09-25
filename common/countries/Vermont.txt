@@ -1,5 +1,5 @@
 color = { 13  100  47 }
-graphical_culture = Generic
+graphical_culture = UsGC
 
 party = {
 	name = "VER_liberal"
