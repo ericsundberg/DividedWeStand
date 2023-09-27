@@ -1,6 +1,6 @@
 political_decisions = {
 	
-	form_the_ucc_pen = {
+	form_the_ucc_pen = {	#Pennsylvania
         picture = independence_day
         potential = {
 			tag = PEN
@@ -26,7 +26,6 @@ political_decisions = {
 			inherit = CNS
 			inherit = MSA
 			inherit = NHS
-			inherit = NBW
 			inherit = NSC
 			inherit = CAN
 			inherit = OHI
@@ -42,7 +41,7 @@ political_decisions = {
         }
     }
 
-	form_the_ucc_nys = {
+	form_the_ucc_nys = {	#New York
         picture = independence_day
         potential = {
 			tag = NYS
@@ -68,7 +67,6 @@ political_decisions = {
 			inherit = CNS
 			inherit = MSA
 			inherit = NHS
-			inherit = NBW
 			inherit = NSC
 			inherit = CAN
 			inherit = OHI
@@ -84,7 +82,7 @@ political_decisions = {
         }
     }
 
-	form_the_ucc_njs = {
+	form_the_ucc_njs = {	#New Jersey
         picture = independence_day
         potential = {
 			tag = NJS
@@ -110,7 +108,6 @@ political_decisions = {
 			inherit = CNS
 			inherit = MSA
 			inherit = NHS
-			inherit = NBW
 			inherit = NSC
 			inherit = CAN
 			inherit = OHI
@@ -126,7 +123,7 @@ political_decisions = {
         }
     }
 	
-	form_the_ucc_cns = {
+	form_the_ucc_cns = {	#Connecticut
         picture = independence_day
         potential = {
 			tag = CNS
@@ -152,7 +149,6 @@ political_decisions = {
 			inherit = CNS
 			inherit = MSA
 			inherit = NHS
-			inherit = NBW
 			inherit = NSC
 			inherit = CAN
 			inherit = OHI
@@ -168,7 +164,7 @@ political_decisions = {
         }
     }
 	
-	form_the_ucc_msa = {
+	form_the_ucc_msa = {	#Massachusetts
         picture = independence_day
         potential = {
 			tag = MSA
@@ -194,7 +190,6 @@ political_decisions = {
 			inherit = CNS
 			inherit = MSA
 			inherit = NHS
-			inherit = NBW
 			inherit = NSC
 			inherit = CAN
 			inherit = OHI
@@ -210,7 +205,7 @@ political_decisions = {
         }
     }
 		
-	form_the_ucc_nhs = {
+	form_the_ucc_nhs = {	#New Hampshire
         picture = independence_day
         potential = {
 			tag = NHS
@@ -236,7 +231,6 @@ political_decisions = {
 			inherit = CNS
 			inherit = MSA
 			inherit = NHS
-			inherit = NBW
 			inherit = NSC
 			inherit = CAN
 			inherit = OHI
@@ -252,49 +246,7 @@ political_decisions = {
         }
     }
 			
-	form_the_ucc_nbw = {
-        picture = independence_day
-        potential = {
-			tag = NBW
-            NOT = { has_country_flag = ghost_country }
-            is_culture_group = american_cultures
-			UCC = { exists = no }
-        }
-
-        allow = {
-            war = no
-            NYS = {
-				owns = 232
-            }
-        }
-
-        effect = {
-            prestige = 20
-			
-			change_tag = UCC
-			
-			inherit = NYS
-			inherit = NJS
-			inherit = CNS
-			inherit = MSA
-			inherit = NHS
-			inherit = NBW
-			inherit = NSC
-			inherit = CAN
-			inherit = OHI
-			inherit = STG
-			inherit = PEN
-			
-			all_core = {
-                add_core = UCC
-            }
-        }
-		ai_will_do = {
-            factor = 0
-        }
-    }
-			
-	form_the_ucc_nsc = {
+	form_the_ucc_nsc = {	#Nova Scotia
         picture = independence_day
         potential = {
 			tag = NHS
@@ -320,7 +272,6 @@ political_decisions = {
 			inherit = CNS
 			inherit = MSA
 			inherit = NHS
-			inherit = NBW
 			inherit = NSC
 			inherit = CAN
 			inherit = OHI
@@ -336,7 +287,7 @@ political_decisions = {
         }
     }
 			
-	form_the_ucc_can = {
+	form_the_ucc_can = {	#Canada
         picture = independence_day
         potential = {
 			tag = CAN
@@ -362,7 +313,6 @@ political_decisions = {
 			inherit = CNS
 			inherit = MSA
 			inherit = NHS
-			inherit = NBW
 			inherit = NSC
 			inherit = CAN
 			inherit = OHI
@@ -404,7 +354,6 @@ political_decisions = {
 			inherit = CNS
 			inherit = MSA
 			inherit = NHS
-			inherit = NBW
 			inherit = NSC
 			inherit = CAN
 			inherit = OHI
@@ -446,7 +395,6 @@ political_decisions = {
 			inherit = CNS
 			inherit = MSA
 			inherit = NHS
-			inherit = NBW
 			inherit = NSC
 			inherit = CAN
 			inherit = OHI
@@ -455,6 +403,45 @@ political_decisions = {
 			
 			all_core = {
                 add_core = UCC
+            }
+        }
+		ai_will_do = {
+            factor = 0
+        }
+    }
+	
+	form_the_aco_vir = {	#Form Arcadian Confederation as Virginia
+        picture = independence_day
+        potential = {
+			tag = VIR
+            NOT = { has_country_flag = ghost_country }
+            is_culture_group = american_cultures
+			UCC = { exists = no }
+        }
+
+        allow = {
+            war = no
+            VIR = {
+				owns = 60
+            }
+        }
+
+        effect = {
+            prestige = 20
+			
+			change_tag = ACO
+			
+			inherit = DEL
+			inherit = MAR
+			inherit = VIR
+			inherit = NCS
+			inherit = SCS
+			inherit = GAS
+			inherit = KEN
+			inherit = WAT
+			
+			all_core = {
+                add_core = ACO
             }
         }
 		ai_will_do = {

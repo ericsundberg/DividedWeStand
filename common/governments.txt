@@ -21,7 +21,7 @@ presidential_dictatorship = {
 	flagType = republic
 }
  
-bourgeois_dictatorship = {
+bourgeois_dictatorship = {	#Does this government type make any sense?
 	#which ideology of parties.
 	anarcho_liberal = yes
 	
