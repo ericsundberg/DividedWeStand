@@ -1,7 +1,7 @@
 capital = 106
 primary_culture = algonquin
 religion = animist
-government = limited_monarchy
+government = chiefdom
 plurality = 3.0
 nationalvalue = nv_tradition
 literacy = 0.01

@@ -1,7 +1,7 @@
 capital = 37
 primary_culture = metis
 religion = animist
-government = limited_monarchy
+government = chiefdom
 plurality = 5.0
 nationalvalue = nv_tradition
 literacy = 0.01

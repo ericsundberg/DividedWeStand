@@ -3,11 +3,14 @@
 
 
 
-proletarian_dictatorship = {
+# The dictatorships are kind of wonky. The attempt by Paradox was to funnel a political party into
+# one specific kind of dictatorship and limited the valid party types to keep them static. It's
+# janky, but acceptable. Perhaps they need a name rework in localisation?
+proletarian_dictatorship = {	#Centralist, single-party system
 	#which ideology of parties.
 	communist = yes
 	
-	election = no
+	election = yes		# Changed from "no." There are still elections for representatives regardless if they are all from one-party.
 	appoint_ruling_party = yes
 	flagType = communist
 }
@@ -15,15 +18,20 @@ proletarian_dictatorship = {
 presidential_dictatorship = {
 	#which ideology of parties.
 	reactionary = yes
+	nationalist = yes
+	conservative = yes
+	conservative_moderate = yes
 	
 	election = no
 	appoint_ruling_party = yes
 	flagType = republic
 }
  
-bourgeois_dictatorship = {	#Does this government type make any sense?
+bourgeois_dictatorship = {	# Does this government type make any sense? Thanks Marx.
 	#which ideology of parties.
-	anarcho_liberal = yes
+	anarcho_liberal = yes		# It doesn't make sense with just anarcho_liberal.
+	liberal = yes
+	liberal_moderate = yes
 	
 	election = no
 	appoint_ruling_party = yes
@@ -42,16 +50,23 @@ fascist_dictatorship = {
 workers_councils = {
 	#which ideology of parties.
 	syndicalist = yes
+	socialist = yes
+	communist = yes
+	social_democrat = yes
 	
 	election = yes
+	duration = 24
 	appoint_ruling_party = no
 	flagType = communist
 }
  
 absolute_monarchy = {
 	liberal = yes
+	liberal_moderate = yes
 	conservative = yes
+	conservative_moderate = yes
 	reactionary = yes
+	nationalist = yes
 	
 	
 	election = no
@@ -60,9 +75,7 @@ absolute_monarchy = {
 }
 
 limited_monarchy = {
-	liberal = yes
 	conservative = yes
-	reactionary = yes
 	
 	
 	election = no
@@ -70,16 +83,22 @@ limited_monarchy = {
 	flagType = monarchy
 }
  
-prussian_constitutionalism = {
+prussian_constitutionalism = {		# This is a really niche government type
 	liberal = yes
 	socialist = yes
 	conservative = yes
 	reactionary = yes
+	communist = yes
+	anarcho_liberal = yes
+	fascist = yes
+	conservative_moderate = yes
+	liberal_moderate = yes
+	nationalist = yes
 	
 	
-	election = yes
-	duration = 72
-	appoint_ruling_party = yes
+	election = yes	# Yeah except Article 62 was modified in 1850 (two years after the constitution's original adoption) to add unelected nobility to the ruling body
+	duration = 72	# They didn't completely pull this number out of their ass! The first (upper) chamber had 180 members elected for 6-year terms
+	appoint_ruling_party = yes	# This is really the only mechanical difference between this and hms_government. Thanks Paradox.
 	flagType = monarchy
 }
 
@@ -91,10 +110,14 @@ hms_government = {
 	communist = yes
 	anarcho_liberal = yes
 	fascist = yes
+	conservative_moderate = yes
+	liberal_moderate = yes
+	nationalist = yes
 	
 	
 	election = yes
-	duration = 48
+	duration = 60	# Paradox orginally set this as 48 months. Updated to 60 months (5 years). Westminster System dissolves a parliament after five years to the day (unless disolved earlier).
+	# We really need a hold_election bool here - snap elections should be reserved for parliament
 	appoint_ruling_party = no
 	flagType = monarchy
 }
@@ -110,10 +133,12 @@ democracy = {
 	conservative_moderate = yes
 	liberal_moderate = yes
 	nationalist = yes
+	progressive = yes
+	progressive_moderate = yes
 	
 	
 	election = yes
-	duration = 48
+	duration = 48	# Since Paradox did not differeniate the legislative and executive branches, this is just the upper house electoral schedule
 	appoint_ruling_party = no
 	flagType = republic
 }
@@ -123,9 +148,22 @@ theocracy = {
 	reactionary = yes
 	conservative = yes
 	liberal = yes
+	nationalist = yes
 	
 	election = no
 	appoint_ruling_party = yes
+	flagType = monarchy
+}
+
+chiefdom = {
+	liberal = yes
+	conservative = yes
+	reactionary = yes
+	
+	
+	election = no
+	appoint_ruling_party = no
+	duration = 120
 	flagType = monarchy
 }
  

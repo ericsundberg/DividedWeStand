@@ -1,7 +1,7 @@
 capital = 143
 primary_culture = muscogee
 religion = animist
-government = limited_monarchy
+government = chiefdom
 plurality = 2.0
 nationalvalue = nv_tradition
 literacy = 0.01

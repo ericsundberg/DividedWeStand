@@ -449,6 +449,14 @@ french = {
         Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
         Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
     }
+    acadian = {
+        color = {168 195 220}
+        first_names = { Narcisse René Èdouard Luc Letellier Théodore Louis Francois Auguste Joseph Pierre Luis-Phillippe Jean Gaspard Eugéne Èssioff Huguel Jean-Pierre Gilles
+        }
+        last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
+        }
+        radicalism = 10
+    }
     union = FRA
 }
 
@@ -1710,7 +1718,35 @@ oceanic = {
     }
 }
 
-native_american = {
+native_american = {		# Grouping all Amerindian cultures into one parent is a difficult call—on 
+						# one hand there are distinct cultural families that are being reduced into 
+						# a less nuanced grouping under one parent, but the development of a shared 
+						# Native American identity was already developing as a result of European 
+						# occupation and forced removal from historic territories. 
+						# 
+						# A universal grouping would allow us to design the mechanics of Amerindian 
+						# cultures around resisting European expansion through pan-native actions.
+						# There is some additional logical around this design. Since the process 
+						# of relocation had already begun in part by 1802, it makes sense from a 
+						# mechanical prospective to reflect an "us vs. them" identity dichotomy 
+						# even if European cultures are given a far more thorough disection. 
+						# 
+						# However, the process of removal itself can be categorized into several 
+						# distinct approaches. The approaches of Anglo-states, Franco-states, 
+						# and Ibero-states (and Dutch) differed. Anglo-states excercised forced 
+						# relocation and hostile genocidal campaigns. Franco-states frequently 
+						# practiced an integratory policy, depending on natives for trade. Ibero-
+						# states, with their roots in the encomiendo system, focused on subjugation. 
+						# Removal was not the typical policy, instead folding natives into the 
+						# castas-system.
+						#
+						# Due to the difference of these practices and the geographic differences 
+						# of North, Central, Caribean, Amazon, Andean, and Patagonia it makes sense 
+						# to split Amerindians into five cultural parents: North American 
+						# (influenced by Anglo and Franco policies), Meso-American (influenced 
+						# by the post-Mexican states and post-Maya states and the encomiendo-
+						# system), Caribeno (influenced by the encomiendo-system), Amazonia, Andean, 
+						# and Patagonian.
     leader = nativeamerican
 	unit = AmerindianGC
     is_overseas = no
@@ -1791,7 +1827,7 @@ native_american = {
 
         last_names = { Caetés Potiguara Tabajara Tamoios Temiminó Tupinambá Tupiniquim     }
     }
-    metis = {
+    metis = {	# creation of ethnogensis; this group should not be present at start, but created by event.
         color = {15 68 192}
         first_names = { Louis John Amroise-Dydime Gabriel Daniel James Jaque William Joel
         }
@@ -1812,7 +1848,7 @@ native_american = {
         last_names = { Ross Downing Potter Thompson Wolf Mayes Buffington Harris Rogers Boudinot
         }
     }
-    pueblo = {
+    pueblo = {		# multilingual culture
         color = {222 238 156}
         first_names = { Cochise Mangas Loco Taza Nana chihuahua Geronimo Alchesay Naiche Victorio
         }
@@ -1890,6 +1926,139 @@ native_american = {
         last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
         }
     }
+	chimukuan = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	wakashan = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	penutian = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	caddoan = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	tonkawa = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	southern_athabaskan = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	northern_athabaskan = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	pacific_athabaskan = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	numic = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	takic = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	piman = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	opatan = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	cahita = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	corachol = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	karankawa = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	timucua = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	kutenai = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	coahuiltecan = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
+	hokan = {
+        color = {95 5 50}
+        first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
+        }
+        last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+        }
+    }
 }
 
 american_cultures = {
@@ -1938,21 +2107,13 @@ american_cultures = {
         }
         radicalism = 10
     }
-	appalachian = {
+    appalachian = {
         color = {75 75 109}
         first_names = {Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin
         Henry Allison Horace Felix Jerome Lawrence Alexander Louis
         }
         last_names = {Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore
         Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
-        }
-        radicalism = 10
-    }
-	acadian = {
-        color = {168 195 220}
-        first_names = { Narcisse René Èdouard Luc Letellier Théodore Louis Francois Auguste Joseph Pierre Luis-Phillippe Jean Gaspard Eugéne Èssioff Huguel Jean-Pierre Gilles
-        }
-        last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
         }
         radicalism = 10
     }
