@@ -1,0 +1,22 @@
+owner = CUB
+controller = CUB
+
+add_core = FLO
+
+trade_goods = fish
+life_rating = 30
+terrain = marsh
+is_slave = yes
+
+1830.1.1 = {
+    owner = FLO
+    controller = FLO
+    colonial = 0
+}
+
+1861.1.1 = {
+    colonial = 0
+    controller = CSA
+    owner = CSA
+    add_core = CSA
+}
