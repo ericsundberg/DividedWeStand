@@ -1,10 +1,11 @@
-owner = CUB
-controller = CUB
+owner = SMS
+controller = SMS
 
 add_core = FLO
+add_core = SMS
 
-trade_goods = fish
-life_rating = 30
+trade_goods = lumber
+life_rating = 25
 terrain = marsh
 is_slave = yes
 
