@@ -91,11 +91,11 @@ USA_Mississippi = { 193 3438 } #Mississippi
 
 USA_East_Florida = { 199 200 } #East Florida
 
-USA_West_Florida = { 140 192 194 195 197 198 } #West Florida
+USA_West_Florida = { 140 192 194 195 197 198 3445 } #West Florida
 
 USA_Cherokee = { 196 3386 3414 3437 3439 3440 }
 
-USA_201 = { 201 202 204 2555 3385 3387 3414 } #Georgia
+USA_201 = { 201 202 204 2555 3385 3387 } #Georgia
 
 USA_205 = { 205 206 3358 3359 } #South Carolina
 

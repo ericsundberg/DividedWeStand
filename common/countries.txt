@@ -674,7 +674,10 @@ MST		= "countries/Maliseet.txt"
 PBS		= "countries/Penobscot.txt"
 MIK		= "countries/Mikmaq.txt"
 
-#Post-British states
+#Fringe states
+SMS		= "countries/Moskogee.txt"
+
+#Anglophone states
 NBW		= "countries/New Brunswick.txt"
 NSC		= "countries/Nova Scotia.txt"
 ACA		= "countries/Acadia.txt"
@@ -704,7 +707,7 @@ ACO		= "countries/Arcadian Confederation.txt"
 #Spanish colonial states
 FLO		= "countries/Florida.txt"
 LOU		= "countries/Louisiana.txt"
-NFR     	= "countries/New France.txt"
+NFR     = "countries/New France.txt"
 NSP		= "countries/New Spain.txt"
 NGL		= "countries/New Galacia.txt"
 
