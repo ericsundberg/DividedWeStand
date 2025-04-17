@@ -1,4 +1,4 @@
-color = { 105  145  40 }
+color = { 160 138 68 }
 graphical_culture = AmerindianGC
 
 party = {
