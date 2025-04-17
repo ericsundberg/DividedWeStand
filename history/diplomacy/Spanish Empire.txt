@@ -19,7 +19,7 @@ vassal = {
 	first = SPA
 	second = MEX
 	start_date = 1791.1.1
-	end_date = 1801.1.1
+	end_date = 1830.1.1
 }
 
 #New Spain - New Galacia
@@ -35,7 +35,7 @@ vassal = {
 	first = SPA
 	second = LOU
 	start_date = 1791.1.1
-	end_date = 1801.1.1
+	end_date = 1830.1.1
 }
 
 #New Spain - Yucatan
@@ -43,7 +43,7 @@ vassal = {
 	first = SPA
 	second = YUC
 	start_date = 1791.1.1
-	end_date = 1801.1.1
+	end_date = 1830.1.1
 }
 
 #New Spain - Guatamala
@@ -51,7 +51,7 @@ vassal = {
 	first = SPA
 	second = GUA
 	start_date = 1791.1.1
-	end_date = 1801.1.1
+	end_date = 1830.1.1
 }
 
 #New Spain - Guatamala
@@ -59,7 +59,7 @@ vassal = {
 	first = SPA
 	second = CUB
 	start_date = 1791.1.1
-	end_date = 1801.1.1
+	end_date = 1830.1.1
 }
 
 #New Spain - Puerto Rico
@@ -67,7 +67,7 @@ vassal = {
 	first = SPA
 	second = PRI
 	start_date = 1791.1.1
-	end_date = 1801.1.1
+	end_date = 1830.1.1
 }
 
 #New Spain - Philippines
@@ -75,5 +75,5 @@ vassal = {
 	first = SPA
 	second = PHL
 	start_date = 1791.1.1
-	end_date = 1801.1.1
+	end_date = 1830.1.1
 }
