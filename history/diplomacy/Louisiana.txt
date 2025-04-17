@@ -2,6 +2,6 @@
 vassal = {
 	first = SPA
 	second = LOU
-	start_date = 1763.2.10
+	start_date = 1791.1.1 #1763.2.10
 	end_date = 1830.1.1
 }
