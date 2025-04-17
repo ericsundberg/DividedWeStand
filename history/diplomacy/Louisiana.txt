@@ -1,7 +1,7 @@
 #France - Louisiana
 vassal = {
-	first = FRA
+	first = SPA
 	second = LOU
-	start_date = 1801.1.1
+	start_date = 1763.2.10
 	end_date = 1830.1.1
 }
