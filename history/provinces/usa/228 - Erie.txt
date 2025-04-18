@@ -1,5 +1,5 @@
-owner = NYS
-controller = NYS
+owner = PEN
+controller = PEN
 
 add_core = HAU
 add_core = NYS
@@ -9,7 +9,7 @@ add_core = USA
 trade_goods = timber
 life_rating = 35
 
-# United States took Eire by cession on 1784.10.22
+# United States took Eire by cession on 1784.10.22 - in real timeline
 
 1802.7.30 = {
 	add_core = UCC
