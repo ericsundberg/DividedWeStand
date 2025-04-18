@@ -1,0 +1,11 @@
+owner = NYS
+controller = NYS
+
+add_core = HAU
+add_core = NYS
+add_core = USA
+
+trade_goods = furs
+life_rating = 35
+
+1861.1.1 = { railroad = 3 }
