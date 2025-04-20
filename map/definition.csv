@@ -3444,4 +3444,9 @@ province;red;green;blue;x;x
 3443;79;79;222;Nantucket;x
 3444;80;65;222;Norfolk;x
 3445;81;64;221;Moskogee;x
-3446;82;63;220;Indian County;x
+3446;255;0;0;Seneca County;x
+3447;255;165;0;Cayuga County;x
+3448;255;255;0;Onondaga County;x
+3449;0;128;0;Oneida County;x
+3450;0;0;255;Mohawk County;x
+3451;82;63;220;Tuscarora County;x

@@ -677,6 +677,9 @@ MIK		= "countries/Mikmaq.txt"
 #Fringe states
 SMS		= "countries/Moskogee.txt"
 
+#Protectorates
+IRT		= "countries/Iroquois Territory.txt"
+
 #Anglophone states
 NBW		= "countries/New Brunswick.txt"
 NSC		= "countries/Nova Scotia.txt"
