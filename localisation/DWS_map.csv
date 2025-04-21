@@ -935,6 +935,7 @@ PROV244;Barnstable;;;;;;;;;;;;x
 PROV2186;Guatemala City;;;;;;;;;;;;x
 PROV14;Victoria;;;;;;;;;;;;x
 PROV658;H'awaii;;;;;;;;;;;;x
+PROV195;Autauga;;;;;;;;;;;;x
 PROV3249;Kiritimati;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3250;Dead Sea;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV3251;Lake of the Woods;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -1107,6 +1108,13 @@ PROV3448;Onondaga;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3449;Oneida;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3450;Mohawk;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3451;Tuscarora;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3452;Eastern County;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3453;Western County;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3454;Southern Grant;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3455;Seminole County;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3456;Choctaw County;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3457;Meridian;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+PROV3458;Marengo;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 USA_60;Virginia;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 USA_218;West Virginia;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 USA_241;Connecticut;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -1140,6 +1148,7 @@ USA_Cherronesus;Cherronesus;;;;;;;;;;;x
 USA_Illinoia;Illinoia;;;;;;;;;;;x
 USA_West_Florida;West Florida;;;;;;;;;;;x
 USA_East_Florida;East Florida;;;;;;;;;;;x
+USA_Iroquoia;Iroquoia;;;;;;;;;;;x
 #USA_Alabama;Alabama;;;;;;;;;;;x
 USA_196;Mississippi;;;;;;;;;;;x
 USA_Witchita;Witchita;;;;;;;;;;;x

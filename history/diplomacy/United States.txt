@@ -1,0 +1,7 @@
+#New York - Iroquois District Protectorate
+vassal = {
+	first = NYS
+	second = IRT
+	start_date = 1794.1.1
+	end_date = 1832.8.24
+}

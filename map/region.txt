@@ -91,7 +91,7 @@ USA_Mississippi = { 193 3438 } #Mississippi
 
 USA_East_Florida = { 199 200 } #East Florida
 
-USA_West_Florida = { 140 192 194 195 197 198 3445 } #West Florida
+USA_West_Florida = { 140 192 194 195 197 198 3445 3452 3453 3454 3455 3456 3457 3458 } #West Florida
 
 USA_Cherokee = { 196 3386 3414 3437 3439 3440 }
 
