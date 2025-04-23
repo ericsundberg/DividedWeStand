@@ -3333,7 +3333,7 @@ province;red;green;blue;x;x
 3332;11;11;185;Wheeling;x
 3333;12;12;185;Andorra;x
 3334;13;13;185;Liechtenstein;x
-3335;14;14;185;Clarksville;x
+3335;14;14;185;Clark;x
 3336;15;15;185;Akwesasne;x
 3337;145;165;185;Kodiak;x
 3338;146;166;186;Eastern Shore;x
@@ -3457,3 +3457,8 @@ province;red;green;blue;x;x
 3456;150;50;50;Choctaw County;x
 3457;125;25;50;Meridian;x
 3458;100;75;55;Marengo;x
+3459;120;75;45;Tennessee;x
+3460;150;25;45;Chickasaw;x
+3461;175;25;75;Tallahatchie;x
+3462;180;30;15;Clarksville;x
+3463;150;25;50;Sumner;x

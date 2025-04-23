@@ -1,15 +1,18 @@
-owner = TSK
-controller = TSK
+owner = CHC
+controller = CHC
 
-add_core = TSK
-add_core = GAS
+add_core = CHC
 add_core = SCS
+add_core = GAS
 add_core = USA
 
 trade_goods = cotton
 life_rating = 35
 
-
+1815.1.1 = {
+	owner = SCS
+	controller = SCS
+}
 
 1861.1.1 = {
     controller = CSA

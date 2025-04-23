@@ -87,7 +87,7 @@ USA_151 = { 151 152 153 154 } #Iowa
 
 USA_158 = { 155 156 157 } #Minnesota
 
-USA_Mississippi = { 193 3438 } #Mississippi
+USA_Mississippi = { 193 3438 3460 3461 } #Mississippi
 
 USA_East_Florida = { 199 200 } #East Florida
 
@@ -125,9 +125,9 @@ USA_247 = { 247 3323 3324 3376 3418 } #New Hampshire
 
 USA_248 = { 248 249 250 3375 3415 3416 3417 3429 3431 } #Maine
 
-USA_Chickasaw = { 189 } #Chickasaw
+USA_Chickasaw = { 189 3459 3462 } #Chickasaw
 
-USA_Watauga = { 188 190 191 } #Watauga
+USA_Watauga = { 188 190 191 3463 } #Watauga
 
 USA_Polypotamia = { 167 168 } #Polypotamia
 

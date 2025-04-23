@@ -1,9 +1,11 @@
-owner = CHC
-controller = CHC
+owner = CHE
+controller = CHE
 
+add_core = SHN
 add_core = CHE
 add_core = CHC
 add_core = GAS
+add_core = SCS
 add_core = USA
 
 trade_goods = cotton

@@ -1,4 +1,4 @@
-color = { 123 158 80 }
+color = { 132 172 83 }
 graphical_culture = Generic
 
 party = {

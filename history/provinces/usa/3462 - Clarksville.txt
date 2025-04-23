@@ -1,15 +1,15 @@
-owner = TSK
-controller = TSK
+owner = WAT
+controller = WAT
 
-add_core = TSK
-add_core = GAS
-add_core = SCS
+add_core = CHE
+add_core = NCS
 add_core = USA
+add_core = WAT
 
-trade_goods = cotton
+trade_goods = coal
 life_rating = 35
-
-
+terrain = montane_forest
+colonial = 1
 
 1861.1.1 = {
     controller = CSA

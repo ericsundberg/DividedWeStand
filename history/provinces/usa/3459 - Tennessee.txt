@@ -1,15 +1,14 @@
-owner = TSK
-controller = TSK
+owner = CHE
+controller = CHE
 
-add_core = TSK
-add_core = GAS
-add_core = SCS
+add_core = SHN
+add_core = CHE
+add_core = NCS
 add_core = USA
+add_core = WAT
 
 trade_goods = cotton
 life_rating = 35
-
-
 
 1861.1.1 = {
     controller = CSA
