@@ -25,7 +25,7 @@ voting_system = first_past_the_post
 political_parties = gerrymandering
 
 # Social Reforms
-wage_reform = trinket_wage
+wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
